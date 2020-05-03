@@ -1,3 +1,3 @@
 # rOpenCL
 rOpenCL -  a distributed OpenCL implementation
-<br/>more Informations soon
+<br/><h3>more informations soon</h3>
