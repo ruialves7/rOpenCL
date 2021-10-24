@@ -19,8 +19,9 @@ For details about installing the rOpenCL components see the README.txt documents
 
 <h4>rOpenCL: Results</h4>
 
-Performs the following benchmarks without changes:
-<ul><li>Babel Stream</li><li>CL_Mem</li><li>CL_Peak</li><li>FinanceBench</li><li>PolyBench</li></ul>
+In the current state rOpenCL is already able to successfully execute a set of well-known benchmarks, such as:	Babel Stream, Cl_mem, Cl_peak, Financebench, Polybench. In addition, it was also possible to use the hashcat tool for breaking ciphers. All these results, as well as the execution context of each test, can be consulted in the results folder of the project. In addition to these results, it is also possible to consult the results obtained in the comparison of rOpenCL with similar approaches: dOpenCL, clOpenCL and VCL respectively.
+
+It is important to mention that the values shown are outdated, since the rOpenCL has undergone a set of updates that have allowed to optimize its performance. At the beginning of 2022 the new values will be published as well as the performance comparison with the rCUDA.
 
 <h4>rOpenCL: Publications</h4>
 <h5>2020</h5>
