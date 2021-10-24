@@ -23,7 +23,11 @@ Performs the following benchmarks without changes:
 <ul><li>Babel Stream</li><li>CL_Mem</li><li>CL_Peak</li><li>FinanceBench</li><li>PolyBench</li></ul>
 
 <h4>rOpenCL: Publications</h4>
-
+<h5>2020</h5>
+<ul>
+  <li>Master Thesis Report (just in Portuguese Language) - http://hdl.handle.net/10198/23222</li>
+  <li>R. Alves and J. Rufino, "Extending Heterogeneous Applications to Remote Co-processors with rOpenCL," 2020 IEEE 32nd International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD), 2020, pp. 305-312, doi: 10.1109/SBAC-PAD49847.2020.00049.</li>
+</ul>
 
 <h4>rOpenCL: Authors</h4>
 For now it is only possible to use on Linux / Unix systems.
