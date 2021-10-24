@@ -67,3 +67,6 @@ The results presented in file babel_stream_chart.pdf were based on the following
   
   
 </table>
+
+
+The tests were run with a single server (rDaemon) and a single client ( rOpenCL driver).  The client submitted orders only for a single GPU.
