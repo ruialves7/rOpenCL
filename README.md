@@ -33,7 +33,7 @@ It is important to mention that the values shown are outdated, since the rOpenCL
 <h4>rOpenCL: Authors</h4>
 
 <h5>José Rufino</h5>
-Through his high experience in programming high-performance systems, which allowed to elevate rOpenCL to the current state, José Rufino is currently a coordinator professor in the informatics and communications department of the School of Technology and Management at the Polytechnic Institute of Bragança, Portugal. It's responsible for numerous units such as: Operating Systems, Computer Architecture, Advanced Computing (Master Subject).
+https://orcid.org/0000-0002-1344-8264
 
 <h5>Rui Alves</h5>
 https://orcid.org/0000-0003-4128-8779
