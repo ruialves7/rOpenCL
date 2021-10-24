@@ -49,7 +49,21 @@ The results presented in file babel_stream_chart.pdf were based on the following
   </tr>
   
   <tr>
-    <th>vCPU</th>
-    <td>1 x AMD EPYC 7351 8-Core 2.4/2.9GHz</td>
+    <th>POCL</th>
+    <td>Version 1.3</td>
   </tr>
+  
+  
+  <tr>
+    <th>Intel OpenCL SDK</th>
+    <td>Version 18.1.0.0920</td>
+  </tr>
+  
+   <tr>
+    <th>NVIDIA Driver</th>
+    <td>Version 430.50</td>
+  </tr>
+  
+  
+  
 </table>
