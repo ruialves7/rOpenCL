@@ -1,5 +1,5 @@
 # PolyBench Benchmarks - Results
-The results presented in file babel_stream_chart.pdf were based on the following physical hardware (Table 1) and virtual hardware (Table 2):
+The results presented in file ply_bench_chart.pdf were based on the following physical hardware (Table 1) and virtual hardware (Table 2):
 
 <h5> Physical Hardware (table 1)</h5>
 <table>

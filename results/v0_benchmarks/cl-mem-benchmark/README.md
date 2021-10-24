@@ -1,5 +1,5 @@
 # CL_Mem Benchmarks - Results
-The results presented in file babel_stream_chart.pdf were based on the following physical hardware (Table 1) and virtual hardware (Table 2):
+The results presented in file cl_mem_chart.pdf were based on the following physical hardware (table 1) and virtual hardware (table 2):
 
 <h5> Physical Hardware (table 1)</h5>
 <table>
