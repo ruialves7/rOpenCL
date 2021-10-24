@@ -13,6 +13,10 @@ The rOpenCL responds to this limitation. As show the figure above, through a mid
 <h4>rOpenCl: Coverage</h4>
 At its current stage, rOpenCL only supports version 1.2 of OpenCL, a "limitation" inherited from the implementations of most OpenCL vendors, which stick to this version. Also, not all OpenCL functions can be performed remotely by the rOpenCL. The choice of functions to be supported by rOpenCL was conditioned by the development context (oriented to high-performance computing, not graphical acceleration) and expected execution environment, thus, rOpenCL only performs 70% of Opencl 1.2 functions correctly and stably (more information check the project’s Coverage folder), although, version 3.0, released on April 27, 2020, only requires vendors to support the features of version 1.2, making all functions of 2.x versions optional. In this way, the rOpenCL, ends up being aligned with what the latest version of the specification considers fundamental.
 
+<h4>rOpenCl: Installation</h4>
+
+For details about installing the rOpenCL components see the README.txt documents within the installation folder. In any case, for clarification on the installation process, the authors can be contacted through the emails: rufino@ipb.pt and rui.alves@ipb.pt.
+
 <h4>rOpenCl: Results</h4>
 
 Performs the following benchmarks without changes:
