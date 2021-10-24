@@ -24,13 +24,32 @@ The results presented in file babel_stream_chart.pdf were based on the following
 <table>
   
   <tr>
-    <th>CPU</th>
+    <th>vCPU</th>
     <td>1 x AMD EPYC 7351 8-Core 2.4/2.9GHz</td>
-
   </tr>
   
   <tr>
-    <td>2 x AMD EPYC 7351 16-Core 2.4/2.9GHz</td>
-    <td>256 GB ECC DDR4 2666 MHz</td>
+    <th>vRAM</th>
+    <td>16 GB ECC DDR4 2666 MHz</td>
+  </tr>
+  
+  <tr>
+    <th>vNIC</th>
+    <td>10Gbps Ethernet</td>
+  </tr>
+  
+  <tr>
+    <th>vGPU</th>
+    <td>1 ou 2 x NVIDIA RTX 2080 Ti</td>
+  </tr>
+  
+  <tr>
+    <th>Operating System</th>
+    <td>Ubuntu 18.04.3 LTS</td>
+  </tr>
+  
+  <tr>
+    <th>vCPU</th>
+    <td>1 x AMD EPYC 7351 8-Core 2.4/2.9GHz</td>
   </tr>
 </table>
