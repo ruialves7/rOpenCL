@@ -25,7 +25,7 @@ The results presented in file babel_stream_chart.pdf were based on the following
   
   <tr>
     <th>CPU</th>
-    <th>RAM</th>
+    <td>1 x AMD EPYC 7351 8-Core 2.4/2.9GHz</td>
 
   </tr>
   
