@@ -1,4 +1,4 @@
-# rOpenCL - remote rOpenCL
+# rOpenCL - remote OpenCL
 rOpenCL - rOpenCL (remote OpenCL) is approach to programming distributed heterogeneous systems with accelerators, integrated with the Opencl icd loader.
 
 Performs the following benchmarks without changes:
