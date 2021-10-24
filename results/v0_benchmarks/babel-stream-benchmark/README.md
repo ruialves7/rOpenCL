@@ -18,3 +18,19 @@ The results presented in file babel_stream_chart.pdf were based on the following
     <td>2 x NVIDIA RTX 2080 Ti</td>
   </tr>
 </table>
+
+
+<h5> Virtual Hardware (table 2)</h5>
+<table>
+  
+  <tr>
+    <th>CPU</th>
+    <th>RAM</th>
+
+  </tr>
+  
+  <tr>
+    <td>2 x AMD EPYC 7351 16-Core 2.4/2.9GHz</td>
+    <td>256 GB ECC DDR4 2666 MHz</td>
+  </tr>
+</table>
