@@ -3,19 +3,18 @@ The results presented in file babel_stream_chart.pdf were based on the following
 
 <h5> Physical Hardware (table 1)</h5>
 <table>
+  
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th>CPU</th>
+    <th>RAM</th>
+    <th>Network</th>
+    <th>GPUs</th>
   </tr>
+  
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td>2 x AMD EPYC 7351 16-Core 2.4/2.9GHz</td>
+    <td>256 GB ECC DDR4 2666 MHz</td>
+    <td>10Gbps Ethernet</td>
+    <td>2 x NVIDIA RTX 2080 Ti</td>
   </tr>
 </table>
