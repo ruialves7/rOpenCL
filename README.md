@@ -10,14 +10,15 @@ The rOpenCL responds to this limitation. As show the figure bellow, through a mi
 
 ![arquiteture-v6-1](https://user-images.githubusercontent.com/64751470/138589891-b0abe05f-4948-4aba-a8a5-19494cbf804b.png)
 
+
+<h4>rOpenCl: Results</h4>
+
 <h4>rOpenCl: Results</h4>
 
 Performs the following benchmarks without changes:
 <ul><li>Babel Stream</li><li>CL_Mem</li><li>CL_Peak</li><li>FinanceBench</li><li>PolyBench</li></ul>
 
-<h4>rOpenCl: Results</h4>
-
-Implements about 70% of OpenCL 1.2 functions.
+«
 
 <h4>rOpenCl: Publications</h4>
 
