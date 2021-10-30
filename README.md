@@ -32,12 +32,11 @@ It is important to mention that the values shown are outdated, since the rOpenCL
 
 <h4>rOpenCL: Authors</h4>
 
-<h5>José Rufino</h5>
-https://orcid.org/0000-0002-1344-8264
-
 <h5>Rui Alves</h5>
 https://orcid.org/0000-0003-4128-8779
 
+<h5>José Rufino</h5>
+https://orcid.org/0000-0002-1344-8264
 
 <h4>rOpenCL: Acknowledgements</h4>
 The rOpenCL is born in the context of the master’s dissertation of the author Rui Alves, so I leave a public thanks to my advisor José Rufino, the school of technology and management of the Polytechnic Institute of Bragança, Portugal for the opportunity to study there and to all the people who directly or indirectly participated in the creation of this tool.
