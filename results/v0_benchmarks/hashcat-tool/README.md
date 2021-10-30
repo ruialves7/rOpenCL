@@ -4,6 +4,8 @@ Note that the hashcat has an integrated benchmark feature (a brute force attack 
 
 *Jake, Hashcat Tutorial – The basics of cracking passwords with hashcat , https://laconicwolf.com/2018/09/29/hashcat-tutorial-the-basics-of-cracking-passwords-with-hashcat/, (accessed Outubro 3, 2020).
 
+**New updates may call these results into question. New results will be published in early 2022
+
 
 <h5> Scenarios (table 0)</h5>
 <table>
@@ -28,34 +30,34 @@ Note that the hashcat has an integrated benchmark feature (a brute force attack 
 
   <tr>
     <td>C3</td>
-    <td>0</td>
     <td>1</td>
+    <td>0</td>
   </tr>
 
   <tr>
     <td>C4</td>
-    <td>0</td>
+    <td>1</td>
     <td>1</td>
   </tr>
   <tr>
     <td>C5</td>
-    <td>0</td>
     <td>1</td>
+    <td>2</td>
   </tr>
   <tr>
     <td>C6</td>
+    <td>2</td>
     <td>0</td>
-    <td>1</td>
   </tr>
   <tr>
     <td>C7</td>
-    <td>0</td>
+    <td>2</td>
     <td>1</td>
   </tr>
   <tr>
     <td>C8</td>
-    <td>0</td>
-    <td>1</td>
+    <td>2</td>
+    <td>2</td>
   </tr>
   <tr>
     <td>C1</td>
