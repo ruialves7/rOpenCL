@@ -1,5 +1,9 @@
 # rOpenCL - remote OpenCL
 
+<h4>rOpenCL: NEWS</h4>
+rOpenCL allows remote execution of applications that use SYCL. It has already been validated using ComputeCPP (2.0.0) and a version will soon be released so that it is possible to use DPC++.
+
+
 <h4>rOpenCL: What is it?</h4>
 
 The efficient exploitation of heterogeneous systems, and assurance of code portability, depends on open standards, such as OpenCL, which support co-processors of virtually any type. In addition to these standards, there are proprietary standards, device-oriented frameworks such as the NVIDIA CUDA framework for GPUs.
