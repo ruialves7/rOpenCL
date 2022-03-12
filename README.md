@@ -41,4 +41,5 @@ https://orcid.org/0000-0002-1344-8264
 <h4>rOpenCL: Acknowledgements</h4>
 The rOpenCL is born in the context of the master’s dissertation of the author Rui Alves, so I leave a public thanks to my advisor José Rufino, the school of technology and management of the Polytechnic Institute of Bragança, Portugal for the opportunity to study there and to all the people who directly or indirectly participated in the creation of this tool.
 
+rOpenCL was created based on the structure and some of the Makefiles of POCL v1.2 (http://portablecl.org/).
 
