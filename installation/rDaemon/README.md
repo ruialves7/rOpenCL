@@ -1,11 +1,11 @@
 
-The following steps must be performed after the OpenCL setup and vendor drivers are installed.
+The following steps must be performed after the OpenCL setup and vendor drivers installation.
 
 <h4>1 Step</h4>
 Download the code that is in the code/rDaemon folder.
 
 <h4>2 Step</h4>
-Interface configuration used by rDaemon. To do this, the macro with the name LOCAL_INTERFACE should be edited by placing the IP that rDaemon should use to receive the requests. This macro is in the file common.h.
+Configure the network interface used by the rDaemon. To do this, the macro with the name LOCAL_INTERFACE should be edited by placing the IP address that the rDaemon should use to receive the requests. This macro is in the file common.h.
 
 <h4>3 Step</h4>
 The code must be recompiled using the Makefile that is in the project.
