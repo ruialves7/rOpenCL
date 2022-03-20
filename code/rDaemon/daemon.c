@@ -1559,7 +1559,7 @@ void _cclEnqueueFillBuffer(void * _request, int protocol,struct sockaddr_in *add
     offset_buffer = 0;
 
     result = clEnqueueFillBuffer(command_queue, buffer, ptr, pattern_size, offset, size, num_events_in_wait_list, (num_events_in_wait_list == 0) ? NULL : event_wait_list, event_is_null ? NULL : &event);
-printf("%d\n",result);
+
 
     size_buffer_data_reply = sizeof (cl_int) + sizeof (cl_event);
     buffer_data_reply = malloc(size_buffer_data_reply);
@@ -2409,7 +2409,7 @@ void _cclEnqueueUnmapMemObject(void * _request, int protocol,struct sockaddr_in 
     }
 
     ccl_reply.result = clEnqueueUnmapMemObject(ccl_request.command_queue, ccl_request.memobj, mapped_ptr, ccl_request.num_events_in_wait_list, (ccl_request.num_events_in_wait_list == 0) ? NULL : event_wait_list, ccl_request.event_is_null ? NULL : &ccl_reply.event);
-printf("%d\n",ccl_reply.result);
+
     handler_network[protocol](&fd_tcp_client, &ccl_reply, sizeof(ccl_reply), addr,  "_cclEnqueueUnmapMemObject");
 }
 
@@ -3416,7 +3416,7 @@ void _cclWaitForEvents(void * _request, int protocol,struct sockaddr_in *addr) {
     event_list = data+(sizeof(ccl_request));
     
     ccl_reply.result = clWaitForEvents(ccl_request.num_events, event_list);
-	printf("SSS%d\n",ccl_reply.result); 
+	
    handler_network[protocol](&fd_tcp_client, &ccl_reply, sizeof(ccl_reply), addr, "_cclWaitForEvents");
 }
 
@@ -3692,7 +3692,7 @@ void _cclReleaseEvent(void * _request, int protocol,struct sockaddr_in *addr) {
 
     memcpy(&ccl_request.event, data, sizeof (ccl_request));
     ccl_reply.errcode_ret = clReleaseEvent(ccl_request.event);
-printf("XXX%d\n",ccl_reply.errcode_ret);    
+   
 handler_network[protocol](&fd_tcp_client, &ccl_reply, sizeof(ccl_reply), addr, "_cclReleaseEvent");
 }
 
