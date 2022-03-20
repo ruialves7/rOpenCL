@@ -38,7 +38,7 @@
 #define SIZE_HOST_PROGRAM 1000
 #define BUFFER_DATA 2147483647
 #define STR_BUFFER 32
-#define DEBUG 0
+#define DEBUG 1
 #define SINGLE_THREAD 1
 #define _ccl_memcpy(dst, src, size_data, total_offset) \
 memcpy(dst, src, size_data); \
