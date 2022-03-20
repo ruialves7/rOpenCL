@@ -624,7 +624,7 @@ void _cclEnqueueWriteBuffer(void * _request, int protocol,struct sockaddr_in *ad
     
 
 //ccl_request.blocking_write = CL_TRUE;  
-  ccl_reply.result = clEnqueueWriteBuffer(ccl_request.command_queue, ccl_request.buffer, ccl_request.blocking_write, ccl_request.offset, ccl_request.size, ptr, ccl_request.num_events_in_wait_list, (ccl_request.num_events_in_wait_list == 0) ? NULL : event_wait_list, ccl_request.event_is_null ? NULL : &ccl_reply.event);
+  ccl_reply.result = clEnqueueWriteBuffer(ccl_request.command_queue, ccl_request.buffer, /*ccl_request.blocking_write*/CL_TRUE, ccl_request.offset, ccl_request.size, ptr, ccl_request.num_events_in_wait_list, (ccl_request.num_events_in_wait_list == 0) ? NULL : event_wait_list, ccl_request.event_is_null ? NULL : &ccl_reply.event);
 
 
     handler_network[protocol](&fd_tcp_client, &ccl_reply, sizeof(ccl_reply), addr, "_cclEnqueueWriteBuffer");   
@@ -755,7 +755,7 @@ void _cclEnqueueReadBuffer(void * _request, int protocol,struct sockaddr_in *add
 	    size_buffer_data_reply += ccl_request.size;	
     }
 
-    ccl_reply.result = clEnqueueReadBuffer(ccl_request.command_queue, ccl_request.buffer, ccl_request.blocking_read, ccl_request.offset, ccl_request.size, ptr, ccl_request.num_events_in_wait_list, (ccl_request.num_events_in_wait_list == 0) ? NULL : event_wait_list, ccl_request.event_is_null ? NULL : &ccl_reply.event);
+    ccl_reply.result = clEnqueueReadBuffer(ccl_request.command_queue, ccl_request.buffer, /*ccl_request.blocking_read*/CL_TRUE, ccl_request.offset, ccl_request.size, ptr, ccl_request.num_events_in_wait_list, (ccl_request.num_events_in_wait_list == 0) ? NULL : event_wait_list, ccl_request.event_is_null ? NULL : &ccl_reply.event);
 
 
     buffer_data_reply = malloc(size_buffer_data_reply);
@@ -954,7 +954,7 @@ void _cclEnqueueReadImage(void * _request, int protocol,struct sockaddr_in *addr
     offset_buffer = 0;
     ptr = malloc(sizeof (float)*region[0] * region[1]);
 
-    result = clEnqueueReadImage(command_queue, image, blocking_read, origin, region, row_pitch, slice_pitch, ptr, num_events_in_wait_list, (num_events_in_wait_list == 0) ? NULL : event_wait_list, event_is_null ? NULL : &event);
+    result = clEnqueueReadImage(command_queue, image, /*blocking_read*/ CL_TRUE, origin, region, row_pitch, slice_pitch, ptr, num_events_in_wait_list, (num_events_in_wait_list == 0) ? NULL : event_wait_list, event_is_null ? NULL : &event);
 
     size_buffer_data_reply = sizeof (cl_int) + sizeof (cl_event) + sizeof (float)*region[0] * region[1];
     buffer_data_reply = malloc(size_buffer_data_reply);
@@ -1046,7 +1046,7 @@ void _cclEnqueueWriteImage(void * _request, int protocol,struct sockaddr_in *add
     offset_buffer = 0;
 
 
-    result = clEnqueueWriteImage(command_queue, image, blocking_write, origin, region, input_row_pitch, input_slice_pitch, ptr, num_events_in_wait_list, (num_events_in_wait_list == 0) ? NULL : event_wait_list, event_is_null ? NULL : &event);
+    result = clEnqueueWriteImage(command_queue, image, /*blocking_write*/CL_TRUE, origin, region, input_row_pitch, input_slice_pitch, ptr, num_events_in_wait_list, (num_events_in_wait_list == 0) ? NULL : event_wait_list, event_is_null ? NULL : &event);
 
     size_buffer_data_reply = sizeof (cl_int) + sizeof (cl_event);
     buffer_data_reply = malloc(size_buffer_data_reply);
@@ -1211,7 +1211,7 @@ void _cclEnqueueMapImage(void * _request, int protocol,struct sockaddr_in *addr)
     data -= offset_buffer;
     offset_buffer = 0;
 
-    result = clEnqueueMapImage(command_queue, image, blocking_map, map_flags, origin, region, &image_row_pitch, &image_slice_pitch, num_events_in_wait_list, (num_events_in_wait_list == 0) ? NULL : event_wait_list, event_is_null ? NULL : &event, &errcode_ret);
+    result = clEnqueueMapImage(command_queue, image, /*blocking_map*/CL_TRUE, map_flags, origin, region, &image_row_pitch, &image_slice_pitch, num_events_in_wait_list, (num_events_in_wait_list == 0) ? NULL : event_wait_list, event_is_null ? NULL : &event, &errcode_ret);
 
     size_buffer_data_reply = sizeof (cl_int) + sizeof (cl_event) + sizeof (void*);
     buffer_data_reply = malloc(size_buffer_data_reply);
@@ -1364,7 +1364,7 @@ void _cclEnqueueReadBufferRect(void * _request, int protocol,struct sockaddr_in 
     size_ptr = x*y;
     ptr = malloc(size_ptr);
 
-    result = clEnqueueReadBufferRect(command_queue, buffer, blocking_read, buffer_origin, host_origin, region, buffer_row_pitch, buffer_slice_pitch, host_row_pitch, host_slice_pitch, ptr, num_events_in_wait_list, (num_events_in_wait_list == 0) ? NULL : event_wait_list, event_is_null ? NULL : &event);
+    result = clEnqueueReadBufferRect(command_queue, buffer, /*blocking_read*/CL_TRUE, buffer_origin, host_origin, region, buffer_row_pitch, buffer_slice_pitch, host_row_pitch, host_slice_pitch, ptr, num_events_in_wait_list, (num_events_in_wait_list == 0) ? NULL : event_wait_list, event_is_null ? NULL : &event);
 
     size_buffer_data_reply = sizeof (cl_int) + sizeof (cl_event) + size_ptr;
     buffer_data_reply = malloc(size_buffer_data_reply);
@@ -1475,7 +1475,7 @@ void _cclEnqueueWriteBufferRect(void * _request, int protocol,struct sockaddr_in
     data -= offset_buffer;
     offset_buffer = 0;
 
-    result = clEnqueueWriteBufferRect(command_queue, buffer, blocking_write, buffer_origin, host_origin, region, buffer_row_pitch, buffer_slice_pitch, host_row_pitch, host_slice_pitch, ptr, num_events_in_wait_list, (num_events_in_wait_list == 0) ? NULL : event_wait_list, event_is_null ? NULL : &event);
+    result = clEnqueueWriteBufferRect(command_queue, buffer, /*blocking_write*/ CL_TRUE, buffer_origin, host_origin, region, buffer_row_pitch, buffer_slice_pitch, host_row_pitch, host_slice_pitch, ptr, num_events_in_wait_list, (num_events_in_wait_list == 0) ? NULL : event_wait_list, event_is_null ? NULL : &event);
 
     size_buffer_data_reply = sizeof (cl_int) + sizeof (cl_event);
     buffer_data_reply = malloc(size_buffer_data_reply);
@@ -1675,8 +1675,8 @@ void _cclEnqueueMapBuffer(void * _request, int protocol,struct sockaddr_in *addr
 
     //gettimeofday(&t0, NULL); 
     
-    result = clEnqueueMapBuffer(ccl_request.command_queue, ccl_request.buffer, ccl_request.blocking_map, ccl_request.map_flags, ccl_request.offset, ccl_request.cb, ccl_request.num_events_in_wait_list, (ccl_request.num_events_in_wait_list == 0) ? NULL : event_wait_list, ccl_request.event_is_null ? NULL : &ccl_reply.event, &ccl_reply.errcode_ret);
-    printf("%d\n",ccl_reply.errcode_ret);
+    result = clEnqueueMapBuffer(ccl_request.command_queue, ccl_request.buffer, /*ccl_request.blocking_map*/ CL_TRUE, ccl_request.map_flags, ccl_request.offset, ccl_request.cb, ccl_request.num_events_in_wait_list, (ccl_request.num_events_in_wait_list == 0) ? NULL : event_wait_list, ccl_request.event_is_null ? NULL : &ccl_reply.event, &ccl_reply.errcode_ret);
+
     ccl_reply.ptr_remote = (uintptr_t) result;
     
     //gettimeofday(&t1, NULL); 

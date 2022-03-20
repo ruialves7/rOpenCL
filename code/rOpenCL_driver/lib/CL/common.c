@@ -16,7 +16,7 @@ int mtu = 1024;
 int protocol =-1;
 int  isReady=0;
 char * PATH_1 = "/.rOpenCL/config.txt";
-char  * PATH_2 = "/etc/OpenCL/rOpencl/config.txt";
+char * PATH_2 = "/etc/OpenCL/rOpenCL/config.txt";
 int _ccl_connect_to_daemons() 
 {
     daemons=NULL;
