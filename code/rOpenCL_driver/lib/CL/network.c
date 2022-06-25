@@ -156,7 +156,7 @@ int init_tcp(int * fd_descriptor, struct sockaddr_in * addr, char * primitive)
      setsockopt(*fd_descriptor, SOL_SOCKET, SO_PRIORITY, &optval, sizeof(optval));  
 
 
-
+/*
     //Estas opcoes pioram bastante o tempo, com isto o auto tunning dos buffers é desligado. 
     int size = 1048576;     
     //int size_w = size/2;
@@ -164,11 +164,11 @@ int init_tcp(int * fd_descriptor, struct sockaddr_in * addr, char * primitive)
     /*
 
     setsockopt(*fd_descriptor, IPPROTO_TCP, TCP_WINDOW_CLAMP, &size_w, sizeof(size_w));
-	*/
+	
     setsockopt(*fd_descriptor, SOL_SOCKET, SO_SNDBUF, &size, sizeof(size));
         
     setsockopt(*fd_descriptor, SOL_SOCKET, SO_RCVBUF, &size, sizeof(size));
-   
+   */
     
   
     //mutuamente exclusivo com o NODELAY poderá funcionar em testes com multiplos clientes
