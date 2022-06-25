@@ -4561,7 +4561,7 @@ void * get_primitves_network_tcp(void *arg) {
 
 	int optval=7; // valid values are in the range [1,7]   // 1- low priority, 7 - high priority  
 	setsockopt(fd_client, SOL_SOCKET, SO_PRIORITY, &optval, sizeof(optval)); 
-
+/*
 
 	//Testados e pirou bastante o tempo... Estas opções desligam o auto-tunning dos buffers
 	
@@ -4574,7 +4574,7 @@ void * get_primitves_network_tcp(void *arg) {
 	
 		setsockopt(fd_client, SOL_SOCKET, SO_RCVBUF, &size, sizeof(size));
 
-	
+	*/
 
 	//poderá surtir efeito em testes de multiplos clientes.
 	//setsockopt(fd_client, SOL_SOCKET, TCP_CORK , &val, sizeof(val));
