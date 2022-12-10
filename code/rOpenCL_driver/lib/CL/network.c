@@ -16,14 +16,14 @@ void init_udp(int * fd_descriptor, struct sockaddr_in *addr_host, struct sockadd
     //vai a procura da chave na key que guardar os sockets 
     char * key = malloc(sizeof(char)*32);
     memset( key, '\0', sizeof(char)*32);
-    char tid_str[6];
+    char tid_str[10];
     
     int ch = '.';
     char *ptr = NULL;
     
     //Get the tid of the current thread
     pid_t tid = syscall(SYS_gettid);
-    snprintf(tid_str, 6, "%d", tid);
+    snprintf(tid_str, 10, "%d", tid);
 
     //Get the ip address of the remote node to connect.
     char *ip = (char*)inet_ntoa(addr_rDaemon->sin_addr);
