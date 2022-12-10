@@ -31,7 +31,9 @@ struct timeval t0, t1;
         cl_uint arg_index;
         size_t arg_size;
 	char arg_value_is_null;
-    }ccl_request ={.kernel=obj->object_remote,.arg_index=arg_index,.arg_size=arg_size,.arg_value_is_null=(arg_value==NULL)};
+	uintptr_t ptr;
+        char is_ptr;
+  }ccl_request ={.kernel=obj->object_remote,.arg_index=arg_index,.arg_size=arg_size,.arg_value_is_null=(arg_value==NULL)};
 
     struct {
         cl_int result;
@@ -58,9 +60,6 @@ struct timeval t0, t1;
 
 #endif
 
-        _ccl_memcpy(buffer_data_request, &ccl_request, sizeof (ccl_request), &offset_buffer);
-        buffer_data_request += sizeof (ccl_request);
-
         //TODO Problem
         if (arg_value!=NULL)
         {
@@ -71,16 +70,25 @@ struct timeval t0, t1;
             //cl_opencl_object * obj = NULL;
             if (ptr != NULL) 
             { 
-               obj = *(cl_opencl_object**)ptr;
-               _ccl_memcpy(buffer_data_request, &obj->object_remote, arg_size, &offset_buffer);
-       
+               cl_opencl_object * obj1 = *(cl_opencl_object**)ptr;
+               ccl_request.is_ptr='1';
+
+                memcpy(&ccl_request.ptr,&obj1->object_remote,sizeof(uintptr_t));
+               _ccl_memcpy(buffer_data_request, &ccl_request, sizeof (ccl_request), &offset_buffer);
+                buffer_data_request += sizeof (ccl_request);
+		
             } else 
             {
-                   _ccl_memcpy(buffer_data_request, ss, arg_size, &offset_buffer);
-            }
 
-            buffer_data_request += arg_size;
+                ccl_request.is_ptr='0';
+                _ccl_memcpy(buffer_data_request, &ccl_request, sizeof (ccl_request), &offset_buffer);
+                buffer_data_request += sizeof (ccl_request);
+                   
+                _ccl_memcpy(buffer_data_request, ss, arg_size, &offset_buffer);
+                buffer_data_request += arg_size;
+             }
         }
+	
         buffer_data_request -= offset_buffer;
 
 #if PROTOCOL == 0
