@@ -550,7 +550,7 @@ void _cclSetKernelArg(void * _request, int protocol,struct sockaddr_in *addr) {
     data = request->data;
     fd_tcp_client = request->fd;
 
-     struct 
+    struct 
     {
         cl_kernel kernel;
         cl_uint arg_index;
@@ -560,16 +560,16 @@ void _cclSetKernelArg(void * _request, int protocol,struct sockaddr_in *addr) {
         char is_ptr;
     }ccl_request;
 
-    struct {
+    struct 
+    {
         cl_int result;
     }ccl_reply;
     
     memcpy(&ccl_request, data, sizeof (ccl_request));
-    void *arg_value = NULL;
-  
-    if (!ccl_request.arg_value_is_null) 
-    {
 
+    void *arg_value = NULL;
+    if (ccl_request.arg_value_is_null=='0') 
+    {
         if(ccl_request.is_ptr=='0')
         {
                 arg_value = malloc(ccl_request.arg_size);
@@ -580,11 +580,9 @@ void _cclSetKernelArg(void * _request, int protocol,struct sockaddr_in *addr) {
         }
    }
 
-
     pthread_mutex_lock(&mutex_ts);
-        ccl_reply.result = clSetKernelArg(ccl_request.kernel, ccl_request.arg_index, ccl_request.arg_size, arg_value);
+        ccl_reply.result = clSetKernelArg(ccl_request.kernel, ccl_request.arg_index, ccl_request.arg_size, ccl_request.arg_value_is_null=='1'?  NULL: arg_value);
     pthread_mutex_unlock(&mutex_ts);
-
     handler_network[protocol](&fd_tcp_client, &ccl_reply, sizeof(ccl_reply), addr,  "_cclSetKernelArg");
 
     if (ccl_request.is_ptr=='0'&&ccl_request.arg_size > 0)
