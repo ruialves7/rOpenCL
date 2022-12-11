@@ -4,7 +4,6 @@
 CL_API_ENTRY cl_int CL_API_CALL
 POname(clSetKernelArg)(cl_kernel kernel, cl_uint arg_index, size_t arg_size, const void *arg_value) CL_API_SUFFIX__VERSION_1_0
 {
-
 #if DEBUG == 0
 struct timeval t0, t1;
     puts("--- Start execute clSetKernelArg primitive\n ---");    
@@ -26,22 +25,32 @@ struct timeval t0, t1;
         return CL_INVALID_VALUE;
     }
 
-    struct {
+    struct 
+    {
         cl_kernel kernel;
         cl_uint arg_index;
         size_t arg_size;
-	char arg_value_is_null;
-	cl_mem ptr;
+        char arg_value_is_null;
+        cl_mem ptr;
         char is_ptr;
-  }ccl_request ={.kernel=obj->object_remote,.arg_index=arg_index,.arg_size=arg_size,.arg_value_is_null=(arg_value==NULL)};
+
+    }ccl_request ={.kernel=obj->object_remote,.arg_index=arg_index,.arg_size=arg_size};
 
     struct {
         cl_int result;
     }ccl_reply;
 
+        
+
         size_buffer_data_request = sizeof (ccl_request);
         if (arg_value!=NULL)
-            size_buffer_data_request += arg_size;
+        {
+           size_buffer_data_request += arg_size;
+           ccl_request.arg_value_is_null='0';
+        }else
+        { 
+           ccl_request.arg_value_is_null='1';
+        }
         
         
 #if PROTOCOL == 1
@@ -58,27 +67,29 @@ struct timeval t0, t1;
     _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (int), &offset_buffer);
     buffer_data_request += sizeof (int);
 
-#endif
-
+#endif 
+        
         //TODO Problem
-        if (arg_value!=NULL)
+	       if (arg_value!=NULL)
         {
             cl_mem * mem = (cl_mem*)arg_value;
             void *ss = (void*) arg_value;
             ptr = lookup_object(*mem);
             
-            //cl_opencl_object * obj = NULL;
+            cl_opencl_object * obj = NULL;
             if (ptr != NULL) 
             { 
-               cl_opencl_object * obj1 = *(cl_opencl_object**)ptr;
-               ccl_request.is_ptr='1';
-	       ccl_request.ptr =obj1->object_remote;
-	       
+
+                obj = *(cl_opencl_object**)ptr;
+                ccl_request.is_ptr='1';
+                ccl_request.ptr = obj->object_remote;
+
                _ccl_memcpy(buffer_data_request, &ccl_request, sizeof (ccl_request), &offset_buffer);
                 buffer_data_request += sizeof (ccl_request);
-		
+
             } else 
             {
+
                 ccl_request.is_ptr='0';
                 _ccl_memcpy(buffer_data_request, &ccl_request, sizeof (ccl_request), &offset_buffer);
                 buffer_data_request += sizeof (ccl_request);
@@ -86,8 +97,12 @@ struct timeval t0, t1;
                 _ccl_memcpy(buffer_data_request, ss, arg_size, &offset_buffer);
                 buffer_data_request += arg_size;
              }
+        }else
+        {
+            _ccl_memcpy(buffer_data_request, &ccl_request, sizeof (ccl_request), &offset_buffer);
+            buffer_data_request += sizeof (ccl_request);
         }
-	
+
         buffer_data_request -= offset_buffer;
 
 #if PROTOCOL == 0
