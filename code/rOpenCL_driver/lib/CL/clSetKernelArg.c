@@ -31,7 +31,7 @@ struct timeval t0, t1;
         cl_uint arg_index;
         size_t arg_size;
 	char arg_value_is_null;
-	uintptr_t ptr;
+	cl_mem ptr;
         char is_ptr;
   }ccl_request ={.kernel=obj->object_remote,.arg_index=arg_index,.arg_size=arg_size,.arg_value_is_null=(arg_value==NULL)};
 
@@ -72,14 +72,13 @@ struct timeval t0, t1;
             { 
                cl_opencl_object * obj1 = *(cl_opencl_object**)ptr;
                ccl_request.is_ptr='1';
-
-                memcpy(&ccl_request.ptr,&obj1->object_remote,sizeof(uintptr_t));
+	       ccl_request.ptr =obj1->object_remote;
+	       
                _ccl_memcpy(buffer_data_request, &ccl_request, sizeof (ccl_request), &offset_buffer);
                 buffer_data_request += sizeof (ccl_request);
 		
             } else 
             {
-
                 ccl_request.is_ptr='0';
                 _ccl_memcpy(buffer_data_request, &ccl_request, sizeof (ccl_request), &offset_buffer);
                 buffer_data_request += sizeof (ccl_request);
