@@ -556,7 +556,7 @@ void _cclSetKernelArg(void * _request, int protocol,struct sockaddr_in *addr) {
         cl_uint arg_index;
         size_t arg_size;
         char arg_value_is_null;
-        uintptr_t ptr;
+        cl_mem ptr;
         char is_ptr;
     }ccl_request;
 
@@ -576,7 +576,7 @@ void _cclSetKernelArg(void * _request, int protocol,struct sockaddr_in *addr) {
                 memcpy(arg_value, data+sizeof(ccl_request), ccl_request.arg_size);
         }else
         {
-                arg_value =(void*)ccl_request.ptr;
+                arg_value =(void*)&ccl_request.ptr;
         }
    }
 
@@ -3196,9 +3196,9 @@ void _cclGetProgramBuildInfo(void * _request, int protocol,struct sockaddr_in *a
     offset_buffer = 0;
 
     result = clGetProgramBuildInfo(program, device, param_name, param_value_size, param_value, &param_value_size_ret);
-char * ss = (char*)param_value; 
-if(param_value!=NULL)
-	printf("%s\n",ss);
+    char * ss = (char*)param_value; 
+    if(param_value!=NULL)
+	  printf("Size: %ld Log:%s\n",param_value_size_ret,ss);
 
     size_buffer_data_reply = sizeof (cl_int) + sizeof (size_t);
     if (param_value_size > 0) {
