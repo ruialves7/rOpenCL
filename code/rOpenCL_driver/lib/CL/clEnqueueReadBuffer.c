@@ -7,7 +7,7 @@ POname(clEnqueueReadBuffer)(cl_command_queue command_queue,cl_mem buffer,cl_bool
 #endif
     if(blocking_read==CL_FALSE)
     {
-        blocking_red=CL_TRUE;
+        blocking_read=CL_TRUE;
         puts("-- clEnqueueReadBuffer primitive blocking_read is CL_FALSE -> operation not supportaded---");
     }    char id = 0x09;
     struct sockaddr_in addr;
