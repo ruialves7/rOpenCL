@@ -3,9 +3,13 @@ CL_API_ENTRY cl_int CL_API_CALL
 POname(clEnqueueReadBuffer)(cl_command_queue command_queue,cl_mem buffer,cl_bool blocking_read,size_t offset,size_t size,void *ptr,cl_uint num_events_in_wait_list,const cl_event *event_wait_list,cl_event *event) CL_API_SUFFIX__VERSION_1_0
 {
 #if DEBUG == 0
-        puts("--- Start execute clEnqueueNDRangeKernel primitive\n ---");    
+        puts("--- Start execute clEnqueueReadBuffer primitive\n ---");    
 #endif
-    char id = 0x09;
+    if(blocking_read==CL_FALSE)
+    {
+        blocking_read=CL_TRUE;
+        puts("-- clEnqueueReadBuffer primitive blocking_read is CL_FALSE -> operation not supportaded---");
+    }    char id = 0x09;
     struct sockaddr_in addr;
     void * buffer_data_request = NULL, *buffer_data_reply = NULL, *header = NULL,*ptr_ = NULL;
     int fd = 0, size_buffer_data_request = 0, size_buffer_data_reply = 0, offset_buffer = 0;
@@ -49,15 +53,12 @@ POname(clEnqueueReadBuffer)(cl_command_queue command_queue,cl_mem buffer,cl_bool
     } else {
         return CL_INVALID_VALUE;
     }
-    ccl_request.buffer = obj->object_remote;
-        
-   
- 
     
-        size_buffer_data_request = sizeof(ccl_request);
-
-        if (num_events_in_wait_list > 0)
-            size_buffer_data_request += (sizeof (cl_event) * num_events_in_wait_list);
+    ccl_request.buffer = obj->object_remote;
+    size_buffer_data_request = sizeof(ccl_request);
+    
+    if (num_events_in_wait_list > 0)
+         size_buffer_data_request += (sizeof (cl_event) * num_events_in_wait_list);
 
 #if PROTOCOL == 1
     size_buffer_data_request+=SIZE_HEADER_TCP;
@@ -151,7 +152,7 @@ POname(clEnqueueReadBuffer)(cl_command_queue command_queue,cl_mem buffer,cl_bool
                 memcpy(event, &ccl_reply.event, sizeof (cl_event));
             }
 #if DEBUG == 0
-        puts("--- End execute clEnqueueNDRangeKernel primitive\n ---");    
+        puts("--- End execute clEnqueueReadBuffer primitive\n ---");    
 #endif    
     return (ccl_reply.result);
 

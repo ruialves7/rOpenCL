@@ -17,11 +17,8 @@ POname(clEnqueueWriteBuffer)(cl_command_queue command_queue,cl_mem buffer,cl_boo
   //TODO: blocking_write==FALSE
     if(blocking_write==CL_FALSE)
     {
-          #if DEBUG == 0
         puts("-- blocking_write is CL_FALSE -> operation not supportaded---");
-            #endif
         blocking_write = CL_TRUE;
-    
     }
 
 #if DEBUG == 0

@@ -555,28 +555,37 @@ void _cclSetKernelArg(void * _request, int protocol,struct sockaddr_in *addr) {
         cl_kernel kernel;
         cl_uint arg_index;
         size_t arg_size;
-	    char arg_value_is_null;
+        char arg_value_is_null;
+        cl_mem ptr;
+        char is_ptr;
     }ccl_request;
 
-    struct {
+    struct 
+    {
         cl_int result;
     }ccl_reply;
     
     memcpy(&ccl_request, data, sizeof (ccl_request));
+
     void *arg_value = NULL;
-  
-    if (!ccl_request.arg_value_is_null) {
-        arg_value = malloc(ccl_request.arg_size);
-        memcpy(arg_value, data+sizeof(ccl_request), ccl_request.arg_size);
-    }
+    if (ccl_request.arg_value_is_null=='0') 
+    {
+        if(ccl_request.is_ptr=='0')
+        {
+                arg_value = malloc(ccl_request.arg_size);
+                memcpy(arg_value, data+sizeof(ccl_request), ccl_request.arg_size);
+        }else
+        {
+                arg_value =(void*)&ccl_request.ptr;
+        }
+   }
 
     pthread_mutex_lock(&mutex_ts);
-        ccl_reply.result = clSetKernelArg(ccl_request.kernel, ccl_request.arg_index, ccl_request.arg_size, arg_value);
+        ccl_reply.result = clSetKernelArg(ccl_request.kernel, ccl_request.arg_index, ccl_request.arg_size, ccl_request.arg_value_is_null=='1'?  NULL: arg_value);
     pthread_mutex_unlock(&mutex_ts);
-
     handler_network[protocol](&fd_tcp_client, &ccl_reply, sizeof(ccl_reply), addr,  "_cclSetKernelArg");
 
-    if (ccl_request.arg_size > 0)
+    if (ccl_request.is_ptr=='0'&&ccl_request.arg_size > 0)
         free(arg_value);
 }
 
@@ -3185,9 +3194,9 @@ void _cclGetProgramBuildInfo(void * _request, int protocol,struct sockaddr_in *a
     offset_buffer = 0;
 
     result = clGetProgramBuildInfo(program, device, param_name, param_value_size, param_value, &param_value_size_ret);
-char * ss = (char*)param_value; 
-if(param_value!=NULL)
-	printf("%s\n",ss);
+    char * ss = (char*)param_value; 
+    if(param_value!=NULL)
+	  printf("Size: %ld Log:%s\n",param_value_size_ret,ss);
 
     size_buffer_data_reply = sizeof (cl_int) + sizeof (size_t);
     if (param_value_size > 0) {
@@ -4561,7 +4570,7 @@ void * get_primitves_network_tcp(void *arg) {
 
 	int optval=7; // valid values are in the range [1,7]   // 1- low priority, 7 - high priority  
 	setsockopt(fd_client, SOL_SOCKET, SO_PRIORITY, &optval, sizeof(optval)); 
-
+/*
 
 	//Testados e pirou bastante o tempo... Estas opções desligam o auto-tunning dos buffers
 	
@@ -4574,7 +4583,7 @@ void * get_primitves_network_tcp(void *arg) {
 	
 		setsockopt(fd_client, SOL_SOCKET, SO_RCVBUF, &size, sizeof(size));
 
-	
+	*/
 
 	//poderá surtir efeito em testes de multiplos clientes.
 	//setsockopt(fd_client, SOL_SOCKET, TCP_CORK , &val, sizeof(val));

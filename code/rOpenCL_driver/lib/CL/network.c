@@ -16,14 +16,14 @@ void init_udp(int * fd_descriptor, struct sockaddr_in *addr_host, struct sockadd
     //vai a procura da chave na key que guardar os sockets 
     char * key = malloc(sizeof(char)*32);
     memset( key, '\0', sizeof(char)*32);
-    char tid_str[6];
+    char tid_str[10];
     
     int ch = '.';
     char *ptr = NULL;
     
     //Get the tid of the current thread
     pid_t tid = syscall(SYS_gettid);
-    snprintf(tid_str, 6, "%d", tid);
+    snprintf(tid_str, 10, "%d", tid);
 
     //Get the ip address of the remote node to connect.
     char *ip = (char*)inet_ntoa(addr_rDaemon->sin_addr);
@@ -156,7 +156,7 @@ int init_tcp(int * fd_descriptor, struct sockaddr_in * addr, char * primitive)
      setsockopt(*fd_descriptor, SOL_SOCKET, SO_PRIORITY, &optval, sizeof(optval));  
 
 
-
+/*
     //Estas opcoes pioram bastante o tempo, com isto o auto tunning dos buffers é desligado. 
     int size = 1048576;     
     //int size_w = size/2;
@@ -164,11 +164,11 @@ int init_tcp(int * fd_descriptor, struct sockaddr_in * addr, char * primitive)
     /*
 
     setsockopt(*fd_descriptor, IPPROTO_TCP, TCP_WINDOW_CLAMP, &size_w, sizeof(size_w));
-	*/
+	
     setsockopt(*fd_descriptor, SOL_SOCKET, SO_SNDBUF, &size, sizeof(size));
         
     setsockopt(*fd_descriptor, SOL_SOCKET, SO_RCVBUF, &size, sizeof(size));
-   
+   */
     
   
     //mutuamente exclusivo com o NODELAY poderá funcionar em testes com multiplos clientes
