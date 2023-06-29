@@ -1,7 +1,8 @@
 cff-version: 1.2.0
+
 message: "rOpenCL - remote OpenCL"
 authors:
-- family-names: "Alves"
+https://github.com/ruialves7/rOpenCL/pull/1/conflict?name=CITATION.cff&base_oid=96536d58c8a17b5cc1b7ac4adb05703c63c7c163&head_oid=1280a83b7ffa76e0d842c3656ffb2ddb7f3ffae7- family-names: "Alves"
   given-names: "Rui"
   orcid: "https://orcid.org/0000-0003-4128-8779"
 - family-names: "Rufino"
@@ -11,4 +12,3 @@ title: "rOpenCL"
 version: 1.0.0
 doi: 10.5281/zenodo.1234
 date-released: 2020-12-18
-url: "https://github.com/ruialves7/rOpenCL"
