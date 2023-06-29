@@ -10,7 +10,7 @@ POname(clRetainMemObject)(cl_mem memobj) CL_API_SUFFIX__VERSION_1_0
     char id = 0x45;
     struct sockaddr_in addr;
     void * buffer_data_request = NULL,  *ptr = NULL;
-    int fd = 0, size_buffer_data_request = 0, offset_buffer = 0;
+    int fd = 0; size_t size_buffer_data_request = 0; int offset_buffer = 0;
     
     ptr  = lookup_object(memobj);
     cl_int result;
@@ -50,8 +50,8 @@ POname(clRetainMemObject)(cl_mem memobj) CL_API_SUFFIX__VERSION_1_0
     _ccl_memcpy(buffer_data_request, &id, sizeof (char), &offset_buffer);
     buffer_data_request += sizeof (char);
 
-    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (int), &offset_buffer);
-    buffer_data_request += sizeof (int);
+    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (size_t), &offset_buffer);
+    buffer_data_request += sizeof (size_t);
 
 #endif
 

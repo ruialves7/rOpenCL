@@ -8,7 +8,7 @@ POname(clGetContextInfo)(cl_context context,cl_context_info param_name,size_t pa
     char id = 0x29;
     struct sockaddr_in addr;
     void * buffer_data_request = NULL, *buffer_data_reply = NULL, *ptr = NULL;
-    int fd = 0, size_buffer_data_request = 0, size_buffer_data_reply = 0, offset_buffer = 0;
+    int fd = 0;size_t size_buffer_data_request = 0;int size_buffer_data_reply = 0, offset_buffer = 0;
    
     cl_opencl_object * obj = NULL;
     ptr = lookup_object(context);
@@ -51,8 +51,8 @@ POname(clGetContextInfo)(cl_context context,cl_context_info param_name,size_t pa
     _ccl_memcpy(buffer_data_request, &id, sizeof (char), &offset_buffer);
     buffer_data_request += sizeof (char);
 
-    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (int), &offset_buffer);
-    buffer_data_request += sizeof (int);
+    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (size_t), &offset_buffer);
+    buffer_data_request += sizeof (size_t);
 
 #endif
 

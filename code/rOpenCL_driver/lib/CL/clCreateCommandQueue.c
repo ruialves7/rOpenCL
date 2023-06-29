@@ -8,7 +8,7 @@ puts("--- Start execute clCreateCommandQueue primitive\n ---");
     char id = 0x07;
     struct sockaddr_in addr;
     void * buffer_data_request = NULL, *ptr = NULL;
-    int fd = 0, size_buffer_data_request = 0,  offset_buffer = 0;
+    int fd = 0; size_t size_buffer_data_request = 0; int  offset_buffer = 0;
 
     ptr = lookup_object(context);
     cl_opencl_object * obj = NULL;
@@ -51,8 +51,8 @@ puts("--- Start execute clCreateCommandQueue primitive\n ---");
     _ccl_memcpy(buffer_data_request, &id, sizeof (char), &offset_buffer);
     buffer_data_request += sizeof (char);
 
-    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (int), &offset_buffer);
-    buffer_data_request += sizeof (int);
+    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (size_t), &offset_buffer);
+    buffer_data_request += sizeof (size_t);
 
 #endif
 

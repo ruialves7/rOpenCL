@@ -8,10 +8,14 @@ POname(clCreateKernel)(cl_program program,const char *kernel_name,cl_int *errcod
     
     char id = 0x0D;
     struct sockaddr_in addr;
-    void * buffer_data_request = NULL, *buffer_data_reply = NULL, *header = NULL, *ptr = NULL;
-    int size_kernel = 0, fd = 0, size_buffer_data_request = 0, size_buffer_data_reply = 0, offset_buffer = 0;
-    cl_kernel result_;
-    cl_int errcode_ret_;
+    void * buffer_data_request = NULL, *header = NULL, *ptr = NULL;
+    int size_kernel = 0, fd = 0; size_t size_buffer_data_request = 0; int offset_buffer = 0;
+    struct
+    {
+	cl_kernel result;
+	cl_int  errcode_ret;
+    }ccl_reply;   
+
     ptr = lookup_object(program);
     cl_opencl_object * obj = NULL;
     
@@ -47,8 +51,8 @@ POname(clCreateKernel)(cl_program program,const char *kernel_name,cl_int *errcod
     _ccl_memcpy(buffer_data_request, &id, sizeof (char), &offset_buffer);
     buffer_data_request += sizeof (char);
 
-    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (int), &offset_buffer);
-    buffer_data_request += sizeof (int);
+    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (size_t), &offset_buffer);
+    buffer_data_request += sizeof (size_t);
 
 #endif
 
@@ -66,8 +70,6 @@ POname(clCreateKernel)(cl_program program,const char *kernel_name,cl_int *errcod
         }
 
         buffer_data_request -= offset_buffer;
-        size_buffer_data_reply = sizeof (cl_kernel) + sizeof (cl_int);
-        buffer_data_reply = malloc(size_buffer_data_reply);
 
 #if PROTOCOL == 0
         char *id_transaction = NULL;
@@ -93,34 +95,25 @@ POname(clCreateKernel)(cl_program program,const char *kernel_name,cl_int *errcod
         int fd_connect = init_tcp(&fd, &addr, "clCreateKernel");
         //header = build_header_tcp(id, &size_buffer_data_request);
         send_data_tcp(&fd, buffer_data_request, header, size_buffer_data_request, "clCreateKernel");
-        recv_data_tcp(&fd, buffer_data_reply, size_buffer_data_reply, "clCreateKernel");
+        recv_data_tcp(&fd, &ccl_reply, sizeof(ccl_reply), "clCreateKernel");
         closeSocketTCP(&fd,&fd_connect);
 #endif
-        free(header);
         free(buffer_data_request);
         offset_buffer = 0;
 
-        _ccl_memcpy(&result_, buffer_data_reply, sizeof (cl_kernel), &offset_buffer);
-        buffer_data_reply += sizeof (cl_kernel);
 
-        _ccl_memcpy(&errcode_ret_, buffer_data_reply, sizeof (cl_int), &offset_buffer);
-        buffer_data_reply += sizeof (cl_int);
-
-        buffer_data_reply -= offset_buffer;
-        free(buffer_data_reply);
-
-        if (errcode_ret_ == CL_SUCCESS)
+        if (ccl_reply.errcode_ret == CL_SUCCESS)
         {
-            ptr  = register_object(result_, getDispachPointer(6), obj->daemon);
+            ptr  = register_object(ccl_reply.result, getDispachPointer(6), obj->daemon);
             obj = *(cl_opencl_object**)ptr;
-            result_ = obj->object_local;
+            ccl_reply.result = obj->object_local;
         }
     
         if (errcode_ret != NULL)
-            *errcode_ret = errcode_ret_;
+            *errcode_ret = ccl_reply.errcode_ret;
 #if DEBUG == 0
         puts("--- End execute clCreateKernel primitive\n ---");    
 #endif 
-    return (result_);  
+    return (ccl_reply.result);  
 }
 POsym(clCreateKernel)

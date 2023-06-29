@@ -20,7 +20,7 @@ POname(clGetDeviceIDs)(cl_platform_id platform,cl_device_type device_type,cl_uin
         char id = 0x04, ip[16], *id_transaction = NULL;
         struct sockaddr_in addr,addr_local;
         void * buffer_data_request = NULL, *buffer_data_reply = NULL, *header = NULL,*ptr = NULL;
-        int fd = 0, size_buffer_data_request = 0, size_buffer_data_reply = 0, offset_buffer = 0,  i = 0;
+        int fd = 0; size_t size_buffer_data_request = 0; int size_buffer_data_reply = 0, offset_buffer = 0,  i = 0;
         cl_int result;
         cl_uint fill_num_devices = 0, num_devices_returned = 0;
         cl_opencl_object * obj = NULL;
@@ -58,8 +58,8 @@ POname(clGetDeviceIDs)(cl_platform_id platform,cl_device_type device_type,cl_uin
     _ccl_memcpy(buffer_data_request, &id, sizeof (char), &offset_buffer);
     buffer_data_request += sizeof (char);
 
-    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (int), &offset_buffer);
-    buffer_data_request += sizeof (int);
+    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (size_t), &offset_buffer);
+    buffer_data_request += sizeof (size_t);
 
 #endif
 

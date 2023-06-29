@@ -11,7 +11,7 @@ struct timeval t0, t1;
     char id = 0x0E;
     struct sockaddr_in addr;
     void * buffer_data_request = NULL, * ptr = NULL;
-    int fd = 0, size_buffer_data_request = 0, offset_buffer = 0;
+    int fd = 0; size_t size_buffer_data_request = 0; int offset_buffer = 0;
 
     ptr = lookup_object(kernel);
     cl_opencl_object * obj = NULL;
@@ -30,9 +30,9 @@ struct timeval t0, t1;
         cl_kernel kernel;
         cl_uint arg_index;
         size_t arg_size;
-        char arg_value_is_null;
-        cl_mem ptr;
-        char is_ptr;
+	char arg_value_is_null;
+	cl_mem ptr;
+	char is_ptr;
 
     }ccl_request ={.kernel=obj->object_remote,.arg_index=arg_index,.arg_size=arg_size};
 
@@ -40,16 +40,16 @@ struct timeval t0, t1;
         cl_int result;
     }ccl_reply;
 
-        
+	
 
         size_buffer_data_request = sizeof (ccl_request);
         if (arg_value!=NULL)
-        {
+	{
            size_buffer_data_request += arg_size;
-           ccl_request.arg_value_is_null='0';
+	   ccl_request.arg_value_is_null='0';
         }else
         { 
-           ccl_request.arg_value_is_null='1';
+	   ccl_request.arg_value_is_null='1';
         }
         
         
@@ -64,13 +64,13 @@ struct timeval t0, t1;
     _ccl_memcpy(buffer_data_request, &id, sizeof (char), &offset_buffer);
     buffer_data_request += sizeof (char);
 
-    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (int), &offset_buffer);
-    buffer_data_request += sizeof (int);
+    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (size_t), &offset_buffer);
+    buffer_data_request += sizeof (size_t);
 
 #endif 
-        
+	
         //TODO Problem
-	       if (arg_value!=NULL)
+        if (arg_value!=NULL)
         {
             cl_mem * mem = (cl_mem*)arg_value;
             void *ss = (void*) arg_value;
@@ -81,22 +81,22 @@ struct timeval t0, t1;
             { 
 
                 obj = *(cl_opencl_object**)ptr;
-                ccl_request.is_ptr='1';
-                ccl_request.ptr = obj->object_remote;
+      	        ccl_request.is_ptr='1';
+		ccl_request.ptr = obj->object_remote;
 
                _ccl_memcpy(buffer_data_request, &ccl_request, sizeof (ccl_request), &offset_buffer);
-                buffer_data_request += sizeof (ccl_request);
+		buffer_data_request += sizeof (ccl_request);
 
             } else 
             {
 
-                ccl_request.is_ptr='0';
-                _ccl_memcpy(buffer_data_request, &ccl_request, sizeof (ccl_request), &offset_buffer);
+		ccl_request.is_ptr='0';
+		_ccl_memcpy(buffer_data_request, &ccl_request, sizeof (ccl_request), &offset_buffer);
                 buffer_data_request += sizeof (ccl_request);
                    
                 _ccl_memcpy(buffer_data_request, ss, arg_size, &offset_buffer);
                 buffer_data_request += arg_size;
-             }
+	     }
         }else
         {
             _ccl_memcpy(buffer_data_request, &ccl_request, sizeof (ccl_request), &offset_buffer);

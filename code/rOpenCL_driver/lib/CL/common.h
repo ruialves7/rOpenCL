@@ -28,7 +28,7 @@
 #define SIZE_TRANSACTION_ID 64
 #define FILL_COLOR 64
 #define SIZE_HEADER_UDP 96
-#define SIZE_HEADER_TCP 5
+#define SIZE_HEADER_TCP 9
 #define NUM_CALLS 12
 #define NUM_CALLS_DEVICES 3
 #define STR_BUFFER 32
@@ -36,7 +36,7 @@
 #define DEBUG 1
 #define _ccl_memcpy(dst, src, size_data, total_offset) \
 memcpy(dst, src, size_data); \
-*total_offset += size_data;
+*(total_offset) += size_data;
 extern pthread_mutex_t subtag_mutex;
 extern pthread_mutex_t _omx_send;
 extern pthread_mutex_t mutex_tree_objects;
@@ -98,6 +98,6 @@ void * clCallbackclSetEventCallck(void*arg);
 int init_hostprogram();
 int _ccl_connect_to_daemons();
 void _ccl_perror_and_exit(char*str);
-void _ccl_check_size_data(int real, int theorical, char *primitives, int operation);
+void _ccl_check_size_data(size_t real, size_t theorical, char *primitives, int operation);
 int _ccl_equals_addr(struct sockaddr_in * s1, struct sockaddr_in * s2);
 #endif /* COMMON_H */

@@ -408,10 +408,10 @@ void _cclCreateProgramWithSource(void * _request, int protocol,struct sockaddr_i
     char **strings = malloc(sizeof (char *) * count);
 
     for (int s = 0; s < count; s++) {
-        (strings)[s] = (char *) malloc(sizeof (char) * lengths[s]);
-        _ccl_memcpy((strings)[s], data, lengths[s], &offset_buffer);
-        data += lengths[s];
-    }
+          (strings)[s] = (char *) malloc(sizeof (char) * lengths[s]);
+	   _ccl_memcpy((strings)[s], data, lengths[s], &offset_buffer);
+	   data += lengths[s];
+	}
     data -= offset_buffer;
     offset_buffer = 0;
 
@@ -477,7 +477,6 @@ void _cclBuildProgram(void * _request, int protocol,struct sockaddr_in *addr) {
         _ccl_memcpy(options, data, ss, &offset_buffer);
         data += ss;
     }
-
     data -= offset_buffer;
     offset_buffer = 0;
 
@@ -494,10 +493,8 @@ void _cclBuildProgram(void * _request, int protocol,struct sockaddr_in *addr) {
 
 void _cclCreateKernel(void * _request, int protocol,struct sockaddr_in *addr) {
 
-    void *buffer_data_reply = NULL, *data = NULL;
-    int size_buffer_data_reply = 0, offset_buffer = 0, fd_tcp_client = 0;
-    cl_kernel result;
-    cl_int errcode_ret;
+    void  *data = NULL;
+    int  offset_buffer = 0, fd_tcp_client = 0;
 
     ropencl_primitive_request *request = (ropencl_primitive_request*) _request;
     data = request->data;
@@ -512,33 +509,27 @@ void _cclCreateKernel(void * _request, int protocol,struct sockaddr_in *addr) {
     data += sizeof (cl_program);
 
     char *kernel_name = NULL;
-    if (ss > 0) {
+    if (ss > 0) 
+    {
         kernel_name = malloc(ss);
         _ccl_memcpy(kernel_name, data, ss, &offset_buffer);
         data += ss;
+	//kernel_name[ss]='\0';
     }
     data -= offset_buffer;
-    offset_buffer = 0;
+    struct
+    {
+    	cl_kernel result;
+	cl_int errcode_ret; 
+    }ccl_reply;
 
-    result = clCreateKernel(program, kernel_name, &errcode_ret);
-    
-size_buffer_data_reply = sizeof (cl_kernel) + sizeof (cl_int);
-    buffer_data_reply = malloc(size_buffer_data_reply);
+    ccl_reply.result = clCreateKernel(program, kernel_name, &ccl_reply.errcode_ret);
 
-    _ccl_memcpy(buffer_data_reply, &result, sizeof (cl_kernel), &offset_buffer);
-    buffer_data_reply += sizeof (cl_kernel);
 
-    _ccl_memcpy(buffer_data_reply, &errcode_ret, sizeof (cl_int), &offset_buffer);
-    buffer_data_reply += sizeof (cl_int);
-
-    buffer_data_reply -= offset_buffer;
-
-    handler_network[protocol](&fd_tcp_client, buffer_data_reply, size_buffer_data_reply, addr,  "_cclCreateKernel");
-
-    free(buffer_data_reply);
+    handler_network[protocol](&fd_tcp_client, &ccl_reply, sizeof(ccl_reply), addr,  "_cclCreateKernel");
 
     if (ss > 0)
-        free(kernel_name);
+       free(kernel_name);
 }
 
 void _cclSetKernelArg(void * _request, int protocol,struct sockaddr_in *addr) {
@@ -555,9 +546,9 @@ void _cclSetKernelArg(void * _request, int protocol,struct sockaddr_in *addr) {
         cl_kernel kernel;
         cl_uint arg_index;
         size_t arg_size;
-        char arg_value_is_null;
-        cl_mem ptr;
-        char is_ptr;
+	char arg_value_is_null;
+	cl_mem ptr;
+	char is_ptr;
     }ccl_request;
 
     struct 
@@ -570,14 +561,14 @@ void _cclSetKernelArg(void * _request, int protocol,struct sockaddr_in *addr) {
     void *arg_value = NULL;
     if (ccl_request.arg_value_is_null=='0') 
     {
-        if(ccl_request.is_ptr=='0')
+	if(ccl_request.is_ptr=='0')
         {
-                arg_value = malloc(ccl_request.arg_size);
-                memcpy(arg_value, data+sizeof(ccl_request), ccl_request.arg_size);
-        }else
-        {
-                arg_value =(void*)&ccl_request.ptr;
-        }
+		arg_value = malloc(ccl_request.arg_size);
+        	memcpy(arg_value, data+sizeof(ccl_request), ccl_request.arg_size);
+    	}else
+	{
+		arg_value =(void*)&ccl_request.ptr;
+	}
    }
 
     pthread_mutex_lock(&mutex_ts);
@@ -622,21 +613,18 @@ void _cclEnqueueWriteBuffer(void * _request, int protocol,struct sockaddr_in *ad
     {
 	aux = ccl_request.num_events_in_wait_list*sizeof(cl_event);
         event_wait_list = (data+sizeof (ccl_request));  
-        
           
     }
 
-
    if(ccl_request.size>0)
-	    ptr = data+sizeof(ccl_request)+aux;
+   {
+	ptr = malloc(ccl_request.size);
+	memcpy(ptr, data+sizeof(ccl_request)+aux,ccl_request.size);
+   }
     
-    
+  ccl_reply.result = clEnqueueWriteBuffer(ccl_request.command_queue, ccl_request.buffer, ccl_request.blocking_write, ccl_request.offset, ccl_request.size, ptr, ccl_request.num_events_in_wait_list, (ccl_request.num_events_in_wait_list == 0) ? NULL : event_wait_list, ccl_request.event_is_null ? NULL : &ccl_reply.event);
 
-//ccl_request.blocking_write = CL_TRUE;  
-  ccl_reply.result = clEnqueueWriteBuffer(ccl_request.command_queue, ccl_request.buffer, /*ccl_request.blocking_write*/CL_TRUE, ccl_request.offset, ccl_request.size, ptr, ccl_request.num_events_in_wait_list, (ccl_request.num_events_in_wait_list == 0) ? NULL : event_wait_list, ccl_request.event_is_null ? NULL : &ccl_reply.event);
-
-
-    handler_network[protocol](&fd_tcp_client, &ccl_reply, sizeof(ccl_reply), addr, "_cclEnqueueWriteBuffer");   
+  handler_network[protocol](&fd_tcp_client, &ccl_reply, sizeof(ccl_reply), addr, "_cclEnqueueWriteBuffer");   
 }
 
 void _cclEnqueueNDRangeKernel(void * _request, int protocol,struct sockaddr_in *addr) {
@@ -764,8 +752,7 @@ void _cclEnqueueReadBuffer(void * _request, int protocol,struct sockaddr_in *add
 	    size_buffer_data_reply += ccl_request.size;	
     }
 
-    ccl_reply.result = clEnqueueReadBuffer(ccl_request.command_queue, ccl_request.buffer, /*ccl_request.blocking_read*/CL_TRUE, ccl_request.offset, ccl_request.size, ptr, ccl_request.num_events_in_wait_list, (ccl_request.num_events_in_wait_list == 0) ? NULL : event_wait_list, ccl_request.event_is_null ? NULL : &ccl_reply.event);
-
+    ccl_reply.result = clEnqueueReadBuffer(ccl_request.command_queue, ccl_request.buffer, ccl_request.blocking_read, ccl_request.offset, ccl_request.size, ptr, ccl_request.num_events_in_wait_list, (ccl_request.num_events_in_wait_list == 0) ? NULL : event_wait_list, ccl_request.event_is_null ? NULL : &ccl_reply.event);
 
     buffer_data_reply = malloc(size_buffer_data_reply);
     _ccl_memcpy(buffer_data_reply, &size_buffer_data_reply, sizeof (int), &offset_buffer);
@@ -1220,7 +1207,7 @@ void _cclEnqueueMapImage(void * _request, int protocol,struct sockaddr_in *addr)
     data -= offset_buffer;
     offset_buffer = 0;
 
-    result = clEnqueueMapImage(command_queue, image, /*blocking_map*/CL_TRUE, map_flags, origin, region, &image_row_pitch, &image_slice_pitch, num_events_in_wait_list, (num_events_in_wait_list == 0) ? NULL : event_wait_list, event_is_null ? NULL : &event, &errcode_ret);
+    result = clEnqueueMapImage(command_queue, image, blocking_map, map_flags, origin, region, &image_row_pitch, &image_slice_pitch, num_events_in_wait_list, (num_events_in_wait_list == 0) ? NULL : event_wait_list, event_is_null ? NULL : &event, &errcode_ret);
 
     size_buffer_data_reply = sizeof (cl_int) + sizeof (cl_event) + sizeof (void*);
     buffer_data_reply = malloc(size_buffer_data_reply);
@@ -1684,7 +1671,7 @@ void _cclEnqueueMapBuffer(void * _request, int protocol,struct sockaddr_in *addr
 
     //gettimeofday(&t0, NULL); 
     
-    result = clEnqueueMapBuffer(ccl_request.command_queue, ccl_request.buffer, /*ccl_request.blocking_map*/ CL_TRUE, ccl_request.map_flags, ccl_request.offset, ccl_request.cb, ccl_request.num_events_in_wait_list, (ccl_request.num_events_in_wait_list == 0) ? NULL : event_wait_list, ccl_request.event_is_null ? NULL : &ccl_reply.event, &ccl_reply.errcode_ret);
+    result = clEnqueueMapBuffer(ccl_request.command_queue, ccl_request.buffer, ccl_request.blocking_map , ccl_request.map_flags, ccl_request.offset, ccl_request.cb, ccl_request.num_events_in_wait_list, (ccl_request.num_events_in_wait_list == 0) ? NULL : event_wait_list, ccl_request.event_is_null ? NULL : &ccl_reply.event, &ccl_reply.errcode_ret);
 
     ccl_reply.ptr_remote = (uintptr_t) result;
     
@@ -3195,8 +3182,9 @@ void _cclGetProgramBuildInfo(void * _request, int protocol,struct sockaddr_in *a
 
     result = clGetProgramBuildInfo(program, device, param_name, param_value_size, param_value, &param_value_size_ret);
     char * ss = (char*)param_value; 
+    
     if(param_value!=NULL)
-	  printf("Size: %ld Log:%s\n",param_value_size_ret,ss);
+	printf("Size: %ld Log:%s\n",param_value_size_ret,ss);
 
     size_buffer_data_reply = sizeof (cl_int) + sizeof (size_t);
     if (param_value_size > 0) {
@@ -3547,7 +3535,7 @@ void _cclGetKernelWorkGroupInfo(void * _request, int protocol,struct sockaddr_in
 
     cl_int result;
     size_t param_value_size_ret;
-    char * param_value = NULL;
+    void  * param_value = NULL;
 
     void *buffer_data_reply = NULL, *data = NULL;
     int size_buffer_data_reply = 0, offset_buffer = 0, fd_tcp_client = 0;
@@ -3556,7 +3544,7 @@ void _cclGetKernelWorkGroupInfo(void * _request, int protocol,struct sockaddr_in
     ropencl_primitive_request *request = (ropencl_primitive_request*) _request;
     data = request->data;
     fd_tcp_client = request->fd;
-
+    
     _ccl_memcpy(&kernel, data, sizeof (cl_kernel), &offset_buffer);
     data += sizeof (cl_kernel);
 
@@ -3565,19 +3553,25 @@ void _cclGetKernelWorkGroupInfo(void * _request, int protocol,struct sockaddr_in
 
     _ccl_memcpy(&param_name, data, sizeof (cl_kernel_work_group_info), &offset_buffer);
     data += sizeof (cl_kernel_work_group_info);
+ 
 
     _ccl_memcpy(&param_value_size, data, sizeof (size_t), &offset_buffer);
     data += sizeof (size_t);
     data -= offset_buffer;
     offset_buffer = 0;
-    if (param_value_size > 0)
-        param_value = malloc(param_value_size + 1);
+  
 
-    result = clGetKernelWorkGroupInfo(kernel, device, param_name, param_value_size, param_value, &param_value_size_ret);
+   if (param_value_size > 0)
+        param_value = malloc(param_value_size);
+   
+
+
+ result = clGetKernelWorkGroupInfo(kernel, device, param_name, param_value_size, param_value, &param_value_size_ret);
 
     size_buffer_data_reply = sizeof (cl_int) + sizeof (size_t);
     if (param_value_size > 0)
         size_buffer_data_reply += param_value_size_ret;
+
     buffer_data_reply = malloc(size_buffer_data_reply);
 
     _ccl_memcpy(buffer_data_reply, &result, sizeof (cl_int), &offset_buffer);
@@ -3598,6 +3592,7 @@ void _cclGetKernelWorkGroupInfo(void * _request, int protocol,struct sockaddr_in
     if (param_value_size > 0)
         free(param_value);
     free(buffer_data_reply);
+
 }
 
 void _cclGetKernelArgInfo(void * _request, int protocol,struct sockaddr_in *addr) {
@@ -3721,7 +3716,6 @@ void callbacksetEvent(cl_event event, cl_int event_command_status, void *user_da
     memcpy(&ccl_request.callback,user_data, sizeof(uintptr_t));
     memcpy(&repl_callback,user_data+sizeof(uintptr_t), sizeof(struct sockaddr_in));
     int sockfd;
-   
     sockfd = socket(AF_INET, SOCK_STREAM, 0);
     if (sockfd == -1) {
         printf("socket creation failed...\n");
@@ -4467,7 +4461,7 @@ void * worker_tcp(void *arg)
 #endif 
 
     int fd_client = (long) ((int *) arg);
-    int total_size=0, return_sendto = 0, size_recv = 0,  offset_total = 0;
+    size_t total_size=0, return_sendto = 0,  size_recv = 0,   offset_total = 0;
     char id;
 
     ropencl_primitive_request request;
@@ -4494,12 +4488,12 @@ void * worker_tcp(void *arg)
             pthread_exit(0);
         }
    
-	    return_sendto = recv(request.fd, &size_recv, sizeof(int), 0);
+	    return_sendto = recv(request.fd, &size_recv, sizeof(size_t), 0);
        
         request.id = id;
         total_size+=size_recv;
         // Remove the header data size.
-        size_recv-=(sizeof(char)+sizeof(int));
+        size_recv-=(sizeof(char)+sizeof(size_t));
 
 #if DEBUG ==0
         gettimeofday(&t0, NULL);
@@ -4528,7 +4522,6 @@ void * worker_tcp(void *arg)
         size_recv = 0;
         return_sendto = 0;
         offset_total = 0;
-
         free(request.data);
     }
 }

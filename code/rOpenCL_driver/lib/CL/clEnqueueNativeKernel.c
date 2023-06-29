@@ -11,7 +11,7 @@ const cl_event * event_wait_list ,cl_event * event ) CL_API_SUFFIX__VERSION_1_0
         puts("--- End execute clEnqueueNativeKernel primitive\n ---");    
 #endif
          puts("--- clEnqueueNativeKernel  not implemented \n ---");  
-         exit(0);
+         //exit(0);
   return CL_INVALID_VALUE;
 }
 POsym(clEnqueueNativeKernel)

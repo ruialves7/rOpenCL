@@ -14,12 +14,11 @@ POname(clEnqueueWriteBuffer)(cl_command_queue command_queue,cl_mem buffer,cl_boo
 #endif
    
     
-  //TODO: blocking_write==FALSE
-    if(blocking_write==CL_FALSE)
-    {
-        puts("-- blocking_write is CL_FALSE -> operation not supportaded---");
-        blocking_write = CL_TRUE;
-    }
+//    if(blocking_write==CL_FALSE)
+//    {
+	//blocking_write=CL_TRUE;
+//        puts("-- clEnqueueWriteBuffer primitive blocking_write is CL_FALSE -> operation not supportaded---");
+//    }
 
 #if DEBUG == 0
         puts("--- Start execute clEnqueueWriteBuffer primitive\n ---");    
@@ -29,7 +28,7 @@ POname(clEnqueueWriteBuffer)(cl_command_queue command_queue,cl_mem buffer,cl_boo
     char id = 0x0A;
     struct sockaddr_in addr;
     void * buffer_data_request = NULL,  *header = NULL,*ptr_ = NULL;
-    int fd = 0, size_buffer_data_request = 0, size_buffer_data_reply = 0, offset_buffer = 0;
+    int fd = 0; size_t  size_buffer_data_request = 0; int size_buffer_data_reply = 0; size_t offset_buffer = 0;
 #if DEBUG ==0
     gettimeofday(&t0, NULL);
 #endif
@@ -105,24 +104,25 @@ ptr_ = lookup_object(buffer);
         if (size > 0) {
             size_buffer_data_request += size;
         }
+
 #if PROTOCOL == 1
     size_buffer_data_request+=SIZE_HEADER_TCP;
 #endif
-
     buffer_data_request = malloc(size_buffer_data_request);
-
+   void * x =  buffer_data_request;
 #if PROTOCOL == 1
 
     _ccl_memcpy(buffer_data_request, &id, sizeof (char), &offset_buffer);
     buffer_data_request += sizeof (char);
 
-    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (int), &offset_buffer);
-    buffer_data_request += sizeof (int);
+    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (size_t), &offset_buffer);
+    buffer_data_request += sizeof (size_t);
+
 
 #endif
-      
         _ccl_memcpy(buffer_data_request, &ccl_request, sizeof (ccl_request), &offset_buffer);
         buffer_data_request += sizeof (ccl_request);
+
 #if DEBUG ==0 
         gettimeofday(&t1, NULL);
         milisecconds = t0.tv_sec*1000LL+t0.tv_usec/1000;
@@ -143,8 +143,9 @@ ptr_ = lookup_object(buffer);
                   ss[ii]=obj->object_remote;
              }
             
-            _ccl_memcpy(buffer_data_request, ss, sizeof (cl_event) * num_events_in_wait_list, &offset_buffer);
+            _ccl_memcpy(buffer_data_request, ss,( sizeof (cl_event) * num_events_in_wait_list), &offset_buffer);
             buffer_data_request += (sizeof (cl_event) * num_events_in_wait_list);
+
         }
 #if DEBUG ==0        
         gettimeofday(&t1, NULL);
@@ -160,6 +161,7 @@ ptr_ = lookup_object(buffer);
            void *ss = (void*) ptr;
            _ccl_memcpy(buffer_data_request, ss, size, &offset_buffer);
             buffer_data_request += size;
+
         }
 #if DEBUG ==0
         gettimeofday(&t1, NULL);
@@ -167,9 +169,9 @@ ptr_ = lookup_object(buffer);
         milisecconds1 = t1.tv_sec*1000LL+t1.tv_usec/1000;
         printf("-- rOpenCL (DEBUG): Size mensagem %d. Tempo gasto para o memcopy do ptr %ld (ms) -- \n", size, milisecconds1-milisecconds);
 #endif
-        buffer_data_request -= offset_buffer;
+        //buffer_data_request = buffer_data_request- offset_buffer;
+	buffer_data_request = x;
         size_buffer_data_reply = sizeof (ccl_reply);
-        
         #if DEBUG ==0
         gettimeofday(&t1_1, NULL);
         milisecconds = t0_0.tv_sec*1000LL+t0_0.tv_usec/1000;
@@ -233,6 +235,7 @@ ptr_ = lookup_object(buffer);
         gettimeofday(&t0, NULL);
         free(header);
 #endif
+
         free(buffer_data_request);
         if ((ccl_reply.result == CL_SUCCESS) && (event != NULL)) 
         {
@@ -250,6 +253,7 @@ ptr_ = lookup_object(buffer);
         milisecconds1 = t1.tv_sec*1000LL+t1.tv_usec/1000;
         printf("-- rOpenCL (DEBUG): Size mensagem %d. Tempo gasto no tratamento da resposta do daemon %ld (ms) -- \n", size, milisecconds1-milisecconds);
 #endif
+
     return (ccl_reply.result); 
  
 }

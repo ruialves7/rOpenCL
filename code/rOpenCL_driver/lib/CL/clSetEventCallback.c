@@ -9,7 +9,7 @@ void * user_data ) CL_API_SUFFIX__VERSION_1_1
     char id = 0x6A;
     struct sockaddr_in addr;
     void *ptr = NULL, * buffer_data_request = NULL, *header = NULL;
-    int fd = 0, size_buffer_data_request = 0, offset_buffer = 0;
+    int fd = 0; size_t size_buffer_data_request = 0; int offset_buffer = 0;
 
     ptr = lookup_object(event);
    
@@ -38,7 +38,6 @@ void * user_data ) CL_API_SUFFIX__VERSION_1_1
 
     if(!ccl_request.isnull) 
        	ccl_request.callback = (uintptr_t)pfn_notify;
-
  
     struct
     {
@@ -59,8 +58,8 @@ void * user_data ) CL_API_SUFFIX__VERSION_1_1
     _ccl_memcpy(buffer_data_request, &id, sizeof (char), &offset_buffer);
     buffer_data_request += sizeof (char);
 
-    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (int), &offset_buffer);
-    buffer_data_request += sizeof (int);
+    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (size_t), &offset_buffer);
+    buffer_data_request += sizeof (size_t);
 
 #endif
 

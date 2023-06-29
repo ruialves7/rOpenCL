@@ -19,7 +19,7 @@ POname(clGetPlatformInfo)(cl_platform_id platform,cl_platform_info param_name, s
         char id = 0x03;
         struct sockaddr_in addr;
         void * buffer_data_request = NULL, *buffer_data_reply = NULL, *header = NULL,*ptr = NULL;
-        int fd = 0, size_buffer_data_request = 0, size_buffer_data_reply = 0, offset_buffer = 0;
+        int fd = 0; size_t size_buffer_data_request = 0; int size_buffer_data_reply = 0, offset_buffer = 0;
         cl_int result;
         size_t _param_value_size_ret;
         void * _param_value = NULL;
@@ -51,8 +51,8 @@ POname(clGetPlatformInfo)(cl_platform_id platform,cl_platform_info param_name, s
     _ccl_memcpy(buffer_data_request, &id, sizeof (char), &offset_buffer);
     buffer_data_request += sizeof (char);
 
-    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (int), &offset_buffer);
-    buffer_data_request += sizeof (int);
+    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (size_t), &offset_buffer);
+    buffer_data_request += sizeof (size_t);
 
 #endif
 

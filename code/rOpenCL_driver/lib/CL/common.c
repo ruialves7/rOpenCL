@@ -37,7 +37,7 @@ int _ccl_connect_to_daemons()
     struct sockaddr_in addr_local, addr_rDaemon;
     char ip[16], id = 0x00, * id_transaction = NULL;
     void * buffer_data_request = NULL, *buffer_data_reply = NULL,* header = NULL;
-    int fd = 0, size_buffer_data_request = 0, size_buffer_data_reply = 0, count = 0,i=0;;
+    int fd = 0;size_t size_buffer_data_request = 0; int size_buffer_data_reply = 0, count = 0,i=0;;
 
     int return_f = fscanf(fp, "%d", &mtu);
     fseek(fp, return_f, SEEK_CUR);
@@ -64,7 +64,7 @@ int _ccl_connect_to_daemons()
 
 memcpy(buffer_data_request, &id, sizeof (char));
 
-    memcpy(buffer_data_request+sizeof(char), &size_buffer_data_request, sizeof (int));
+    memcpy(buffer_data_request+sizeof(char), &size_buffer_data_request, sizeof (size_t));
    
 
  //   memcpy(buffer_data_request+sizeof(int), &id, sizeof (char));
@@ -142,11 +142,11 @@ void _ccl_perror_and_exit(char*str) {
 }
 
 
-void _ccl_check_size_data(int real, int theorical, char *primitives, int operation) {
+void _ccl_check_size_data(size_t real, size_t theorical, char *primitives, int operation) {
     
     if (real >= 0) {
         if (real != theorical) {
-            printf("An error has occurred\nReal data:%d\n Theorical data:%d\n Primitive: %s\n Operation:%d\n", real, theorical, primitives, operation);
+            printf("An error has occurred\nReal data:%ld\n Theorical data:%ld\n Primitive: %s\n Operation:%d\n", real, theorical, primitives, operation);
             exit(0);
         }
     } else {
@@ -167,7 +167,6 @@ void *clCallbackclSetEventCallck(void *arg)
 {
   int socketfd = (long) ((int *) arg);
   struct sockaddr_in cli;
-
  struct
   {
       cl_event event;
@@ -185,10 +184,11 @@ void *clCallbackclSetEventCallck(void *arg)
      puts("server accept failed \n");
      exit(0);
    }
- 
+
    int rec = recv(connsfd,&ccl_request,sizeof(ccl_request),0);
    close(connsfd);
    close(socketfd);
+
    void (*func)(cl_event,cl_int,void*)=(void*)ccl_request.callback;
   
    (*func)(ccl_request.event,ccl_request.event_command_status,NULL);

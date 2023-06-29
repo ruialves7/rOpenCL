@@ -10,7 +10,7 @@ POname(clCreateContext)(const cl_context_properties * properties, cl_uint num_de
         char id = 0x06;
         struct sockaddr_in addr;
         void * buffer_data_request = NULL, *buffer_data_reply = NULL, *header = NULL, *ptr =  NULL;
-        int p=0,fd = 0, size_buffer_data_request = 0, size_buffer_data_reply = 0, offset_buffer = 0, num_properties = 0;
+        int p=0,fd = 0; size_t size_buffer_data_request = 0; int size_buffer_data_reply = 0, offset_buffer = 0, num_properties = 0;
 
         cl_context result_;
         cl_int errcode_ret_;
@@ -77,8 +77,8 @@ POname(clCreateContext)(const cl_context_properties * properties, cl_uint num_de
     _ccl_memcpy(buffer_data_request, &id, sizeof (char), &offset_buffer);
     buffer_data_request += sizeof (char);
 
-    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (int), &offset_buffer);
-    buffer_data_request += sizeof (int);
+    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (size_t), &offset_buffer);
+    buffer_data_request += sizeof (size_t);
 
 #endif
 

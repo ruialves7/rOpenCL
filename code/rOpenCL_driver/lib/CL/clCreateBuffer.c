@@ -8,7 +8,7 @@ puts("--- Start execute clCreateBuffer primitive\n ---");
         char id = 0x08;
         struct sockaddr_in addr;
         void * buffer_data_request = NULL, *buffer_data_reply = NULL, *header = NULL, *ptr = NULL;
-        int fd = 0, size_buffer_data_request = 0, size_buffer_data_reply = 0, offset_buffer = 0;
+        int fd = 0; size_t size_buffer_data_request = 0; int size_buffer_data_reply = 0,  offset_buffer = 0;
  
         cl_mem result_;
         cl_int errcode_ret_;
@@ -56,8 +56,8 @@ puts("--- Start execute clCreateBuffer primitive\n ---");
     _ccl_memcpy(buffer_data_request, &id, sizeof (char), &offset_buffer);
     buffer_data_request += sizeof (char);
 
-    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (int), &offset_buffer);
-    buffer_data_request += sizeof (int);
+    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (size_t), &offset_buffer);
+    buffer_data_request += sizeof (size_t);
 
 #endif
         
@@ -98,7 +98,6 @@ puts("--- Start execute clCreateBuffer primitive\n ---");
         recv_data_tcp(&fd, &ccl_reply, sizeof(ccl_reply), "clCreateBuffer");
         closeSocketTCP(&fd,&fd_connect);
 #endif
-        free(header);
         free(buffer_data_request);
  
         if (ccl_reply.errcode_ret == CL_SUCCESS)

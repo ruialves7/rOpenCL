@@ -5,11 +5,10 @@ POname (clBuildProgram) (cl_program program, cl_uint num_devices, const cl_devic
 #if DEBUG == 0
 puts("--- Start execute clBuildProgram primitive\n ---");    
 #endif
-    
     char id = 0x0C;
     struct sockaddr_in addr;
     void * buffer_data_request = NULL, *header = NULL, *ptr = NULL;
-    int size_options = 0, fd = 0, size_buffer_data_request = 0, offset_buffer = 0;
+    int size_options = 0, fd = 0; size_t size_buffer_data_request = 0; int offset_buffer = 0;
 
     cl_opencl_object * obj = NULL;
     ptr = lookup_object(program);
@@ -54,8 +53,8 @@ puts("--- Start execute clBuildProgram primitive\n ---");
     _ccl_memcpy(buffer_data_request, &id, sizeof (char), &offset_buffer);
     buffer_data_request += sizeof (char);
 
-    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (int), &offset_buffer);
-    buffer_data_request += sizeof (int);
+    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (size_t), &offset_buffer);
+    buffer_data_request += sizeof (size_t);
 
 #endif
 

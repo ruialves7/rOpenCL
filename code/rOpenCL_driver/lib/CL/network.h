@@ -14,7 +14,6 @@
 #ifndef NETWORK_H
 #define NETWORK_H
 #include"common.h"
-
 void init_udp(int * fd_descriptor, struct sockaddr_in *addr_host, struct sockaddr_in *addr_rDaemon, char * primitive) ;
 int  init_tcp(int * fd_descriptor, struct sockaddr_in *addr, char * primitive);
 void * build_header_udp(char id, int part_of_transaction, int total_packets, int size_total, char *id_transaction, struct sockaddr_in *addr);
@@ -22,7 +21,7 @@ void * build_header_tcp(char id, int *size_total);
 char * generate_uuid_transaction(char *ip, int pid, int tid);
 void setNrPacketHeader(void *header, int number);
 void send_data_udp(int * fd, void * buffer, void * header, int size, struct sockaddr_in *addr, char * primitive);
-void send_data_tcp(int * fd, void * buffer, void * header, int size, char * primitive);
+void send_data_tcp(int * fd, void * buffer, void * header, size_t size, char * primitive);
 int recv_data_udp(int * fd, void * buffer, int size, char * primitive);
 int recv_data_tcp(int * fd, void * buffer, int size, char * primitive);
 int closeSocketUdp(int *fd);

@@ -34,7 +34,7 @@ POname(clGetPlatformIDs)(cl_uint num_entries, cl_platform_id * platforms,cl_uint
             cl_uint fill_num_entries = 0, num_platforms_returned = 0;
             void * buffer_data_request = NULL, *buffer_data_reply = NULL, *header = NULL, *ptr = NULL;
             cl_opencl_object * obj = NULL;
-            int fd = 0, i = 0, size_buffer_data_request = 0, size_buffer_data_reply = 0, offset_buffer = 0;
+            int fd = 0, i = 0;size_t size_buffer_data_request = 0; int size_buffer_data_reply = 0, offset_buffer = 0;
 
 
             size_buffer_data_request = sizeof (cl_uint);

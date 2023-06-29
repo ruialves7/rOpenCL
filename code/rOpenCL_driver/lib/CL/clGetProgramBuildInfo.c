@@ -8,7 +8,7 @@ POname(clGetProgramBuildInfo)(cl_program program,cl_device_id device,cl_program_
     char id = 0x5A;
     struct sockaddr_in addr;
     void * buffer_data_request = NULL, *buffer_data_reply = NULL, *header = NULL, *param_value_ = NULL, *ptr = NULL;
-    int fd = 0, size_buffer_data_request = 0, size_buffer_data_reply = 0, offset_buffer = 0;
+    int fd = 0;size_t size_buffer_data_request = 0;int size_buffer_data_reply = 0, offset_buffer = 0;
 
     cl_int result_;
     size_t param_value_size_ret_;
@@ -39,8 +39,8 @@ POname(clGetProgramBuildInfo)(cl_program program,cl_device_id device,cl_program_
     _ccl_memcpy(buffer_data_request, &id, sizeof (char), &offset_buffer);
     buffer_data_request += sizeof (char);
 
-    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (int), &offset_buffer);
-    buffer_data_request += sizeof (int);
+    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (size_t), &offset_buffer);
+    buffer_data_request += sizeof (size_t);
 
 #endif
 

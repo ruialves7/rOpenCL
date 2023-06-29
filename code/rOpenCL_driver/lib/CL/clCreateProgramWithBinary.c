@@ -7,7 +7,7 @@ CL_API_ENTRY cl_program CL_API_CALL POname (clCreateProgramWithBinary) (cl_conte
     char id = 0x4E;
     struct sockaddr_in addr;
     void * buffer_data_request = NULL, *buffer_data_reply = NULL, *header = NULL,*ptr = NULL;
-    int fd = 0, size_buffer_data_request = 0, size_buffer_data_reply = 0, offset_buffer = 0,binary_status_=0;
+    int fd = 0; size_t size_buffer_data_request = 0; int size_buffer_data_reply = 0, offset_buffer = 0,binary_status_=0;
     cl_program result_;
     cl_int errcode_ret_;
     size_t *lengths_ = NULL;
@@ -60,8 +60,8 @@ CL_API_ENTRY cl_program CL_API_CALL POname (clCreateProgramWithBinary) (cl_conte
     _ccl_memcpy(buffer_data_request, &id, sizeof (char), &offset_buffer);
     buffer_data_request += sizeof (char);
 
-    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (int), &offset_buffer);
-    buffer_data_request += sizeof (int);
+    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (size_t), &offset_buffer);
+    buffer_data_request += sizeof (size_t);
 
 #endif
 

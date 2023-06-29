@@ -3,12 +3,12 @@ extern CL_API_ENTRY cl_int CL_API_CALL
 POname(clGetKernelWorkGroupInfo)(cl_kernel kernel,cl_device_id device,cl_kernel_work_group_info param_name,size_t param_value_size,void *param_value,size_t * param_value_size_ret)CL_API_SUFFIX__VERSION_1_0
 {
 #if DEBUG == 0
-        puts("--- Start execute clGetKernelInfo primitive\n ---");    
+        puts("--- Start execute clGetKernelWorkGroupInfo primitive\n ---");    
 #endif
     char id = 0x66;
     struct sockaddr_in addr;
     void * buffer_data_request = NULL, *buffer_data_reply = NULL, *header = NULL,*ptr = NULL;
-    int fd = 0, size_buffer_data_request = 0, size_buffer_data_reply = 0, offset_buffer = 0;
+    int fd = 0; size_t size_buffer_data_request = 0; int size_buffer_data_reply = 0, offset_buffer = 0;
 
     cl_int result;
     size_t _param_value_size_ret;
@@ -37,8 +37,8 @@ POname(clGetKernelWorkGroupInfo)(cl_kernel kernel,cl_device_id device,cl_kernel_
     _ccl_memcpy(buffer_data_request, &id, sizeof (char), &offset_buffer);
     buffer_data_request += sizeof (char);
 
-    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (int), &offset_buffer);
-    buffer_data_request += sizeof (int);
+    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (size_t), &offset_buffer);
+    buffer_data_request += sizeof (size_t);
 
 #endif
 
@@ -111,7 +111,8 @@ POname(clGetKernelWorkGroupInfo)(cl_kernel kernel,cl_device_id device,cl_kernel_
         buffer_data_reply -= offset_buffer;
         free(buffer_data_reply);
 
-        if (result == CL_SUCCESS) {
+        if (result == CL_SUCCESS) 
+	{
             if (param_value_size_ret != NULL)
                 *param_value_size_ret = _param_value_size_ret;
 

@@ -16,14 +16,14 @@ void init_udp(int * fd_descriptor, struct sockaddr_in *addr_host, struct sockadd
     //vai a procura da chave na key que guardar os sockets 
     char * key = malloc(sizeof(char)*32);
     memset( key, '\0', sizeof(char)*32);
-    char tid_str[10];
+    char tid_str[6];
     
     int ch = '.';
     char *ptr = NULL;
     
     //Get the tid of the current thread
     pid_t tid = syscall(SYS_gettid);
-    snprintf(tid_str, 10, "%d", tid);
+    snprintf(tid_str, 6, "%d", tid);
 
     //Get the ip address of the remote node to connect.
     char *ip = (char*)inet_ntoa(addr_rDaemon->sin_addr);
@@ -96,24 +96,22 @@ int init_tcp(int * fd_descriptor, struct sockaddr_in * addr, char * primitive)
 
     char * key = malloc(sizeof(char)*32);
     memset( key, '\0', sizeof(char)*32);
-    char tid_str[6];
+    char tid_str[12];
     
     int ch = '.';
     char *ptr = NULL;
     
     //Get the tid of the current thread
     pid_t tid = syscall(SYS_gettid);
-    snprintf(tid_str, 6, "%d", tid);
+
+    snprintf(tid_str, 12, "%d", tid);
 
     //Get the ip address of the remote node to connect.
     char *ip = (char*)inet_ntoa(addr->sin_addr);
     strcat(key, ip);
     strcat(key, tid_str);
-    
+    void *xx = lookup_descriptor(key);
 
-  void *xx = lookup_descriptor(key);
-
-  
   if(xx!=NULL)
   {
       cl_descriptor_object *p = *(cl_descriptor_object**)xx;
@@ -123,6 +121,7 @@ int init_tcp(int * fd_descriptor, struct sockaddr_in * addr, char * primitive)
       
   }else
   {
+
     int return_sendto=0;
     *fd_descriptor = socket(AF_INET, SOCK_STREAM, 0);
     if (*fd_descriptor < 0)
@@ -382,12 +381,13 @@ void send_data_udp(int *fd, void * buffer, void*header, int size, struct sockadd
     free(block_send);
 }
 
-void send_data_tcp(int *fd, void * buffer, void * header, int size, char * primitive) {
+void send_data_tcp(int *fd, void * buffer, void * header, size_t size, char * primitive) {
+
 #if DEBUG ==0
     struct timeval t0,t1;
     gettimeofday(&t0, NULL);
 #endif
-    int return_sendto = 0;
+    size_t return_sendto = 0;
     
 #if DEBUG ==0
     gettimeofday(&t1, NULL);
@@ -398,7 +398,24 @@ void send_data_tcp(int *fd, void * buffer, void * header, int size, char * primi
 	//if(size<10000) 
         //    return_sendto = send(*fd, buffer, size, 0);
      	//else
+	if(size<2147479552)
+        {
 	     return_sendto = send(*fd, buffer, size, 0 );
+        } else
+	{
+		size_t sent=0;
+		while(1)
+		{
+			return_sendto = send(*fd, buffer+sent, size-sent, 0 );
+			sent+=return_sendto;
+			if(sent>=size)
+		        {
+                        	return_sendto = sent;
+				break;
+                        }	
+		}
+	
+	}
 #if DEBUG ==0      
   gettimeofday(&t0, NULL);
         milisecconds = t0.tv_sec*1000LL+t0.tv_usec/1000;
@@ -463,19 +480,19 @@ int recv_data_udp(int *fd, void * buffer, int size, char * primitive) {
 
 int recv_data_tcp(int *fd, void * buffer, int size, char * primitive) {    
     int size_read = 0, return_sendto = 0, size_recv = 0, offset_total = 0;
-
+   
     return_sendto = recv(*fd, &size_recv, sizeof(int), 0);
     
-    size_recv = size_recv-sizeof(int);
-    return_sendto = recv(*fd, buffer, size_recv/*-sizeof(int)*/, 0);
+    int rsize = size_recv-sizeof(int);
+
+    return_sendto = recv(*fd, buffer, rsize, 0);
     offset_total += return_sendto;
   
-    while (offset_total < size_recv) 
+    while (offset_total < rsize) 
     {
-         return_sendto = recv(*fd, buffer + offset_total, size_recv-offset_total, 0);
+         return_sendto = recv(*fd, buffer + offset_total, rsize-offset_total, 0);
          offset_total += return_sendto;
     }
-
     return 0;
     
     /**

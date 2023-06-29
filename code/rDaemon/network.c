@@ -69,35 +69,27 @@ void send_data_udp(int *fd, void * buffer, int size, struct sockaddr_in *addr, c
 
 void send_data_tcp(int *fd, void * buffer, int size, struct sockaddr_in *addr, char * primitive) {
 
-   int return_sendto = 0, offset_send = 0;
-
-if(strcmp(primitive,"_cclEnqueueMapBuffer")!=0 && strcmp(primitive,"_cclEnqueueReadBuffer")!=0)
-{    
-    size += sizeof (int);
-    
-    void * block_send = malloc(size);
-
+   int return_sendto = 0;
+   if(strcmp(primitive,"_cclEnqueueMapBuffer")!=0 && strcmp(primitive,"_cclEnqueueReadBuffer")!=0)
+   {
+	size = size+sizeof(int);
+        void * block_send = malloc(size);
+   
     memcpy(block_send, &size, sizeof (int));
-    offset_send += sizeof (int);
-    block_send += sizeof (int);
-
-    memcpy(block_send, buffer, (size - sizeof (int)));
-    offset_send += (size - sizeof (int));
-    block_send += (size - sizeof (int));
-
+    memcpy(block_send+sizeof(int), buffer, size-sizeof(int));
     
-    block_send -= offset_send;
-     return_sendto = send(*fd, block_send, size, 0);
- } else {
-//struct timeval t0, t1;
-//gettimeofday(&t0, NULL);
-return_sendto = send(*fd, buffer, size, 0); 
-//gettimeofday(&t1, NULL);
-//unsigned long long tu0 = (unsigned long long)t0.tv_sec*1000000L+(unsigned long long)t0.tv_usec;
-//unsigned long long      tu1 = (unsigned long long)t1.tv_sec*1000000L+(unsigned long long)t1.tv_usec;
-  //      printf("send=%.3lfs\n", (tu1 - tu0) / 1000000.0);  
-}
-    _ccl_check_size_data(return_sendto, size, primitive, 1);
+    return_sendto = send(*fd, block_send, size, 0);
+	
+    free(block_send);
+ 
+ 
+ } else 
+ {
+   return_sendto = send(*fd, buffer, size, 0); 
+ }
+  
+//printf("%s: Send  size:%d bytes Primitive Size %d bytes Enviado %d bytes\n",primitive, ssize, size, return_sendto); 
+_ccl_check_size_data(return_sendto, size, primitive, 1);
 }
 
 

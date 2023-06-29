@@ -2,17 +2,22 @@
 CL_API_ENTRY cl_int CL_API_CALL
 POname(clEnqueueReadBuffer)(cl_command_queue command_queue,cl_mem buffer,cl_bool blocking_read,size_t offset,size_t size,void *ptr,cl_uint num_events_in_wait_list,const cl_event *event_wait_list,cl_event *event) CL_API_SUFFIX__VERSION_1_0
 {
+
+
+	if(blocking_read==CL_FALSE)
+	{	
+		puts("clEnqueueReadBuffer CL_FALSE not supported\n");
+		blocking_read = CL_TRUE;
+	
+	}
+
 #if DEBUG == 0
         puts("--- Start execute clEnqueueReadBuffer primitive\n ---");    
 #endif
-    if(blocking_read==CL_FALSE)
-    {
-        blocking_read=CL_TRUE;
-        puts("-- clEnqueueReadBuffer primitive blocking_read is CL_FALSE -> operation not supportaded---");
-    }    char id = 0x09;
+    char id = 0x09;
     struct sockaddr_in addr;
     void * buffer_data_request = NULL, *buffer_data_reply = NULL, *header = NULL,*ptr_ = NULL;
-    int fd = 0, size_buffer_data_request = 0, size_buffer_data_reply = 0, offset_buffer = 0;
+    int fd = 0; size_t size_buffer_data_request = 0;int size_buffer_data_reply = 0, offset_buffer = 0;
 
     cl_int result_;
     cl_event event_;
@@ -42,7 +47,8 @@ POname(clEnqueueReadBuffer)(cl_command_queue command_queue,cl_mem buffer,cl_bool
            size_t offset;
            size_t size;
            cl_uint num_events_in_wait_list;
-           char event_is_null;   
+           char event_is_null; 
+  
     }ccl_request={.blocking_read=blocking_read,.offset=offset,.size=size,.num_events_in_wait_list=num_events_in_wait_list, .event_is_null=(event== NULL)};
     ccl_request.command_queue = obj->object_remote;
     ptr_ = lookup_object(buffer);
@@ -53,12 +59,15 @@ POname(clEnqueueReadBuffer)(cl_command_queue command_queue,cl_mem buffer,cl_bool
     } else {
         return CL_INVALID_VALUE;
     }
-    
     ccl_request.buffer = obj->object_remote;
-    size_buffer_data_request = sizeof(ccl_request);
+        
+   
+ 
     
-    if (num_events_in_wait_list > 0)
-         size_buffer_data_request += (sizeof (cl_event) * num_events_in_wait_list);
+        size_buffer_data_request = sizeof(ccl_request);
+
+        if (num_events_in_wait_list > 0)
+            size_buffer_data_request += (sizeof (cl_event) * num_events_in_wait_list);
 
 #if PROTOCOL == 1
     size_buffer_data_request+=SIZE_HEADER_TCP;
@@ -71,8 +80,8 @@ POname(clEnqueueReadBuffer)(cl_command_queue command_queue,cl_mem buffer,cl_bool
     _ccl_memcpy(buffer_data_request, &id, sizeof (char), &offset_buffer);
     buffer_data_request += sizeof (char);
 
-    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (int), &offset_buffer);
-    buffer_data_request += sizeof (int);
+    _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof (size_t), &offset_buffer);
+    buffer_data_request += sizeof (size_t);
 
 #endif
 
