@@ -11,7 +11,7 @@ size_t *param_value_size_ret) CL_API_SUFFIX__VERSION_1_0
     char id = 0x10;
     struct sockaddr_in addr;
     void * buffer_data_request = NULL, *buffer_data_reply = NULL, *header = NULL,*ptr = NULL;
-    int fd = 0, size_buffer_data_request = 0, size_buffer_data_reply = 0, offset_buffer = 0;
+    int fd = 0; size_t size_buffer_data_request = 0, size_buffer_data_reply = 0; int offset_buffer = 0;
     ptr = lookup_object(event);
     cl_int result;
     cl_opencl_object * obj = NULL;
