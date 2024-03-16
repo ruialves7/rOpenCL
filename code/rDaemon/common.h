@@ -29,7 +29,7 @@
 #define MAX_NUM_THREADS  2048
 #define CL_PLATFORM_HOSTNAME 0x000
 #define CL_ERROR_NETWORK 0x001
-#define LOCAL_INTERFACE "192.168.45.72"
+#define LOCAL_INTERFACE "192.168.217.197"
 #define PORT 1050
 #define SIZE_TRANSACTION_ID 64
 #define FILL_COLOR 64
@@ -86,7 +86,7 @@ extern pthread_t dispatcher_thread[MAX_NUM_THREADS];
 
 void init_daemon();
 void _ccl_perror_and_exit(char*str);
-void _ccl_check_size_data(int real, int theorical, char *primitives, int operation);
+void _ccl_check_size_data(size_t real, size_t theorical, char *primitives, int operation);
 int _ccl_equals_addr(struct sockaddr_in * s1, struct sockaddr_in * s2);
 //void _ccl_memcpy(void * dst, void *src, int size_data, int * total_offset);
 int compare_network(const void *pa, const void *pb);

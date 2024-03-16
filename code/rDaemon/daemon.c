@@ -760,8 +760,7 @@ void _cclEnqueueNDRangeKernel(void *_request)
     size_t size_buffer_reply = 0, offset_total = 0;
     void *data = NULL;
     int fd_tcp_client = 0;
-    size_t offset_total = 0;
-
+    
     ropencl_primitive_request *request = (ropencl_primitive_request *)_request;
     data = request->data;
     fd_tcp_client = request->fd;
@@ -2212,7 +2211,7 @@ void _cclGetContextInfo(void *_request)
 
     ccl_reply.result = clGetContextInfo(ccl_request.context, ccl_request.param_name, ccl_request.param_value_size, param_value, &ccl_reply.param_value_size_ret);
 
-    size_buffer_reply = sizeof(size_t) sizeof(ccl_reply) + ccl_reply.param_value_size_ret;
+    size_buffer_reply = sizeof(size_t)+sizeof(ccl_reply) + ccl_reply.param_value_size_ret;
 
     buffer_data_reply = malloc(size_buffer_reply);
 
@@ -3326,7 +3325,7 @@ void _cclCompileProgram(void *_request)
     size_buffer_reply = sizeof(size_t) + sizeof(cl_int);
     buffer_data_reply = malloc(size_buffer_reply);
 
-    _ccl_memcpy(buffer_data_reply, &size_buffer_reply, sizeof(size_t)), &offset_total);
+    _ccl_memcpy(buffer_data_reply, &size_buffer_reply, sizeof(size_t), &offset_total);
     buffer_data_reply += sizeof(size_t);
 
     _ccl_memcpy(buffer_data_reply, &result, sizeof(cl_int), &offset_total);
@@ -4849,7 +4848,7 @@ void _cclEnqueueBarrier(void *_request)
     free(buffer_data_reply);
 }
 // Array of the primitives rOpenCL
-void (*handler[])(void *, int, struct sockaddr_in *) = {_connect, _cclGetPlatformIDs, NULL, _cclGetPlatformInfo, _cclGetDeviceIDs, _cclGetDeviceInfo, _cclCreateContext, _cclCreateCommandQueue, _cclCreateBuffer, _cclEnqueueReadBuffer, _cclEnqueueWriteBuffer, _cclCreateProgramWithSource, _cclBuildProgram, _cclCreateKernel, _cclSetKernelArg, _cclEnqueueNDRangeKernel, _cclGetEventProfilingInfo, _cclCreateImage, _cclEnqueueReadImage, _cclEnqueueWriteImage, _cclEnqueueFillImage, _cclEnqueueCopyImage, _cclEnqueueCopyImageToBuffer, _cclEnqueueCopyBufferToImage, NULL, _cclCreateSubBuffer, _cclEnqueueReadBufferRect, _cclEnqueueWriteBufferRect, _cclEnqueueFillBuffer, _cclEnqueueCopyBuffer, _cclEnqueueCopyBufferRect, _cclEnqueueMapImage, NULL, _cclEnqueueMapBuffer, _cclCreateSubDevices, NULL, _cclRetainDevice, _cclReleaseDevice, _cclCreateContextFromType, _cclRetainContext, _cclReleaseContext, _cclGetContextInfo, NULL, _cclGetExtensionFunctionAddressForPlatform, NULL, _cclRetainCommandQueue, _cclReleaseCommandQueue, _cclGetCommandQueueInfo, _cclGetSupportedImageFormats, _cclGetImageInfo, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, _cclFlush, _cclFinish, _cclRetainMemObject, _cclSetMemObjectDestructorCallback, _cclEnqueueUnmapMemObject, _cclReleaseMemObject, _cclCreateSampler, _cclRetainSampler, _cclReleaseSampler, _cclGetSamplerInfo, NULL, _cclCreateProgramWithBinary, _cclCreateProgramWithBuiltInKernels, _cclRetainProgram, _cclReleaseProgram, _cclEnqueueMigrateMemObjects, NULL, NULL, _cclGetMemObjectInfo, _cclCompileProgram, _cclLinkProgram, _cclUnloadPlatformCompiler, _cclGetProgramInfo, _cclGetProgramBuildInfo, _cclCreateKernelsInProgram, _cclRetainKernel, _cclReleaseKernel, NULL, NULL, _cclCreateUserEvent, _cclSetUserEventStatus, _cclWaitForEvents, _cclGetEventInfo, NULL, _cclGetKernelInfo, _cclGetKernelWorkGroupInfo, _cclGetKernelArgInfo, _cclRetainEvent, _cclReleaseEvent, _cclSetEventCallback, _cclEnqueueMarkerWithWaitList, _cclEnqueueBarrierWithWaitList, _cclEnqueueNativeKernel, NULL, _cclEnqueueTask, _cclCreateFromGLBuffer, _cclCreateFromGLTexture, _cclCreateFromGLRenderbuffer, _cclGetGLObjectInfo, _cclGetGLTextureInfo, _cclEnqueueAcquireGLObjects, _cclEnqueueReleaseGLObjects, _cclCreateEventFromGLsyncKHR, _cclGetGLContextInfoKHR, _cclEnqueueMarker, _cclEnqueueBarrier};
+void (*handler[])(void *) = {_connect, _cclGetPlatformIDs, NULL, _cclGetPlatformInfo, _cclGetDeviceIDs, _cclGetDeviceInfo, _cclCreateContext, _cclCreateCommandQueue, _cclCreateBuffer, _cclEnqueueReadBuffer, _cclEnqueueWriteBuffer, _cclCreateProgramWithSource, _cclBuildProgram, _cclCreateKernel, _cclSetKernelArg, _cclEnqueueNDRangeKernel, _cclGetEventProfilingInfo, _cclCreateImage, _cclEnqueueReadImage, _cclEnqueueWriteImage, _cclEnqueueFillImage, _cclEnqueueCopyImage, _cclEnqueueCopyImageToBuffer, _cclEnqueueCopyBufferToImage, NULL, _cclCreateSubBuffer, _cclEnqueueReadBufferRect, _cclEnqueueWriteBufferRect, _cclEnqueueFillBuffer, _cclEnqueueCopyBuffer, _cclEnqueueCopyBufferRect, _cclEnqueueMapImage, NULL, _cclEnqueueMapBuffer, _cclCreateSubDevices, NULL, _cclRetainDevice, _cclReleaseDevice, _cclCreateContextFromType, _cclRetainContext, _cclReleaseContext, _cclGetContextInfo, NULL, _cclGetExtensionFunctionAddressForPlatform, NULL, _cclRetainCommandQueue, _cclReleaseCommandQueue, _cclGetCommandQueueInfo, _cclGetSupportedImageFormats, _cclGetImageInfo, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, _cclFlush, _cclFinish, _cclRetainMemObject, _cclSetMemObjectDestructorCallback, _cclEnqueueUnmapMemObject, _cclReleaseMemObject, _cclCreateSampler, _cclRetainSampler, _cclReleaseSampler, _cclGetSamplerInfo, NULL, _cclCreateProgramWithBinary, _cclCreateProgramWithBuiltInKernels, _cclRetainProgram, _cclReleaseProgram, _cclEnqueueMigrateMemObjects, NULL, NULL, _cclGetMemObjectInfo, _cclCompileProgram, _cclLinkProgram, _cclUnloadPlatformCompiler, _cclGetProgramInfo, _cclGetProgramBuildInfo, _cclCreateKernelsInProgram, _cclRetainKernel, _cclReleaseKernel, NULL, NULL, _cclCreateUserEvent, _cclSetUserEventStatus, _cclWaitForEvents, _cclGetEventInfo, NULL, _cclGetKernelInfo, _cclGetKernelWorkGroupInfo, _cclGetKernelArgInfo, _cclRetainEvent, _cclReleaseEvent, _cclSetEventCallback, _cclEnqueueMarkerWithWaitList, _cclEnqueueBarrierWithWaitList, _cclEnqueueNativeKernel, NULL, _cclEnqueueTask, _cclCreateFromGLBuffer, _cclCreateFromGLTexture, _cclCreateFromGLRenderbuffer, _cclGetGLObjectInfo, _cclGetGLTextureInfo, _cclEnqueueAcquireGLObjects, _cclEnqueueReleaseGLObjects, _cclCreateEventFromGLsyncKHR, _cclGetGLContextInfoKHR, _cclEnqueueMarker, _cclEnqueueBarrier};
 
 void *worker_tcp(void *arg)
 {
@@ -4912,7 +4911,7 @@ void *worker_tcp(void *arg)
         printf("-- TCP: Theorical size %d bytes : Real size %d bytes from %s [reqid=0x%02X] -- \n", size_recv, offset_total, ip, id);
 #endif
 
-        handler[((int)(request.id))](&request, 1);
+        handler[((int)(request.id))](&request);
 
 #if DEBUG == 1
         gettimeofday(&t1, NULL);
@@ -4927,7 +4926,7 @@ void *worker_tcp(void *arg)
 
 void *get_primitves_network_tcp(void *arg)
 {
-    int len = sizeof(cli_tcp), fd_client, threads = __MAC_10_11_4;
+    int len = sizeof(cli_tcp), fd_client, threads = 2;
     fd_tcp = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
     if (fd_tcp == -1)
     {
