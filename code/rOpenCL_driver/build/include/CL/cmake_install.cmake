@@ -1,4 +1,4 @@
-# Install script for directory: /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/include/CL
+# Install script for directory: /home/ruialves/rOpenCL/code/rOpenCL_driver/include/CL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

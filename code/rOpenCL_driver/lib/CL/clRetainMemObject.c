@@ -11,7 +11,7 @@ POname(clRetainMemObject)(cl_mem memobj) CL_API_SUFFIX__VERSION_1_0
     struct sockaddr_in addr;
     void *buffer_data_request = NULL, *ptr = NULL;
     int fd = 0;
-    size_t size_buffer_data_request = 0, int offset_buffer = 0;
+    size_t size_buffer_data_request = 0, offset_buffer = 0;
 
     ptr = lookup_object(memobj);
     cl_int result;

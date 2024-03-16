@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver
+CMAKE_SOURCE_DIR = /home/ruialves/rOpenCL/code/rOpenCL_driver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build
+CMAKE_BINARY_DIR = /home/ruialves/rOpenCL/code/rOpenCL_driver/build
 
 # Include any dependencies generated for this target.
 include lib/CL/CMakeFiles/rOpenCL.dir/depend.make
@@ -74,112 +74,112 @@ rOpenCL_OBJECTS =
 
 # External object files for target rOpenCL
 rOpenCL_EXTERNAL_OBJECTS = \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/network.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/storage.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/common.c.o" \
-"/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.o"
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/network.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/storage.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/common.c.o" \
+"/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.o"
 
 lib/CL/librOpenCL.so: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.o
 lib/CL/librOpenCL.so: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.o
@@ -289,18 +289,18 @@ lib/CL/librOpenCL.so: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/common.c.o
 lib/CL/librOpenCL.so: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.o
 lib/CL/librOpenCL.so: lib/CL/CMakeFiles/rOpenCL.dir/build.make
 lib/CL/librOpenCL.so: lib/CL/CMakeFiles/rOpenCL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking C shared library librOpenCL.so"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rOpenCL.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking C shared library librOpenCL.so"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rOpenCL.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/CL/CMakeFiles/rOpenCL.dir/build: lib/CL/librOpenCL.so
 .PHONY : lib/CL/CMakeFiles/rOpenCL.dir/build
 
 lib/CL/CMakeFiles/rOpenCL.dir/clean:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && $(CMAKE_COMMAND) -P CMakeFiles/rOpenCL.dir/cmake_clean.cmake
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && $(CMAKE_COMMAND) -P CMakeFiles/rOpenCL.dir/cmake_clean.cmake
 .PHONY : lib/CL/CMakeFiles/rOpenCL.dir/clean
 
 lib/CL/CMakeFiles/rOpenCL.dir/depend:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/rOpenCL.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ruialves/rOpenCL/code/rOpenCL_driver /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL /home/ruialves/rOpenCL/code/rOpenCL_driver/build /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/rOpenCL.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/CL/CMakeFiles/rOpenCL.dir/depend
 

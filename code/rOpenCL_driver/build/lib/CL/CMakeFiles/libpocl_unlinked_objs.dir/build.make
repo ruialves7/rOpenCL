@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver
+CMAKE_SOURCE_DIR = /home/ruialves/rOpenCL/code/rOpenCL_driver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build
+CMAKE_BINARY_DIR = /home/ruialves/rOpenCL/code/rOpenCL_driver/build
 
 # Include any dependencies generated for this target.
 include lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/depend.make
@@ -72,1486 +72,1486 @@ include lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.o: ../lib/CL/clCreateContextFromType.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateContextFromType.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateContextFromType.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateContextFromType.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateContextFromType.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateContextFromType.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateContextFromType.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.o: ../lib/CL/clReleaseContext.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clReleaseContext.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clReleaseContext.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clReleaseContext.c > CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clReleaseContext.c > CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clReleaseContext.c -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clReleaseContext.c -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.o: ../lib/CL/clRetainContext.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clRetainContext.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clRetainContext.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clRetainContext.c > CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clRetainContext.c > CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clRetainContext.c -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clRetainContext.c -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.o: ../lib/CL/clGetContextInfo.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetContextInfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetContextInfo.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetContextInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetContextInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetContextInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetContextInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.o: ../lib/CL/clCreateCommandQueue.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateCommandQueue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateCommandQueue.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateCommandQueue.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateCommandQueue.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateCommandQueue.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateCommandQueue.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.o: ../lib/CL/clCreateCommandQueueWithProperties.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateCommandQueueWithProperties.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateCommandQueueWithProperties.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateCommandQueueWithProperties.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateCommandQueueWithProperties.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateCommandQueueWithProperties.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateCommandQueueWithProperties.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.o: ../lib/CL/clReleaseCommandQueue.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clReleaseCommandQueue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clReleaseCommandQueue.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clReleaseCommandQueue.c > CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clReleaseCommandQueue.c > CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clReleaseCommandQueue.c -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clReleaseCommandQueue.c -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.o: ../lib/CL/clRetainCommandQueue.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clRetainCommandQueue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clRetainCommandQueue.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clRetainCommandQueue.c > CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clRetainCommandQueue.c > CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clRetainCommandQueue.c -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clRetainCommandQueue.c -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.o: ../lib/CL/clGetCommandQueueInfo.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetCommandQueueInfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetCommandQueueInfo.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetCommandQueueInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetCommandQueueInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetCommandQueueInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetCommandQueueInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.o: ../lib/CL/clCreateBuffer.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateBuffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateBuffer.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateBuffer.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateBuffer.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateBuffer.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateBuffer.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.o: ../lib/CL/clCreateSubBuffer.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateSubBuffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateSubBuffer.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateSubBuffer.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateSubBuffer.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateSubBuffer.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateSubBuffer.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.o: ../lib/CL/clEnqueueFillImage.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueFillImage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueFillImage.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueFillImage.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueFillImage.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueFillImage.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueFillImage.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.o: ../lib/CL/clEnqueueFillBuffer.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueFillBuffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueFillBuffer.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueFillBuffer.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueFillBuffer.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueFillBuffer.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueFillBuffer.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.o: ../lib/CL/clEnqueueReadBuffer.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueReadBuffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueReadBuffer.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueReadBuffer.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueReadBuffer.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueReadBuffer.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueReadBuffer.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.o: ../lib/CL/clEnqueueReadBufferRect.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueReadBufferRect.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueReadBufferRect.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueReadBufferRect.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueReadBufferRect.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueReadBufferRect.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueReadBufferRect.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.o: ../lib/CL/clEnqueueMapBuffer.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueMapBuffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueMapBuffer.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueMapBuffer.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueMapBuffer.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueMapBuffer.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueMapBuffer.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.o: ../lib/CL/clEnqueueUnmapMemObject.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueUnmapMemObject.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueUnmapMemObject.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueUnmapMemObject.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueUnmapMemObject.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueUnmapMemObject.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueUnmapMemObject.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.o: ../lib/CL/clEnqueueMarkerWithWaitList.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueMarkerWithWaitList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueMarkerWithWaitList.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueMarkerWithWaitList.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueMarkerWithWaitList.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueMarkerWithWaitList.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueMarkerWithWaitList.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.o: ../lib/CL/clEnqueueBarrierWithWaitList.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueBarrierWithWaitList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueBarrierWithWaitList.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueBarrierWithWaitList.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueBarrierWithWaitList.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueBarrierWithWaitList.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueBarrierWithWaitList.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.o: ../lib/CL/clReleaseMemObject.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clReleaseMemObject.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clReleaseMemObject.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clReleaseMemObject.c > CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clReleaseMemObject.c > CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clReleaseMemObject.c -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clReleaseMemObject.c -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.o: ../lib/CL/clRetainMemObject.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clRetainMemObject.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clRetainMemObject.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clRetainMemObject.c > CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clRetainMemObject.c > CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clRetainMemObject.c -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clRetainMemObject.c -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.o: ../lib/CL/clGetMemObjectInfo.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetMemObjectInfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetMemObjectInfo.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetMemObjectInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetMemObjectInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetMemObjectInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetMemObjectInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.o: ../lib/CL/clSetMemObjectDestructorCallback.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clSetMemObjectDestructorCallback.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clSetMemObjectDestructorCallback.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clSetMemObjectDestructorCallback.c > CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clSetMemObjectDestructorCallback.c > CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clSetMemObjectDestructorCallback.c -o CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clSetMemObjectDestructorCallback.c -o CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.o: ../lib/CL/clCreateProgramWithSource.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateProgramWithSource.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateProgramWithSource.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateProgramWithSource.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateProgramWithSource.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateProgramWithSource.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateProgramWithSource.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.o: ../lib/CL/clCreateProgramWithBinary.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateProgramWithBinary.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateProgramWithBinary.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateProgramWithBinary.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateProgramWithBinary.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateProgramWithBinary.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateProgramWithBinary.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.o: ../lib/CL/clCreateProgramWithBuiltInKernels.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateProgramWithBuiltInKernels.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateProgramWithBuiltInKernels.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateProgramWithBuiltInKernels.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateProgramWithBuiltInKernels.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateProgramWithBuiltInKernels.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateProgramWithBuiltInKernels.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.o: ../lib/CL/clReleaseProgram.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clReleaseProgram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clReleaseProgram.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clReleaseProgram.c > CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clReleaseProgram.c > CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clReleaseProgram.c -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clReleaseProgram.c -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.o: ../lib/CL/clRetainProgram.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clRetainProgram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clRetainProgram.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clRetainProgram.c > CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clRetainProgram.c > CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clRetainProgram.c -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clRetainProgram.c -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.o: ../lib/CL/clBuildProgram.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clBuildProgram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clBuildProgram.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clBuildProgram.c > CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clBuildProgram.c > CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clBuildProgram.c -o CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clBuildProgram.c -o CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.o: ../lib/CL/clCompileProgram.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCompileProgram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCompileProgram.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCompileProgram.c > CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCompileProgram.c > CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCompileProgram.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCompileProgram.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.o: ../lib/CL/clLinkProgram.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clLinkProgram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clLinkProgram.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clLinkProgram.c > CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clLinkProgram.c > CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clLinkProgram.c -o CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clLinkProgram.c -o CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.o: ../lib/CL/clCreateKernel.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateKernel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateKernel.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateKernel.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateKernel.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateKernel.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateKernel.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.o: ../lib/CL/clReleaseKernel.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clReleaseKernel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clReleaseKernel.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clReleaseKernel.c > CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clReleaseKernel.c > CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clReleaseKernel.c -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clReleaseKernel.c -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.o: ../lib/CL/clRetainKernel.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clRetainKernel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clRetainKernel.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clRetainKernel.c > CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clRetainKernel.c > CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clRetainKernel.c -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clRetainKernel.c -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.o: ../lib/CL/clSetKernelArg.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clSetKernelArg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clSetKernelArg.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clSetKernelArg.c > CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clSetKernelArg.c > CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clSetKernelArg.c -o CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clSetKernelArg.c -o CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.o: ../lib/CL/clEnqueueNDRangeKernel.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueNDRangeKernel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueNDRangeKernel.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueNDRangeKernel.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueNDRangeKernel.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueNDRangeKernel.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueNDRangeKernel.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.o: ../lib/CL/clEnqueueNativeKernel.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueNativeKernel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueNativeKernel.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueNativeKernel.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueNativeKernel.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueNativeKernel.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueNativeKernel.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.o: ../lib/CL/clCreateKernelsInProgram.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateKernelsInProgram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateKernelsInProgram.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateKernelsInProgram.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateKernelsInProgram.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateKernelsInProgram.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateKernelsInProgram.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.o: ../lib/CL/clGetKernelInfo.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetKernelInfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetKernelInfo.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetKernelInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetKernelInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetKernelInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetKernelInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.o: ../lib/CL/clGetKernelArgInfo.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetKernelArgInfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetKernelArgInfo.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetKernelArgInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetKernelArgInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetKernelArgInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetKernelArgInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.o: ../lib/CL/clGetPlatformIDs.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetPlatformIDs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetPlatformIDs.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetPlatformIDs.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetPlatformIDs.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetPlatformIDs.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetPlatformIDs.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.o: ../lib/CL/clGetPlatformInfo.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetPlatformInfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetPlatformInfo.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetPlatformInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetPlatformInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetPlatformInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetPlatformInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.o: ../lib/CL/clGetDeviceIDs.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetDeviceIDs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetDeviceIDs.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetDeviceIDs.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetDeviceIDs.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetDeviceIDs.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetDeviceIDs.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.o: ../lib/CL/clGetDeviceInfo.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetDeviceInfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetDeviceInfo.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetDeviceInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetDeviceInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetDeviceInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetDeviceInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.o: ../lib/CL/clCreateContext.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateContext.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateContext.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateContext.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateContext.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateContext.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateContext.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.o: ../lib/CL/clGetProgramBuildInfo.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetProgramBuildInfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetProgramBuildInfo.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetProgramBuildInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetProgramBuildInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetProgramBuildInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetProgramBuildInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.o: ../lib/CL/clEnqueueWriteBuffer.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueWriteBuffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueWriteBuffer.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueWriteBuffer.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueWriteBuffer.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueWriteBuffer.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueWriteBuffer.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.o: ../lib/CL/clEnqueueWriteBufferRect.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueWriteBufferRect.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueWriteBufferRect.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueWriteBufferRect.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueWriteBufferRect.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueWriteBufferRect.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueWriteBufferRect.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.o: ../lib/CL/clEnqueueCopyBuffer.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueCopyBuffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueCopyBuffer.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueCopyBuffer.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueCopyBuffer.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueCopyBuffer.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueCopyBuffer.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.o: ../lib/CL/clEnqueueCopyBufferRect.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueCopyBufferRect.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueCopyBufferRect.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueCopyBufferRect.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueCopyBufferRect.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueCopyBufferRect.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueCopyBufferRect.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.o: ../lib/CL/clEnqueueCopyBufferToImage.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueCopyBufferToImage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueCopyBufferToImage.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueCopyBufferToImage.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueCopyBufferToImage.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueCopyBufferToImage.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueCopyBufferToImage.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.o: ../lib/CL/clEnqueueCopyImageToBuffer.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueCopyImageToBuffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueCopyImageToBuffer.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueCopyImageToBuffer.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueCopyImageToBuffer.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueCopyImageToBuffer.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueCopyImageToBuffer.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.o: ../lib/CL/clEnqueueMigrateMemObjects.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueMigrateMemObjects.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueMigrateMemObjects.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueMigrateMemObjects.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueMigrateMemObjects.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueMigrateMemObjects.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueMigrateMemObjects.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.o: ../lib/CL/clFinish.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clFinish.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clFinish.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clFinish.c > CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clFinish.c > CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clFinish.c -o CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clFinish.c -o CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.o: ../lib/CL/clFlush.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clFlush.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clFlush.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clFlush.c > CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clFlush.c > CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clFlush.c -o CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clFlush.c -o CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.o: ../lib/CL/clEnqueueBarrier.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueBarrier.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueBarrier.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueBarrier.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueBarrier.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueBarrier.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueBarrier.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.o: ../lib/CL/clEnqueueMarker.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueMarker.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueMarker.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueMarker.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueMarker.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueMarker.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueMarker.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.o: ../lib/CL/clGetKernelWorkGroupInfo.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetKernelWorkGroupInfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetKernelWorkGroupInfo.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetKernelWorkGroupInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetKernelWorkGroupInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetKernelWorkGroupInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetKernelWorkGroupInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.o: ../lib/CL/clGetProgramInfo.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetProgramInfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetProgramInfo.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetProgramInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetProgramInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetProgramInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetProgramInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.o: ../lib/CL/clGetEventProfilingInfo.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetEventProfilingInfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetEventProfilingInfo.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetEventProfilingInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetEventProfilingInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetEventProfilingInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetEventProfilingInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.o: ../lib/CL/clWaitForEvents.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clWaitForEvents.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clWaitForEvents.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clWaitForEvents.c > CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clWaitForEvents.c > CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clWaitForEvents.c -o CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clWaitForEvents.c -o CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.o: ../lib/CL/clEnqueueWaitForEvents.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueWaitForEvents.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueWaitForEvents.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueWaitForEvents.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueWaitForEvents.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueWaitForEvents.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueWaitForEvents.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.o: ../lib/CL/clReleaseEvent.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clReleaseEvent.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clReleaseEvent.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clReleaseEvent.c > CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clReleaseEvent.c > CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clReleaseEvent.c -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clReleaseEvent.c -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.o: ../lib/CL/clRetainEvent.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clRetainEvent.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clRetainEvent.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clRetainEvent.c > CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clRetainEvent.c > CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clRetainEvent.c -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clRetainEvent.c -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.o: ../lib/CL/clSetEventCallback.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clSetEventCallback.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clSetEventCallback.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clSetEventCallback.c > CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clSetEventCallback.c > CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clSetEventCallback.c -o CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clSetEventCallback.c -o CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.o: ../lib/CL/clGetEventInfo.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetEventInfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetEventInfo.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetEventInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetEventInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetEventInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetEventInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.o: ../lib/CL/clCreateUserEvent.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateUserEvent.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateUserEvent.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateUserEvent.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateUserEvent.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateUserEvent.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateUserEvent.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.o: ../lib/CL/clSetUserEventStatus.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clSetUserEventStatus.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clSetUserEventStatus.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clSetUserEventStatus.c > CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clSetUserEventStatus.c > CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clSetUserEventStatus.c -o CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clSetUserEventStatus.c -o CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.o: ../lib/CL/clEnqueueTask.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueTask.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueTask.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueTask.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueTask.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueTask.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueTask.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.o: ../lib/CL/clCreateImage.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateImage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateImage.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateImage.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateImage.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateImage.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateImage.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.o: ../lib/CL/clCreateImage2D.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateImage2D.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateImage2D.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateImage2D.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateImage2D.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateImage2D.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateImage2D.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.o: ../lib/CL/clCreateImage3D.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateImage3D.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateImage3D.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateImage3D.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateImage3D.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateImage3D.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateImage3D.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.o: ../lib/CL/clEnqueueReadImage.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueReadImage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueReadImage.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueReadImage.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueReadImage.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueReadImage.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueReadImage.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.o: ../lib/CL/clEnqueueWriteImage.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueWriteImage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueWriteImage.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueWriteImage.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueWriteImage.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueWriteImage.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueWriteImage.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.o: ../lib/CL/clCreateSampler.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateSampler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateSampler.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateSampler.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateSampler.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateSampler.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateSampler.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.o: ../lib/CL/clReleaseSampler.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clReleaseSampler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clReleaseSampler.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clReleaseSampler.c > CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clReleaseSampler.c > CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clReleaseSampler.c -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clReleaseSampler.c -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.o: ../lib/CL/clRetainSampler.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clRetainSampler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clRetainSampler.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clRetainSampler.c > CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clRetainSampler.c > CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clRetainSampler.c -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clRetainSampler.c -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.o: ../lib/CL/clGetSamplerInfo.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetSamplerInfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetSamplerInfo.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetSamplerInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetSamplerInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetSamplerInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetSamplerInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.o: ../lib/CL/clEnqueueCopyImage.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueCopyImage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueCopyImage.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueCopyImage.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueCopyImage.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueCopyImage.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueCopyImage.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.o: ../lib/CL/clEnqueueMapImage.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueMapImage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueMapImage.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueMapImage.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueMapImage.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueMapImage.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueMapImage.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.o: ../lib/CL/clGetImageInfo.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetImageInfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetImageInfo.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetImageInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetImageInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetImageInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetImageInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.o: ../lib/CL/clCreateFromGLTexture2D.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateFromGLTexture2D.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateFromGLTexture2D.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateFromGLTexture2D.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateFromGLTexture2D.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateFromGLTexture2D.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateFromGLTexture2D.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.o: ../lib/CL/clCreateFromGLTexture3D.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateFromGLTexture3D.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateFromGLTexture3D.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateFromGLTexture3D.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateFromGLTexture3D.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateFromGLTexture3D.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateFromGLTexture3D.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.o: ../lib/CL/clUnloadCompiler.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clUnloadCompiler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clUnloadCompiler.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clUnloadCompiler.c > CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clUnloadCompiler.c > CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clUnloadCompiler.c -o CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clUnloadCompiler.c -o CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.o: ../lib/CL/clGetSupportedImageFormats.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetSupportedImageFormats.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetSupportedImageFormats.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetSupportedImageFormats.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetSupportedImageFormats.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetSupportedImageFormats.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetSupportedImageFormats.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.o: ../lib/CL/clGetExtensionFunctionAddress.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetExtensionFunctionAddress.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetExtensionFunctionAddress.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetExtensionFunctionAddress.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetExtensionFunctionAddress.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetExtensionFunctionAddress.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetExtensionFunctionAddress.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.o: ../lib/CL/clGetExtensionFunctionAddressForPlatform.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetExtensionFunctionAddressForPlatform.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetExtensionFunctionAddressForPlatform.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetExtensionFunctionAddressForPlatform.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetExtensionFunctionAddressForPlatform.c > CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clGetExtensionFunctionAddressForPlatform.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clGetExtensionFunctionAddressForPlatform.c -o CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.o: ../lib/CL/clIcdGetPlatformIDsKHR.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clIcdGetPlatformIDsKHR.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clIcdGetPlatformIDsKHR.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clIcdGetPlatformIDsKHR.c > CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clIcdGetPlatformIDsKHR.c > CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clIcdGetPlatformIDsKHR.c -o CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clIcdGetPlatformIDsKHR.c -o CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.o: ../lib/CL/clReleaseDevice.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clReleaseDevice.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clReleaseDevice.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clReleaseDevice.c > CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clReleaseDevice.c > CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clReleaseDevice.c -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clReleaseDevice.c -o CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.o: ../lib/CL/clRetainDevice.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clRetainDevice.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clRetainDevice.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clRetainDevice.c > CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clRetainDevice.c > CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clRetainDevice.c -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clRetainDevice.c -o CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.o: ../lib/CL/clCreateSubDevices.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateSubDevices.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateSubDevices.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateSubDevices.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateSubDevices.c > CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clCreateSubDevices.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clCreateSubDevices.c -o CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.o: ../lib/CL/clUnloadPlatformCompiler.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clUnloadPlatformCompiler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clUnloadPlatformCompiler.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clUnloadPlatformCompiler.c > CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clUnloadPlatformCompiler.c > CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clUnloadPlatformCompiler.c -o CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clUnloadPlatformCompiler.c -o CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.o: ../lib/CL/clSVMAlloc.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clSVMAlloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clSVMAlloc.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clSVMAlloc.c > CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clSVMAlloc.c > CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clSVMAlloc.c -o CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clSVMAlloc.c -o CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.o: ../lib/CL/clSVMFree.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clSVMFree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clSVMFree.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clSVMFree.c > CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clSVMFree.c > CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clSVMFree.c -o CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clSVMFree.c -o CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.o: ../lib/CL/clEnqueueSVMFree.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueSVMFree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueSVMFree.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueSVMFree.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueSVMFree.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueSVMFree.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueSVMFree.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.o: ../lib/CL/clEnqueueSVMMap.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueSVMMap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueSVMMap.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueSVMMap.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueSVMMap.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueSVMMap.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueSVMMap.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.o: ../lib/CL/clEnqueueSVMUnmap.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueSVMUnmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueSVMUnmap.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueSVMUnmap.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueSVMUnmap.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueSVMUnmap.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueSVMUnmap.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.o: ../lib/CL/clEnqueueSVMMemcpy.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueSVMMemcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueSVMMemcpy.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueSVMMemcpy.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueSVMMemcpy.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueSVMMemcpy.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueSVMMemcpy.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.o: ../lib/CL/clEnqueueSVMMemFill.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueSVMMemFill.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueSVMMemFill.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueSVMMemFill.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueSVMMemFill.c > CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clEnqueueSVMMemFill.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clEnqueueSVMMemFill.c -o CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.o: ../lib/CL/clSetKernelArgSVMPointer.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clSetKernelArgSVMPointer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clSetKernelArgSVMPointer.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clSetKernelArgSVMPointer.c > CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clSetKernelArgSVMPointer.c > CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clSetKernelArgSVMPointer.c -o CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clSetKernelArgSVMPointer.c -o CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.o: ../lib/CL/clSetKernelExecInfo.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clSetKernelExecInfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clSetKernelExecInfo.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clSetKernelExecInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clSetKernelExecInfo.c > CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/clSetKernelExecInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/clSetKernelExecInfo.c -o CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.o: ../lib/CL/pocl_opengl.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/pocl_opengl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/pocl_opengl.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/pocl_opengl.c > CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/pocl_opengl.c > CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/pocl_opengl.c -o CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/pocl_opengl.c -o CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/network.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/network.c.o: ../lib/CL/network.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/network.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/network.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/network.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/network.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/network.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/network.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/network.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/network.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/network.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/network.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/network.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/network.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/network.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/network.c > CMakeFiles/libpocl_unlinked_objs.dir/network.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/network.c > CMakeFiles/libpocl_unlinked_objs.dir/network.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/network.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/network.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/network.c -o CMakeFiles/libpocl_unlinked_objs.dir/network.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/network.c -o CMakeFiles/libpocl_unlinked_objs.dir/network.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/storage.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/storage.c.o: ../lib/CL/storage.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/storage.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/storage.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/storage.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/storage.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/storage.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/storage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/storage.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/storage.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/storage.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/storage.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/storage.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/storage.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/storage.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/storage.c > CMakeFiles/libpocl_unlinked_objs.dir/storage.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/storage.c > CMakeFiles/libpocl_unlinked_objs.dir/storage.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/storage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/storage.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/storage.c -o CMakeFiles/libpocl_unlinked_objs.dir/storage.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/storage.c -o CMakeFiles/libpocl_unlinked_objs.dir/storage.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/common.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/common.c.o: ../lib/CL/common.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/common.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/common.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/common.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/common.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/common.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/common.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/common.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/common.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/common.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/common.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/common.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/common.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/common.c > CMakeFiles/libpocl_unlinked_objs.dir/common.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/common.c > CMakeFiles/libpocl_unlinked_objs.dir/common.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/common.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/common.c -o CMakeFiles/libpocl_unlinked_objs.dir/common.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/common.c -o CMakeFiles/libpocl_unlinked_objs.dir/common.c.s
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/flags.make
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.o: ../lib/CL/cl_management.c
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.o: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.o"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.o -c /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/cl_management.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.o"
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.o -MF CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.o.d -o CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.o -c /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/cl_management.c
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.i"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/cl_management.c > CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/cl_management.c > CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.i
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.s"
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/cl_management.c -o CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/cl_management.c -o CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.s
 
 libpocl_unlinked_objs: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.o
 libpocl_unlinked_objs: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.o
@@ -1667,10 +1667,10 @@ lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build: libpocl_unlinked_objs
 .PHONY : lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clean:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL && $(CMAKE_COMMAND) -P CMakeFiles/libpocl_unlinked_objs.dir/cmake_clean.cmake
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL && $(CMAKE_COMMAND) -P CMakeFiles/libpocl_unlinked_objs.dir/cmake_clean.cmake
 .PHONY : lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clean
 
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/depend:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ruialves/rOpenCL/code/rOpenCL_driver /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL /home/ruialves/rOpenCL/code/rOpenCL_driver/build /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/depend
 

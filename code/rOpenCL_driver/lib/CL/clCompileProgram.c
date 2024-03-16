@@ -159,7 +159,7 @@ POname(clCompileProgram)(cl_program program, cl_uint num_devices, const cl_devic
     free(buffer_data_request);
 
     _ccl_memcpy(&result_, buffer_data_reply, sizeof(cl_int), &offset_buffer);
-    buffer_data_reply += sizeof(cl_program);
+    buffer_data_reply += sizeof(cl_int);
 
     buffer_data_reply -= offset_buffer;
     free(buffer_data_reply);

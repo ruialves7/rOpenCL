@@ -1,4 +1,4 @@
-# Install script for directory: /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL
+# Install script for directory: /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librOpenCL.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/librOpenCL.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/librOpenCL.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librOpenCL.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librOpenCL.so")
     if(CMAKE_INSTALL_DO_STRIP)

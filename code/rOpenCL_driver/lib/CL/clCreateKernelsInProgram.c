@@ -39,6 +39,7 @@ POname(clCreateKernelsInProgram)(cl_program program, cl_uint num_kernels, cl_ker
     buffer_data_request -= offset_buffer;
 
     size_buffer_data_reply = sizeof(cl_uint) + num_kernels * sizeof(cl_kernel);
+
 #if PROTOCOL == 1
     size_buffer_data_request += SIZE_HEADER_TCP;
 #endif
@@ -82,10 +83,11 @@ POname(clCreateKernelsInProgram)(cl_program program, cl_uint num_kernels, cl_ker
     recv_data_tcp(&fd, buffer_data_reply, size_buffer_data_reply, "clCreateKernelsInProgram");
     closeSocketTCP(&fd, &fd_connect);
 #endif
-    offset_buffer = 0;
     free(header);
+    buffer_data_request-=offset_buffer;
+    
     free(buffer_data_request);
-
+    offset_buffer=0;
     _ccl_memcpy(&result, buffer_data_reply, sizeof(cl_int), &offset_buffer);
     buffer_data_reply += sizeof(cl_int);
 

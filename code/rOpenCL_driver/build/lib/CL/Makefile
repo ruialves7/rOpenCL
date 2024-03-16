@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver
+CMAKE_SOURCE_DIR = /home/ruialves/rOpenCL/code/rOpenCL_driver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build
+CMAKE_BINARY_DIR = /home/ruialves/rOpenCL/code/rOpenCL_driver/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL//CMakeFiles/progress.marks
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CL/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/CMakeFiles 0
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles /home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL//CMakeFiles/progress.marks
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CL/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruialves/rOpenCL/code/rOpenCL_driver/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CL/clean
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CL/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CL/preinstall
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CL/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CL/preinstall
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CL/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/rule:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/rule
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/rule
 .PHONY : lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ libpocl_unlinked_objs: lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/rule
 
 # fast build rule for target.
 libpocl_unlinked_objs/fast:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build
 .PHONY : libpocl_unlinked_objs/fast
 
 # Convenience name for target.
 lib/CL/CMakeFiles/rOpenCL.dir/rule:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CL/CMakeFiles/rOpenCL.dir/rule
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CL/CMakeFiles/rOpenCL.dir/rule
 .PHONY : lib/CL/CMakeFiles/rOpenCL.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ rOpenCL: lib/CL/CMakeFiles/rOpenCL.dir/rule
 
 # fast build rule for target.
 rOpenCL/fast:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/rOpenCL.dir/build.make lib/CL/CMakeFiles/rOpenCL.dir/build
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/rOpenCL.dir/build.make lib/CL/CMakeFiles/rOpenCL.dir/build
 .PHONY : rOpenCL/fast
 
 clBuildProgram.o: clBuildProgram.c.o
@@ -194,7 +194,7 @@ clBuildProgram.o: clBuildProgram.c.o
 
 # target to build an object file
 clBuildProgram.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.o
 .PHONY : clBuildProgram.c.o
 
 clBuildProgram.i: clBuildProgram.c.i
@@ -202,7 +202,7 @@ clBuildProgram.i: clBuildProgram.c.i
 
 # target to preprocess a source file
 clBuildProgram.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.i
 .PHONY : clBuildProgram.c.i
 
 clBuildProgram.s: clBuildProgram.c.s
@@ -210,7 +210,7 @@ clBuildProgram.s: clBuildProgram.c.s
 
 # target to generate assembly for a file
 clBuildProgram.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clBuildProgram.c.s
 .PHONY : clBuildProgram.c.s
 
 clCompileProgram.o: clCompileProgram.c.o
@@ -218,7 +218,7 @@ clCompileProgram.o: clCompileProgram.c.o
 
 # target to build an object file
 clCompileProgram.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.o
 .PHONY : clCompileProgram.c.o
 
 clCompileProgram.i: clCompileProgram.c.i
@@ -226,7 +226,7 @@ clCompileProgram.i: clCompileProgram.c.i
 
 # target to preprocess a source file
 clCompileProgram.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.i
 .PHONY : clCompileProgram.c.i
 
 clCompileProgram.s: clCompileProgram.c.s
@@ -234,7 +234,7 @@ clCompileProgram.s: clCompileProgram.c.s
 
 # target to generate assembly for a file
 clCompileProgram.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCompileProgram.c.s
 .PHONY : clCompileProgram.c.s
 
 clCreateBuffer.o: clCreateBuffer.c.o
@@ -242,7 +242,7 @@ clCreateBuffer.o: clCreateBuffer.c.o
 
 # target to build an object file
 clCreateBuffer.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.o
 .PHONY : clCreateBuffer.c.o
 
 clCreateBuffer.i: clCreateBuffer.c.i
@@ -250,7 +250,7 @@ clCreateBuffer.i: clCreateBuffer.c.i
 
 # target to preprocess a source file
 clCreateBuffer.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.i
 .PHONY : clCreateBuffer.c.i
 
 clCreateBuffer.s: clCreateBuffer.c.s
@@ -258,7 +258,7 @@ clCreateBuffer.s: clCreateBuffer.c.s
 
 # target to generate assembly for a file
 clCreateBuffer.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateBuffer.c.s
 .PHONY : clCreateBuffer.c.s
 
 clCreateCommandQueue.o: clCreateCommandQueue.c.o
@@ -266,7 +266,7 @@ clCreateCommandQueue.o: clCreateCommandQueue.c.o
 
 # target to build an object file
 clCreateCommandQueue.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.o
 .PHONY : clCreateCommandQueue.c.o
 
 clCreateCommandQueue.i: clCreateCommandQueue.c.i
@@ -274,7 +274,7 @@ clCreateCommandQueue.i: clCreateCommandQueue.c.i
 
 # target to preprocess a source file
 clCreateCommandQueue.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.i
 .PHONY : clCreateCommandQueue.c.i
 
 clCreateCommandQueue.s: clCreateCommandQueue.c.s
@@ -282,7 +282,7 @@ clCreateCommandQueue.s: clCreateCommandQueue.c.s
 
 # target to generate assembly for a file
 clCreateCommandQueue.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueue.c.s
 .PHONY : clCreateCommandQueue.c.s
 
 clCreateCommandQueueWithProperties.o: clCreateCommandQueueWithProperties.c.o
@@ -290,7 +290,7 @@ clCreateCommandQueueWithProperties.o: clCreateCommandQueueWithProperties.c.o
 
 # target to build an object file
 clCreateCommandQueueWithProperties.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.o
 .PHONY : clCreateCommandQueueWithProperties.c.o
 
 clCreateCommandQueueWithProperties.i: clCreateCommandQueueWithProperties.c.i
@@ -298,7 +298,7 @@ clCreateCommandQueueWithProperties.i: clCreateCommandQueueWithProperties.c.i
 
 # target to preprocess a source file
 clCreateCommandQueueWithProperties.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.i
 .PHONY : clCreateCommandQueueWithProperties.c.i
 
 clCreateCommandQueueWithProperties.s: clCreateCommandQueueWithProperties.c.s
@@ -306,7 +306,7 @@ clCreateCommandQueueWithProperties.s: clCreateCommandQueueWithProperties.c.s
 
 # target to generate assembly for a file
 clCreateCommandQueueWithProperties.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateCommandQueueWithProperties.c.s
 .PHONY : clCreateCommandQueueWithProperties.c.s
 
 clCreateContext.o: clCreateContext.c.o
@@ -314,7 +314,7 @@ clCreateContext.o: clCreateContext.c.o
 
 # target to build an object file
 clCreateContext.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.o
 .PHONY : clCreateContext.c.o
 
 clCreateContext.i: clCreateContext.c.i
@@ -322,7 +322,7 @@ clCreateContext.i: clCreateContext.c.i
 
 # target to preprocess a source file
 clCreateContext.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.i
 .PHONY : clCreateContext.c.i
 
 clCreateContext.s: clCreateContext.c.s
@@ -330,7 +330,7 @@ clCreateContext.s: clCreateContext.c.s
 
 # target to generate assembly for a file
 clCreateContext.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContext.c.s
 .PHONY : clCreateContext.c.s
 
 clCreateContextFromType.o: clCreateContextFromType.c.o
@@ -338,7 +338,7 @@ clCreateContextFromType.o: clCreateContextFromType.c.o
 
 # target to build an object file
 clCreateContextFromType.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.o
 .PHONY : clCreateContextFromType.c.o
 
 clCreateContextFromType.i: clCreateContextFromType.c.i
@@ -346,7 +346,7 @@ clCreateContextFromType.i: clCreateContextFromType.c.i
 
 # target to preprocess a source file
 clCreateContextFromType.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.i
 .PHONY : clCreateContextFromType.c.i
 
 clCreateContextFromType.s: clCreateContextFromType.c.s
@@ -354,7 +354,7 @@ clCreateContextFromType.s: clCreateContextFromType.c.s
 
 # target to generate assembly for a file
 clCreateContextFromType.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateContextFromType.c.s
 .PHONY : clCreateContextFromType.c.s
 
 clCreateFromGLTexture2D.o: clCreateFromGLTexture2D.c.o
@@ -362,7 +362,7 @@ clCreateFromGLTexture2D.o: clCreateFromGLTexture2D.c.o
 
 # target to build an object file
 clCreateFromGLTexture2D.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.o
 .PHONY : clCreateFromGLTexture2D.c.o
 
 clCreateFromGLTexture2D.i: clCreateFromGLTexture2D.c.i
@@ -370,7 +370,7 @@ clCreateFromGLTexture2D.i: clCreateFromGLTexture2D.c.i
 
 # target to preprocess a source file
 clCreateFromGLTexture2D.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.i
 .PHONY : clCreateFromGLTexture2D.c.i
 
 clCreateFromGLTexture2D.s: clCreateFromGLTexture2D.c.s
@@ -378,7 +378,7 @@ clCreateFromGLTexture2D.s: clCreateFromGLTexture2D.c.s
 
 # target to generate assembly for a file
 clCreateFromGLTexture2D.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture2D.c.s
 .PHONY : clCreateFromGLTexture2D.c.s
 
 clCreateFromGLTexture3D.o: clCreateFromGLTexture3D.c.o
@@ -386,7 +386,7 @@ clCreateFromGLTexture3D.o: clCreateFromGLTexture3D.c.o
 
 # target to build an object file
 clCreateFromGLTexture3D.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.o
 .PHONY : clCreateFromGLTexture3D.c.o
 
 clCreateFromGLTexture3D.i: clCreateFromGLTexture3D.c.i
@@ -394,7 +394,7 @@ clCreateFromGLTexture3D.i: clCreateFromGLTexture3D.c.i
 
 # target to preprocess a source file
 clCreateFromGLTexture3D.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.i
 .PHONY : clCreateFromGLTexture3D.c.i
 
 clCreateFromGLTexture3D.s: clCreateFromGLTexture3D.c.s
@@ -402,7 +402,7 @@ clCreateFromGLTexture3D.s: clCreateFromGLTexture3D.c.s
 
 # target to generate assembly for a file
 clCreateFromGLTexture3D.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateFromGLTexture3D.c.s
 .PHONY : clCreateFromGLTexture3D.c.s
 
 clCreateImage.o: clCreateImage.c.o
@@ -410,7 +410,7 @@ clCreateImage.o: clCreateImage.c.o
 
 # target to build an object file
 clCreateImage.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.o
 .PHONY : clCreateImage.c.o
 
 clCreateImage.i: clCreateImage.c.i
@@ -418,7 +418,7 @@ clCreateImage.i: clCreateImage.c.i
 
 # target to preprocess a source file
 clCreateImage.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.i
 .PHONY : clCreateImage.c.i
 
 clCreateImage.s: clCreateImage.c.s
@@ -426,7 +426,7 @@ clCreateImage.s: clCreateImage.c.s
 
 # target to generate assembly for a file
 clCreateImage.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage.c.s
 .PHONY : clCreateImage.c.s
 
 clCreateImage2D.o: clCreateImage2D.c.o
@@ -434,7 +434,7 @@ clCreateImage2D.o: clCreateImage2D.c.o
 
 # target to build an object file
 clCreateImage2D.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.o
 .PHONY : clCreateImage2D.c.o
 
 clCreateImage2D.i: clCreateImage2D.c.i
@@ -442,7 +442,7 @@ clCreateImage2D.i: clCreateImage2D.c.i
 
 # target to preprocess a source file
 clCreateImage2D.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.i
 .PHONY : clCreateImage2D.c.i
 
 clCreateImage2D.s: clCreateImage2D.c.s
@@ -450,7 +450,7 @@ clCreateImage2D.s: clCreateImage2D.c.s
 
 # target to generate assembly for a file
 clCreateImage2D.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage2D.c.s
 .PHONY : clCreateImage2D.c.s
 
 clCreateImage3D.o: clCreateImage3D.c.o
@@ -458,7 +458,7 @@ clCreateImage3D.o: clCreateImage3D.c.o
 
 # target to build an object file
 clCreateImage3D.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.o
 .PHONY : clCreateImage3D.c.o
 
 clCreateImage3D.i: clCreateImage3D.c.i
@@ -466,7 +466,7 @@ clCreateImage3D.i: clCreateImage3D.c.i
 
 # target to preprocess a source file
 clCreateImage3D.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.i
 .PHONY : clCreateImage3D.c.i
 
 clCreateImage3D.s: clCreateImage3D.c.s
@@ -474,7 +474,7 @@ clCreateImage3D.s: clCreateImage3D.c.s
 
 # target to generate assembly for a file
 clCreateImage3D.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateImage3D.c.s
 .PHONY : clCreateImage3D.c.s
 
 clCreateKernel.o: clCreateKernel.c.o
@@ -482,7 +482,7 @@ clCreateKernel.o: clCreateKernel.c.o
 
 # target to build an object file
 clCreateKernel.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.o
 .PHONY : clCreateKernel.c.o
 
 clCreateKernel.i: clCreateKernel.c.i
@@ -490,7 +490,7 @@ clCreateKernel.i: clCreateKernel.c.i
 
 # target to preprocess a source file
 clCreateKernel.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.i
 .PHONY : clCreateKernel.c.i
 
 clCreateKernel.s: clCreateKernel.c.s
@@ -498,7 +498,7 @@ clCreateKernel.s: clCreateKernel.c.s
 
 # target to generate assembly for a file
 clCreateKernel.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernel.c.s
 .PHONY : clCreateKernel.c.s
 
 clCreateKernelsInProgram.o: clCreateKernelsInProgram.c.o
@@ -506,7 +506,7 @@ clCreateKernelsInProgram.o: clCreateKernelsInProgram.c.o
 
 # target to build an object file
 clCreateKernelsInProgram.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.o
 .PHONY : clCreateKernelsInProgram.c.o
 
 clCreateKernelsInProgram.i: clCreateKernelsInProgram.c.i
@@ -514,7 +514,7 @@ clCreateKernelsInProgram.i: clCreateKernelsInProgram.c.i
 
 # target to preprocess a source file
 clCreateKernelsInProgram.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.i
 .PHONY : clCreateKernelsInProgram.c.i
 
 clCreateKernelsInProgram.s: clCreateKernelsInProgram.c.s
@@ -522,7 +522,7 @@ clCreateKernelsInProgram.s: clCreateKernelsInProgram.c.s
 
 # target to generate assembly for a file
 clCreateKernelsInProgram.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateKernelsInProgram.c.s
 .PHONY : clCreateKernelsInProgram.c.s
 
 clCreateProgramWithBinary.o: clCreateProgramWithBinary.c.o
@@ -530,7 +530,7 @@ clCreateProgramWithBinary.o: clCreateProgramWithBinary.c.o
 
 # target to build an object file
 clCreateProgramWithBinary.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.o
 .PHONY : clCreateProgramWithBinary.c.o
 
 clCreateProgramWithBinary.i: clCreateProgramWithBinary.c.i
@@ -538,7 +538,7 @@ clCreateProgramWithBinary.i: clCreateProgramWithBinary.c.i
 
 # target to preprocess a source file
 clCreateProgramWithBinary.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.i
 .PHONY : clCreateProgramWithBinary.c.i
 
 clCreateProgramWithBinary.s: clCreateProgramWithBinary.c.s
@@ -546,7 +546,7 @@ clCreateProgramWithBinary.s: clCreateProgramWithBinary.c.s
 
 # target to generate assembly for a file
 clCreateProgramWithBinary.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBinary.c.s
 .PHONY : clCreateProgramWithBinary.c.s
 
 clCreateProgramWithBuiltInKernels.o: clCreateProgramWithBuiltInKernels.c.o
@@ -554,7 +554,7 @@ clCreateProgramWithBuiltInKernels.o: clCreateProgramWithBuiltInKernels.c.o
 
 # target to build an object file
 clCreateProgramWithBuiltInKernels.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.o
 .PHONY : clCreateProgramWithBuiltInKernels.c.o
 
 clCreateProgramWithBuiltInKernels.i: clCreateProgramWithBuiltInKernels.c.i
@@ -562,7 +562,7 @@ clCreateProgramWithBuiltInKernels.i: clCreateProgramWithBuiltInKernels.c.i
 
 # target to preprocess a source file
 clCreateProgramWithBuiltInKernels.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.i
 .PHONY : clCreateProgramWithBuiltInKernels.c.i
 
 clCreateProgramWithBuiltInKernels.s: clCreateProgramWithBuiltInKernels.c.s
@@ -570,7 +570,7 @@ clCreateProgramWithBuiltInKernels.s: clCreateProgramWithBuiltInKernels.c.s
 
 # target to generate assembly for a file
 clCreateProgramWithBuiltInKernels.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithBuiltInKernels.c.s
 .PHONY : clCreateProgramWithBuiltInKernels.c.s
 
 clCreateProgramWithSource.o: clCreateProgramWithSource.c.o
@@ -578,7 +578,7 @@ clCreateProgramWithSource.o: clCreateProgramWithSource.c.o
 
 # target to build an object file
 clCreateProgramWithSource.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.o
 .PHONY : clCreateProgramWithSource.c.o
 
 clCreateProgramWithSource.i: clCreateProgramWithSource.c.i
@@ -586,7 +586,7 @@ clCreateProgramWithSource.i: clCreateProgramWithSource.c.i
 
 # target to preprocess a source file
 clCreateProgramWithSource.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.i
 .PHONY : clCreateProgramWithSource.c.i
 
 clCreateProgramWithSource.s: clCreateProgramWithSource.c.s
@@ -594,7 +594,7 @@ clCreateProgramWithSource.s: clCreateProgramWithSource.c.s
 
 # target to generate assembly for a file
 clCreateProgramWithSource.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateProgramWithSource.c.s
 .PHONY : clCreateProgramWithSource.c.s
 
 clCreateSampler.o: clCreateSampler.c.o
@@ -602,7 +602,7 @@ clCreateSampler.o: clCreateSampler.c.o
 
 # target to build an object file
 clCreateSampler.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.o
 .PHONY : clCreateSampler.c.o
 
 clCreateSampler.i: clCreateSampler.c.i
@@ -610,7 +610,7 @@ clCreateSampler.i: clCreateSampler.c.i
 
 # target to preprocess a source file
 clCreateSampler.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.i
 .PHONY : clCreateSampler.c.i
 
 clCreateSampler.s: clCreateSampler.c.s
@@ -618,7 +618,7 @@ clCreateSampler.s: clCreateSampler.c.s
 
 # target to generate assembly for a file
 clCreateSampler.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSampler.c.s
 .PHONY : clCreateSampler.c.s
 
 clCreateSubBuffer.o: clCreateSubBuffer.c.o
@@ -626,7 +626,7 @@ clCreateSubBuffer.o: clCreateSubBuffer.c.o
 
 # target to build an object file
 clCreateSubBuffer.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.o
 .PHONY : clCreateSubBuffer.c.o
 
 clCreateSubBuffer.i: clCreateSubBuffer.c.i
@@ -634,7 +634,7 @@ clCreateSubBuffer.i: clCreateSubBuffer.c.i
 
 # target to preprocess a source file
 clCreateSubBuffer.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.i
 .PHONY : clCreateSubBuffer.c.i
 
 clCreateSubBuffer.s: clCreateSubBuffer.c.s
@@ -642,7 +642,7 @@ clCreateSubBuffer.s: clCreateSubBuffer.c.s
 
 # target to generate assembly for a file
 clCreateSubBuffer.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubBuffer.c.s
 .PHONY : clCreateSubBuffer.c.s
 
 clCreateSubDevices.o: clCreateSubDevices.c.o
@@ -650,7 +650,7 @@ clCreateSubDevices.o: clCreateSubDevices.c.o
 
 # target to build an object file
 clCreateSubDevices.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.o
 .PHONY : clCreateSubDevices.c.o
 
 clCreateSubDevices.i: clCreateSubDevices.c.i
@@ -658,7 +658,7 @@ clCreateSubDevices.i: clCreateSubDevices.c.i
 
 # target to preprocess a source file
 clCreateSubDevices.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.i
 .PHONY : clCreateSubDevices.c.i
 
 clCreateSubDevices.s: clCreateSubDevices.c.s
@@ -666,7 +666,7 @@ clCreateSubDevices.s: clCreateSubDevices.c.s
 
 # target to generate assembly for a file
 clCreateSubDevices.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateSubDevices.c.s
 .PHONY : clCreateSubDevices.c.s
 
 clCreateUserEvent.o: clCreateUserEvent.c.o
@@ -674,7 +674,7 @@ clCreateUserEvent.o: clCreateUserEvent.c.o
 
 # target to build an object file
 clCreateUserEvent.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.o
 .PHONY : clCreateUserEvent.c.o
 
 clCreateUserEvent.i: clCreateUserEvent.c.i
@@ -682,7 +682,7 @@ clCreateUserEvent.i: clCreateUserEvent.c.i
 
 # target to preprocess a source file
 clCreateUserEvent.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.i
 .PHONY : clCreateUserEvent.c.i
 
 clCreateUserEvent.s: clCreateUserEvent.c.s
@@ -690,7 +690,7 @@ clCreateUserEvent.s: clCreateUserEvent.c.s
 
 # target to generate assembly for a file
 clCreateUserEvent.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clCreateUserEvent.c.s
 .PHONY : clCreateUserEvent.c.s
 
 clEnqueueBarrier.o: clEnqueueBarrier.c.o
@@ -698,7 +698,7 @@ clEnqueueBarrier.o: clEnqueueBarrier.c.o
 
 # target to build an object file
 clEnqueueBarrier.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.o
 .PHONY : clEnqueueBarrier.c.o
 
 clEnqueueBarrier.i: clEnqueueBarrier.c.i
@@ -706,7 +706,7 @@ clEnqueueBarrier.i: clEnqueueBarrier.c.i
 
 # target to preprocess a source file
 clEnqueueBarrier.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.i
 .PHONY : clEnqueueBarrier.c.i
 
 clEnqueueBarrier.s: clEnqueueBarrier.c.s
@@ -714,7 +714,7 @@ clEnqueueBarrier.s: clEnqueueBarrier.c.s
 
 # target to generate assembly for a file
 clEnqueueBarrier.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrier.c.s
 .PHONY : clEnqueueBarrier.c.s
 
 clEnqueueBarrierWithWaitList.o: clEnqueueBarrierWithWaitList.c.o
@@ -722,7 +722,7 @@ clEnqueueBarrierWithWaitList.o: clEnqueueBarrierWithWaitList.c.o
 
 # target to build an object file
 clEnqueueBarrierWithWaitList.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.o
 .PHONY : clEnqueueBarrierWithWaitList.c.o
 
 clEnqueueBarrierWithWaitList.i: clEnqueueBarrierWithWaitList.c.i
@@ -730,7 +730,7 @@ clEnqueueBarrierWithWaitList.i: clEnqueueBarrierWithWaitList.c.i
 
 # target to preprocess a source file
 clEnqueueBarrierWithWaitList.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.i
 .PHONY : clEnqueueBarrierWithWaitList.c.i
 
 clEnqueueBarrierWithWaitList.s: clEnqueueBarrierWithWaitList.c.s
@@ -738,7 +738,7 @@ clEnqueueBarrierWithWaitList.s: clEnqueueBarrierWithWaitList.c.s
 
 # target to generate assembly for a file
 clEnqueueBarrierWithWaitList.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueBarrierWithWaitList.c.s
 .PHONY : clEnqueueBarrierWithWaitList.c.s
 
 clEnqueueCopyBuffer.o: clEnqueueCopyBuffer.c.o
@@ -746,7 +746,7 @@ clEnqueueCopyBuffer.o: clEnqueueCopyBuffer.c.o
 
 # target to build an object file
 clEnqueueCopyBuffer.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.o
 .PHONY : clEnqueueCopyBuffer.c.o
 
 clEnqueueCopyBuffer.i: clEnqueueCopyBuffer.c.i
@@ -754,7 +754,7 @@ clEnqueueCopyBuffer.i: clEnqueueCopyBuffer.c.i
 
 # target to preprocess a source file
 clEnqueueCopyBuffer.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.i
 .PHONY : clEnqueueCopyBuffer.c.i
 
 clEnqueueCopyBuffer.s: clEnqueueCopyBuffer.c.s
@@ -762,7 +762,7 @@ clEnqueueCopyBuffer.s: clEnqueueCopyBuffer.c.s
 
 # target to generate assembly for a file
 clEnqueueCopyBuffer.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBuffer.c.s
 .PHONY : clEnqueueCopyBuffer.c.s
 
 clEnqueueCopyBufferRect.o: clEnqueueCopyBufferRect.c.o
@@ -770,7 +770,7 @@ clEnqueueCopyBufferRect.o: clEnqueueCopyBufferRect.c.o
 
 # target to build an object file
 clEnqueueCopyBufferRect.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.o
 .PHONY : clEnqueueCopyBufferRect.c.o
 
 clEnqueueCopyBufferRect.i: clEnqueueCopyBufferRect.c.i
@@ -778,7 +778,7 @@ clEnqueueCopyBufferRect.i: clEnqueueCopyBufferRect.c.i
 
 # target to preprocess a source file
 clEnqueueCopyBufferRect.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.i
 .PHONY : clEnqueueCopyBufferRect.c.i
 
 clEnqueueCopyBufferRect.s: clEnqueueCopyBufferRect.c.s
@@ -786,7 +786,7 @@ clEnqueueCopyBufferRect.s: clEnqueueCopyBufferRect.c.s
 
 # target to generate assembly for a file
 clEnqueueCopyBufferRect.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferRect.c.s
 .PHONY : clEnqueueCopyBufferRect.c.s
 
 clEnqueueCopyBufferToImage.o: clEnqueueCopyBufferToImage.c.o
@@ -794,7 +794,7 @@ clEnqueueCopyBufferToImage.o: clEnqueueCopyBufferToImage.c.o
 
 # target to build an object file
 clEnqueueCopyBufferToImage.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.o
 .PHONY : clEnqueueCopyBufferToImage.c.o
 
 clEnqueueCopyBufferToImage.i: clEnqueueCopyBufferToImage.c.i
@@ -802,7 +802,7 @@ clEnqueueCopyBufferToImage.i: clEnqueueCopyBufferToImage.c.i
 
 # target to preprocess a source file
 clEnqueueCopyBufferToImage.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.i
 .PHONY : clEnqueueCopyBufferToImage.c.i
 
 clEnqueueCopyBufferToImage.s: clEnqueueCopyBufferToImage.c.s
@@ -810,7 +810,7 @@ clEnqueueCopyBufferToImage.s: clEnqueueCopyBufferToImage.c.s
 
 # target to generate assembly for a file
 clEnqueueCopyBufferToImage.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyBufferToImage.c.s
 .PHONY : clEnqueueCopyBufferToImage.c.s
 
 clEnqueueCopyImage.o: clEnqueueCopyImage.c.o
@@ -818,7 +818,7 @@ clEnqueueCopyImage.o: clEnqueueCopyImage.c.o
 
 # target to build an object file
 clEnqueueCopyImage.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.o
 .PHONY : clEnqueueCopyImage.c.o
 
 clEnqueueCopyImage.i: clEnqueueCopyImage.c.i
@@ -826,7 +826,7 @@ clEnqueueCopyImage.i: clEnqueueCopyImage.c.i
 
 # target to preprocess a source file
 clEnqueueCopyImage.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.i
 .PHONY : clEnqueueCopyImage.c.i
 
 clEnqueueCopyImage.s: clEnqueueCopyImage.c.s
@@ -834,7 +834,7 @@ clEnqueueCopyImage.s: clEnqueueCopyImage.c.s
 
 # target to generate assembly for a file
 clEnqueueCopyImage.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImage.c.s
 .PHONY : clEnqueueCopyImage.c.s
 
 clEnqueueCopyImageToBuffer.o: clEnqueueCopyImageToBuffer.c.o
@@ -842,7 +842,7 @@ clEnqueueCopyImageToBuffer.o: clEnqueueCopyImageToBuffer.c.o
 
 # target to build an object file
 clEnqueueCopyImageToBuffer.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.o
 .PHONY : clEnqueueCopyImageToBuffer.c.o
 
 clEnqueueCopyImageToBuffer.i: clEnqueueCopyImageToBuffer.c.i
@@ -850,7 +850,7 @@ clEnqueueCopyImageToBuffer.i: clEnqueueCopyImageToBuffer.c.i
 
 # target to preprocess a source file
 clEnqueueCopyImageToBuffer.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.i
 .PHONY : clEnqueueCopyImageToBuffer.c.i
 
 clEnqueueCopyImageToBuffer.s: clEnqueueCopyImageToBuffer.c.s
@@ -858,7 +858,7 @@ clEnqueueCopyImageToBuffer.s: clEnqueueCopyImageToBuffer.c.s
 
 # target to generate assembly for a file
 clEnqueueCopyImageToBuffer.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueCopyImageToBuffer.c.s
 .PHONY : clEnqueueCopyImageToBuffer.c.s
 
 clEnqueueFillBuffer.o: clEnqueueFillBuffer.c.o
@@ -866,7 +866,7 @@ clEnqueueFillBuffer.o: clEnqueueFillBuffer.c.o
 
 # target to build an object file
 clEnqueueFillBuffer.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.o
 .PHONY : clEnqueueFillBuffer.c.o
 
 clEnqueueFillBuffer.i: clEnqueueFillBuffer.c.i
@@ -874,7 +874,7 @@ clEnqueueFillBuffer.i: clEnqueueFillBuffer.c.i
 
 # target to preprocess a source file
 clEnqueueFillBuffer.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.i
 .PHONY : clEnqueueFillBuffer.c.i
 
 clEnqueueFillBuffer.s: clEnqueueFillBuffer.c.s
@@ -882,7 +882,7 @@ clEnqueueFillBuffer.s: clEnqueueFillBuffer.c.s
 
 # target to generate assembly for a file
 clEnqueueFillBuffer.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillBuffer.c.s
 .PHONY : clEnqueueFillBuffer.c.s
 
 clEnqueueFillImage.o: clEnqueueFillImage.c.o
@@ -890,7 +890,7 @@ clEnqueueFillImage.o: clEnqueueFillImage.c.o
 
 # target to build an object file
 clEnqueueFillImage.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.o
 .PHONY : clEnqueueFillImage.c.o
 
 clEnqueueFillImage.i: clEnqueueFillImage.c.i
@@ -898,7 +898,7 @@ clEnqueueFillImage.i: clEnqueueFillImage.c.i
 
 # target to preprocess a source file
 clEnqueueFillImage.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.i
 .PHONY : clEnqueueFillImage.c.i
 
 clEnqueueFillImage.s: clEnqueueFillImage.c.s
@@ -906,7 +906,7 @@ clEnqueueFillImage.s: clEnqueueFillImage.c.s
 
 # target to generate assembly for a file
 clEnqueueFillImage.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueFillImage.c.s
 .PHONY : clEnqueueFillImage.c.s
 
 clEnqueueMapBuffer.o: clEnqueueMapBuffer.c.o
@@ -914,7 +914,7 @@ clEnqueueMapBuffer.o: clEnqueueMapBuffer.c.o
 
 # target to build an object file
 clEnqueueMapBuffer.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.o
 .PHONY : clEnqueueMapBuffer.c.o
 
 clEnqueueMapBuffer.i: clEnqueueMapBuffer.c.i
@@ -922,7 +922,7 @@ clEnqueueMapBuffer.i: clEnqueueMapBuffer.c.i
 
 # target to preprocess a source file
 clEnqueueMapBuffer.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.i
 .PHONY : clEnqueueMapBuffer.c.i
 
 clEnqueueMapBuffer.s: clEnqueueMapBuffer.c.s
@@ -930,7 +930,7 @@ clEnqueueMapBuffer.s: clEnqueueMapBuffer.c.s
 
 # target to generate assembly for a file
 clEnqueueMapBuffer.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapBuffer.c.s
 .PHONY : clEnqueueMapBuffer.c.s
 
 clEnqueueMapImage.o: clEnqueueMapImage.c.o
@@ -938,7 +938,7 @@ clEnqueueMapImage.o: clEnqueueMapImage.c.o
 
 # target to build an object file
 clEnqueueMapImage.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.o
 .PHONY : clEnqueueMapImage.c.o
 
 clEnqueueMapImage.i: clEnqueueMapImage.c.i
@@ -946,7 +946,7 @@ clEnqueueMapImage.i: clEnqueueMapImage.c.i
 
 # target to preprocess a source file
 clEnqueueMapImage.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.i
 .PHONY : clEnqueueMapImage.c.i
 
 clEnqueueMapImage.s: clEnqueueMapImage.c.s
@@ -954,7 +954,7 @@ clEnqueueMapImage.s: clEnqueueMapImage.c.s
 
 # target to generate assembly for a file
 clEnqueueMapImage.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMapImage.c.s
 .PHONY : clEnqueueMapImage.c.s
 
 clEnqueueMarker.o: clEnqueueMarker.c.o
@@ -962,7 +962,7 @@ clEnqueueMarker.o: clEnqueueMarker.c.o
 
 # target to build an object file
 clEnqueueMarker.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.o
 .PHONY : clEnqueueMarker.c.o
 
 clEnqueueMarker.i: clEnqueueMarker.c.i
@@ -970,7 +970,7 @@ clEnqueueMarker.i: clEnqueueMarker.c.i
 
 # target to preprocess a source file
 clEnqueueMarker.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.i
 .PHONY : clEnqueueMarker.c.i
 
 clEnqueueMarker.s: clEnqueueMarker.c.s
@@ -978,7 +978,7 @@ clEnqueueMarker.s: clEnqueueMarker.c.s
 
 # target to generate assembly for a file
 clEnqueueMarker.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarker.c.s
 .PHONY : clEnqueueMarker.c.s
 
 clEnqueueMarkerWithWaitList.o: clEnqueueMarkerWithWaitList.c.o
@@ -986,7 +986,7 @@ clEnqueueMarkerWithWaitList.o: clEnqueueMarkerWithWaitList.c.o
 
 # target to build an object file
 clEnqueueMarkerWithWaitList.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.o
 .PHONY : clEnqueueMarkerWithWaitList.c.o
 
 clEnqueueMarkerWithWaitList.i: clEnqueueMarkerWithWaitList.c.i
@@ -994,7 +994,7 @@ clEnqueueMarkerWithWaitList.i: clEnqueueMarkerWithWaitList.c.i
 
 # target to preprocess a source file
 clEnqueueMarkerWithWaitList.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.i
 .PHONY : clEnqueueMarkerWithWaitList.c.i
 
 clEnqueueMarkerWithWaitList.s: clEnqueueMarkerWithWaitList.c.s
@@ -1002,7 +1002,7 @@ clEnqueueMarkerWithWaitList.s: clEnqueueMarkerWithWaitList.c.s
 
 # target to generate assembly for a file
 clEnqueueMarkerWithWaitList.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMarkerWithWaitList.c.s
 .PHONY : clEnqueueMarkerWithWaitList.c.s
 
 clEnqueueMigrateMemObjects.o: clEnqueueMigrateMemObjects.c.o
@@ -1010,7 +1010,7 @@ clEnqueueMigrateMemObjects.o: clEnqueueMigrateMemObjects.c.o
 
 # target to build an object file
 clEnqueueMigrateMemObjects.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.o
 .PHONY : clEnqueueMigrateMemObjects.c.o
 
 clEnqueueMigrateMemObjects.i: clEnqueueMigrateMemObjects.c.i
@@ -1018,7 +1018,7 @@ clEnqueueMigrateMemObjects.i: clEnqueueMigrateMemObjects.c.i
 
 # target to preprocess a source file
 clEnqueueMigrateMemObjects.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.i
 .PHONY : clEnqueueMigrateMemObjects.c.i
 
 clEnqueueMigrateMemObjects.s: clEnqueueMigrateMemObjects.c.s
@@ -1026,7 +1026,7 @@ clEnqueueMigrateMemObjects.s: clEnqueueMigrateMemObjects.c.s
 
 # target to generate assembly for a file
 clEnqueueMigrateMemObjects.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueMigrateMemObjects.c.s
 .PHONY : clEnqueueMigrateMemObjects.c.s
 
 clEnqueueNDRangeKernel.o: clEnqueueNDRangeKernel.c.o
@@ -1034,7 +1034,7 @@ clEnqueueNDRangeKernel.o: clEnqueueNDRangeKernel.c.o
 
 # target to build an object file
 clEnqueueNDRangeKernel.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.o
 .PHONY : clEnqueueNDRangeKernel.c.o
 
 clEnqueueNDRangeKernel.i: clEnqueueNDRangeKernel.c.i
@@ -1042,7 +1042,7 @@ clEnqueueNDRangeKernel.i: clEnqueueNDRangeKernel.c.i
 
 # target to preprocess a source file
 clEnqueueNDRangeKernel.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.i
 .PHONY : clEnqueueNDRangeKernel.c.i
 
 clEnqueueNDRangeKernel.s: clEnqueueNDRangeKernel.c.s
@@ -1050,7 +1050,7 @@ clEnqueueNDRangeKernel.s: clEnqueueNDRangeKernel.c.s
 
 # target to generate assembly for a file
 clEnqueueNDRangeKernel.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNDRangeKernel.c.s
 .PHONY : clEnqueueNDRangeKernel.c.s
 
 clEnqueueNativeKernel.o: clEnqueueNativeKernel.c.o
@@ -1058,7 +1058,7 @@ clEnqueueNativeKernel.o: clEnqueueNativeKernel.c.o
 
 # target to build an object file
 clEnqueueNativeKernel.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.o
 .PHONY : clEnqueueNativeKernel.c.o
 
 clEnqueueNativeKernel.i: clEnqueueNativeKernel.c.i
@@ -1066,7 +1066,7 @@ clEnqueueNativeKernel.i: clEnqueueNativeKernel.c.i
 
 # target to preprocess a source file
 clEnqueueNativeKernel.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.i
 .PHONY : clEnqueueNativeKernel.c.i
 
 clEnqueueNativeKernel.s: clEnqueueNativeKernel.c.s
@@ -1074,7 +1074,7 @@ clEnqueueNativeKernel.s: clEnqueueNativeKernel.c.s
 
 # target to generate assembly for a file
 clEnqueueNativeKernel.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueNativeKernel.c.s
 .PHONY : clEnqueueNativeKernel.c.s
 
 clEnqueueReadBuffer.o: clEnqueueReadBuffer.c.o
@@ -1082,7 +1082,7 @@ clEnqueueReadBuffer.o: clEnqueueReadBuffer.c.o
 
 # target to build an object file
 clEnqueueReadBuffer.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.o
 .PHONY : clEnqueueReadBuffer.c.o
 
 clEnqueueReadBuffer.i: clEnqueueReadBuffer.c.i
@@ -1090,7 +1090,7 @@ clEnqueueReadBuffer.i: clEnqueueReadBuffer.c.i
 
 # target to preprocess a source file
 clEnqueueReadBuffer.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.i
 .PHONY : clEnqueueReadBuffer.c.i
 
 clEnqueueReadBuffer.s: clEnqueueReadBuffer.c.s
@@ -1098,7 +1098,7 @@ clEnqueueReadBuffer.s: clEnqueueReadBuffer.c.s
 
 # target to generate assembly for a file
 clEnqueueReadBuffer.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBuffer.c.s
 .PHONY : clEnqueueReadBuffer.c.s
 
 clEnqueueReadBufferRect.o: clEnqueueReadBufferRect.c.o
@@ -1106,7 +1106,7 @@ clEnqueueReadBufferRect.o: clEnqueueReadBufferRect.c.o
 
 # target to build an object file
 clEnqueueReadBufferRect.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.o
 .PHONY : clEnqueueReadBufferRect.c.o
 
 clEnqueueReadBufferRect.i: clEnqueueReadBufferRect.c.i
@@ -1114,7 +1114,7 @@ clEnqueueReadBufferRect.i: clEnqueueReadBufferRect.c.i
 
 # target to preprocess a source file
 clEnqueueReadBufferRect.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.i
 .PHONY : clEnqueueReadBufferRect.c.i
 
 clEnqueueReadBufferRect.s: clEnqueueReadBufferRect.c.s
@@ -1122,7 +1122,7 @@ clEnqueueReadBufferRect.s: clEnqueueReadBufferRect.c.s
 
 # target to generate assembly for a file
 clEnqueueReadBufferRect.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadBufferRect.c.s
 .PHONY : clEnqueueReadBufferRect.c.s
 
 clEnqueueReadImage.o: clEnqueueReadImage.c.o
@@ -1130,7 +1130,7 @@ clEnqueueReadImage.o: clEnqueueReadImage.c.o
 
 # target to build an object file
 clEnqueueReadImage.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.o
 .PHONY : clEnqueueReadImage.c.o
 
 clEnqueueReadImage.i: clEnqueueReadImage.c.i
@@ -1138,7 +1138,7 @@ clEnqueueReadImage.i: clEnqueueReadImage.c.i
 
 # target to preprocess a source file
 clEnqueueReadImage.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.i
 .PHONY : clEnqueueReadImage.c.i
 
 clEnqueueReadImage.s: clEnqueueReadImage.c.s
@@ -1146,7 +1146,7 @@ clEnqueueReadImage.s: clEnqueueReadImage.c.s
 
 # target to generate assembly for a file
 clEnqueueReadImage.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueReadImage.c.s
 .PHONY : clEnqueueReadImage.c.s
 
 clEnqueueSVMFree.o: clEnqueueSVMFree.c.o
@@ -1154,7 +1154,7 @@ clEnqueueSVMFree.o: clEnqueueSVMFree.c.o
 
 # target to build an object file
 clEnqueueSVMFree.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.o
 .PHONY : clEnqueueSVMFree.c.o
 
 clEnqueueSVMFree.i: clEnqueueSVMFree.c.i
@@ -1162,7 +1162,7 @@ clEnqueueSVMFree.i: clEnqueueSVMFree.c.i
 
 # target to preprocess a source file
 clEnqueueSVMFree.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.i
 .PHONY : clEnqueueSVMFree.c.i
 
 clEnqueueSVMFree.s: clEnqueueSVMFree.c.s
@@ -1170,7 +1170,7 @@ clEnqueueSVMFree.s: clEnqueueSVMFree.c.s
 
 # target to generate assembly for a file
 clEnqueueSVMFree.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMFree.c.s
 .PHONY : clEnqueueSVMFree.c.s
 
 clEnqueueSVMMap.o: clEnqueueSVMMap.c.o
@@ -1178,7 +1178,7 @@ clEnqueueSVMMap.o: clEnqueueSVMMap.c.o
 
 # target to build an object file
 clEnqueueSVMMap.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.o
 .PHONY : clEnqueueSVMMap.c.o
 
 clEnqueueSVMMap.i: clEnqueueSVMMap.c.i
@@ -1186,7 +1186,7 @@ clEnqueueSVMMap.i: clEnqueueSVMMap.c.i
 
 # target to preprocess a source file
 clEnqueueSVMMap.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.i
 .PHONY : clEnqueueSVMMap.c.i
 
 clEnqueueSVMMap.s: clEnqueueSVMMap.c.s
@@ -1194,7 +1194,7 @@ clEnqueueSVMMap.s: clEnqueueSVMMap.c.s
 
 # target to generate assembly for a file
 clEnqueueSVMMap.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMap.c.s
 .PHONY : clEnqueueSVMMap.c.s
 
 clEnqueueSVMMemFill.o: clEnqueueSVMMemFill.c.o
@@ -1202,7 +1202,7 @@ clEnqueueSVMMemFill.o: clEnqueueSVMMemFill.c.o
 
 # target to build an object file
 clEnqueueSVMMemFill.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.o
 .PHONY : clEnqueueSVMMemFill.c.o
 
 clEnqueueSVMMemFill.i: clEnqueueSVMMemFill.c.i
@@ -1210,7 +1210,7 @@ clEnqueueSVMMemFill.i: clEnqueueSVMMemFill.c.i
 
 # target to preprocess a source file
 clEnqueueSVMMemFill.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.i
 .PHONY : clEnqueueSVMMemFill.c.i
 
 clEnqueueSVMMemFill.s: clEnqueueSVMMemFill.c.s
@@ -1218,7 +1218,7 @@ clEnqueueSVMMemFill.s: clEnqueueSVMMemFill.c.s
 
 # target to generate assembly for a file
 clEnqueueSVMMemFill.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemFill.c.s
 .PHONY : clEnqueueSVMMemFill.c.s
 
 clEnqueueSVMMemcpy.o: clEnqueueSVMMemcpy.c.o
@@ -1226,7 +1226,7 @@ clEnqueueSVMMemcpy.o: clEnqueueSVMMemcpy.c.o
 
 # target to build an object file
 clEnqueueSVMMemcpy.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.o
 .PHONY : clEnqueueSVMMemcpy.c.o
 
 clEnqueueSVMMemcpy.i: clEnqueueSVMMemcpy.c.i
@@ -1234,7 +1234,7 @@ clEnqueueSVMMemcpy.i: clEnqueueSVMMemcpy.c.i
 
 # target to preprocess a source file
 clEnqueueSVMMemcpy.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.i
 .PHONY : clEnqueueSVMMemcpy.c.i
 
 clEnqueueSVMMemcpy.s: clEnqueueSVMMemcpy.c.s
@@ -1242,7 +1242,7 @@ clEnqueueSVMMemcpy.s: clEnqueueSVMMemcpy.c.s
 
 # target to generate assembly for a file
 clEnqueueSVMMemcpy.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMMemcpy.c.s
 .PHONY : clEnqueueSVMMemcpy.c.s
 
 clEnqueueSVMUnmap.o: clEnqueueSVMUnmap.c.o
@@ -1250,7 +1250,7 @@ clEnqueueSVMUnmap.o: clEnqueueSVMUnmap.c.o
 
 # target to build an object file
 clEnqueueSVMUnmap.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.o
 .PHONY : clEnqueueSVMUnmap.c.o
 
 clEnqueueSVMUnmap.i: clEnqueueSVMUnmap.c.i
@@ -1258,7 +1258,7 @@ clEnqueueSVMUnmap.i: clEnqueueSVMUnmap.c.i
 
 # target to preprocess a source file
 clEnqueueSVMUnmap.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.i
 .PHONY : clEnqueueSVMUnmap.c.i
 
 clEnqueueSVMUnmap.s: clEnqueueSVMUnmap.c.s
@@ -1266,7 +1266,7 @@ clEnqueueSVMUnmap.s: clEnqueueSVMUnmap.c.s
 
 # target to generate assembly for a file
 clEnqueueSVMUnmap.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueSVMUnmap.c.s
 .PHONY : clEnqueueSVMUnmap.c.s
 
 clEnqueueTask.o: clEnqueueTask.c.o
@@ -1274,7 +1274,7 @@ clEnqueueTask.o: clEnqueueTask.c.o
 
 # target to build an object file
 clEnqueueTask.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.o
 .PHONY : clEnqueueTask.c.o
 
 clEnqueueTask.i: clEnqueueTask.c.i
@@ -1282,7 +1282,7 @@ clEnqueueTask.i: clEnqueueTask.c.i
 
 # target to preprocess a source file
 clEnqueueTask.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.i
 .PHONY : clEnqueueTask.c.i
 
 clEnqueueTask.s: clEnqueueTask.c.s
@@ -1290,7 +1290,7 @@ clEnqueueTask.s: clEnqueueTask.c.s
 
 # target to generate assembly for a file
 clEnqueueTask.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueTask.c.s
 .PHONY : clEnqueueTask.c.s
 
 clEnqueueUnmapMemObject.o: clEnqueueUnmapMemObject.c.o
@@ -1298,7 +1298,7 @@ clEnqueueUnmapMemObject.o: clEnqueueUnmapMemObject.c.o
 
 # target to build an object file
 clEnqueueUnmapMemObject.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.o
 .PHONY : clEnqueueUnmapMemObject.c.o
 
 clEnqueueUnmapMemObject.i: clEnqueueUnmapMemObject.c.i
@@ -1306,7 +1306,7 @@ clEnqueueUnmapMemObject.i: clEnqueueUnmapMemObject.c.i
 
 # target to preprocess a source file
 clEnqueueUnmapMemObject.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.i
 .PHONY : clEnqueueUnmapMemObject.c.i
 
 clEnqueueUnmapMemObject.s: clEnqueueUnmapMemObject.c.s
@@ -1314,7 +1314,7 @@ clEnqueueUnmapMemObject.s: clEnqueueUnmapMemObject.c.s
 
 # target to generate assembly for a file
 clEnqueueUnmapMemObject.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueUnmapMemObject.c.s
 .PHONY : clEnqueueUnmapMemObject.c.s
 
 clEnqueueWaitForEvents.o: clEnqueueWaitForEvents.c.o
@@ -1322,7 +1322,7 @@ clEnqueueWaitForEvents.o: clEnqueueWaitForEvents.c.o
 
 # target to build an object file
 clEnqueueWaitForEvents.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.o
 .PHONY : clEnqueueWaitForEvents.c.o
 
 clEnqueueWaitForEvents.i: clEnqueueWaitForEvents.c.i
@@ -1330,7 +1330,7 @@ clEnqueueWaitForEvents.i: clEnqueueWaitForEvents.c.i
 
 # target to preprocess a source file
 clEnqueueWaitForEvents.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.i
 .PHONY : clEnqueueWaitForEvents.c.i
 
 clEnqueueWaitForEvents.s: clEnqueueWaitForEvents.c.s
@@ -1338,7 +1338,7 @@ clEnqueueWaitForEvents.s: clEnqueueWaitForEvents.c.s
 
 # target to generate assembly for a file
 clEnqueueWaitForEvents.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWaitForEvents.c.s
 .PHONY : clEnqueueWaitForEvents.c.s
 
 clEnqueueWriteBuffer.o: clEnqueueWriteBuffer.c.o
@@ -1346,7 +1346,7 @@ clEnqueueWriteBuffer.o: clEnqueueWriteBuffer.c.o
 
 # target to build an object file
 clEnqueueWriteBuffer.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.o
 .PHONY : clEnqueueWriteBuffer.c.o
 
 clEnqueueWriteBuffer.i: clEnqueueWriteBuffer.c.i
@@ -1354,7 +1354,7 @@ clEnqueueWriteBuffer.i: clEnqueueWriteBuffer.c.i
 
 # target to preprocess a source file
 clEnqueueWriteBuffer.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.i
 .PHONY : clEnqueueWriteBuffer.c.i
 
 clEnqueueWriteBuffer.s: clEnqueueWriteBuffer.c.s
@@ -1362,7 +1362,7 @@ clEnqueueWriteBuffer.s: clEnqueueWriteBuffer.c.s
 
 # target to generate assembly for a file
 clEnqueueWriteBuffer.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBuffer.c.s
 .PHONY : clEnqueueWriteBuffer.c.s
 
 clEnqueueWriteBufferRect.o: clEnqueueWriteBufferRect.c.o
@@ -1370,7 +1370,7 @@ clEnqueueWriteBufferRect.o: clEnqueueWriteBufferRect.c.o
 
 # target to build an object file
 clEnqueueWriteBufferRect.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.o
 .PHONY : clEnqueueWriteBufferRect.c.o
 
 clEnqueueWriteBufferRect.i: clEnqueueWriteBufferRect.c.i
@@ -1378,7 +1378,7 @@ clEnqueueWriteBufferRect.i: clEnqueueWriteBufferRect.c.i
 
 # target to preprocess a source file
 clEnqueueWriteBufferRect.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.i
 .PHONY : clEnqueueWriteBufferRect.c.i
 
 clEnqueueWriteBufferRect.s: clEnqueueWriteBufferRect.c.s
@@ -1386,7 +1386,7 @@ clEnqueueWriteBufferRect.s: clEnqueueWriteBufferRect.c.s
 
 # target to generate assembly for a file
 clEnqueueWriteBufferRect.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteBufferRect.c.s
 .PHONY : clEnqueueWriteBufferRect.c.s
 
 clEnqueueWriteImage.o: clEnqueueWriteImage.c.o
@@ -1394,7 +1394,7 @@ clEnqueueWriteImage.o: clEnqueueWriteImage.c.o
 
 # target to build an object file
 clEnqueueWriteImage.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.o
 .PHONY : clEnqueueWriteImage.c.o
 
 clEnqueueWriteImage.i: clEnqueueWriteImage.c.i
@@ -1402,7 +1402,7 @@ clEnqueueWriteImage.i: clEnqueueWriteImage.c.i
 
 # target to preprocess a source file
 clEnqueueWriteImage.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.i
 .PHONY : clEnqueueWriteImage.c.i
 
 clEnqueueWriteImage.s: clEnqueueWriteImage.c.s
@@ -1410,7 +1410,7 @@ clEnqueueWriteImage.s: clEnqueueWriteImage.c.s
 
 # target to generate assembly for a file
 clEnqueueWriteImage.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clEnqueueWriteImage.c.s
 .PHONY : clEnqueueWriteImage.c.s
 
 clFinish.o: clFinish.c.o
@@ -1418,7 +1418,7 @@ clFinish.o: clFinish.c.o
 
 # target to build an object file
 clFinish.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.o
 .PHONY : clFinish.c.o
 
 clFinish.i: clFinish.c.i
@@ -1426,7 +1426,7 @@ clFinish.i: clFinish.c.i
 
 # target to preprocess a source file
 clFinish.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.i
 .PHONY : clFinish.c.i
 
 clFinish.s: clFinish.c.s
@@ -1434,7 +1434,7 @@ clFinish.s: clFinish.c.s
 
 # target to generate assembly for a file
 clFinish.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFinish.c.s
 .PHONY : clFinish.c.s
 
 clFlush.o: clFlush.c.o
@@ -1442,7 +1442,7 @@ clFlush.o: clFlush.c.o
 
 # target to build an object file
 clFlush.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.o
 .PHONY : clFlush.c.o
 
 clFlush.i: clFlush.c.i
@@ -1450,7 +1450,7 @@ clFlush.i: clFlush.c.i
 
 # target to preprocess a source file
 clFlush.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.i
 .PHONY : clFlush.c.i
 
 clFlush.s: clFlush.c.s
@@ -1458,7 +1458,7 @@ clFlush.s: clFlush.c.s
 
 # target to generate assembly for a file
 clFlush.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clFlush.c.s
 .PHONY : clFlush.c.s
 
 clGetCommandQueueInfo.o: clGetCommandQueueInfo.c.o
@@ -1466,7 +1466,7 @@ clGetCommandQueueInfo.o: clGetCommandQueueInfo.c.o
 
 # target to build an object file
 clGetCommandQueueInfo.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.o
 .PHONY : clGetCommandQueueInfo.c.o
 
 clGetCommandQueueInfo.i: clGetCommandQueueInfo.c.i
@@ -1474,7 +1474,7 @@ clGetCommandQueueInfo.i: clGetCommandQueueInfo.c.i
 
 # target to preprocess a source file
 clGetCommandQueueInfo.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.i
 .PHONY : clGetCommandQueueInfo.c.i
 
 clGetCommandQueueInfo.s: clGetCommandQueueInfo.c.s
@@ -1482,7 +1482,7 @@ clGetCommandQueueInfo.s: clGetCommandQueueInfo.c.s
 
 # target to generate assembly for a file
 clGetCommandQueueInfo.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetCommandQueueInfo.c.s
 .PHONY : clGetCommandQueueInfo.c.s
 
 clGetContextInfo.o: clGetContextInfo.c.o
@@ -1490,7 +1490,7 @@ clGetContextInfo.o: clGetContextInfo.c.o
 
 # target to build an object file
 clGetContextInfo.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.o
 .PHONY : clGetContextInfo.c.o
 
 clGetContextInfo.i: clGetContextInfo.c.i
@@ -1498,7 +1498,7 @@ clGetContextInfo.i: clGetContextInfo.c.i
 
 # target to preprocess a source file
 clGetContextInfo.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.i
 .PHONY : clGetContextInfo.c.i
 
 clGetContextInfo.s: clGetContextInfo.c.s
@@ -1506,7 +1506,7 @@ clGetContextInfo.s: clGetContextInfo.c.s
 
 # target to generate assembly for a file
 clGetContextInfo.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetContextInfo.c.s
 .PHONY : clGetContextInfo.c.s
 
 clGetDeviceIDs.o: clGetDeviceIDs.c.o
@@ -1514,7 +1514,7 @@ clGetDeviceIDs.o: clGetDeviceIDs.c.o
 
 # target to build an object file
 clGetDeviceIDs.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.o
 .PHONY : clGetDeviceIDs.c.o
 
 clGetDeviceIDs.i: clGetDeviceIDs.c.i
@@ -1522,7 +1522,7 @@ clGetDeviceIDs.i: clGetDeviceIDs.c.i
 
 # target to preprocess a source file
 clGetDeviceIDs.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.i
 .PHONY : clGetDeviceIDs.c.i
 
 clGetDeviceIDs.s: clGetDeviceIDs.c.s
@@ -1530,7 +1530,7 @@ clGetDeviceIDs.s: clGetDeviceIDs.c.s
 
 # target to generate assembly for a file
 clGetDeviceIDs.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceIDs.c.s
 .PHONY : clGetDeviceIDs.c.s
 
 clGetDeviceInfo.o: clGetDeviceInfo.c.o
@@ -1538,7 +1538,7 @@ clGetDeviceInfo.o: clGetDeviceInfo.c.o
 
 # target to build an object file
 clGetDeviceInfo.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.o
 .PHONY : clGetDeviceInfo.c.o
 
 clGetDeviceInfo.i: clGetDeviceInfo.c.i
@@ -1546,7 +1546,7 @@ clGetDeviceInfo.i: clGetDeviceInfo.c.i
 
 # target to preprocess a source file
 clGetDeviceInfo.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.i
 .PHONY : clGetDeviceInfo.c.i
 
 clGetDeviceInfo.s: clGetDeviceInfo.c.s
@@ -1554,7 +1554,7 @@ clGetDeviceInfo.s: clGetDeviceInfo.c.s
 
 # target to generate assembly for a file
 clGetDeviceInfo.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetDeviceInfo.c.s
 .PHONY : clGetDeviceInfo.c.s
 
 clGetEventInfo.o: clGetEventInfo.c.o
@@ -1562,7 +1562,7 @@ clGetEventInfo.o: clGetEventInfo.c.o
 
 # target to build an object file
 clGetEventInfo.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.o
 .PHONY : clGetEventInfo.c.o
 
 clGetEventInfo.i: clGetEventInfo.c.i
@@ -1570,7 +1570,7 @@ clGetEventInfo.i: clGetEventInfo.c.i
 
 # target to preprocess a source file
 clGetEventInfo.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.i
 .PHONY : clGetEventInfo.c.i
 
 clGetEventInfo.s: clGetEventInfo.c.s
@@ -1578,7 +1578,7 @@ clGetEventInfo.s: clGetEventInfo.c.s
 
 # target to generate assembly for a file
 clGetEventInfo.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventInfo.c.s
 .PHONY : clGetEventInfo.c.s
 
 clGetEventProfilingInfo.o: clGetEventProfilingInfo.c.o
@@ -1586,7 +1586,7 @@ clGetEventProfilingInfo.o: clGetEventProfilingInfo.c.o
 
 # target to build an object file
 clGetEventProfilingInfo.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.o
 .PHONY : clGetEventProfilingInfo.c.o
 
 clGetEventProfilingInfo.i: clGetEventProfilingInfo.c.i
@@ -1594,7 +1594,7 @@ clGetEventProfilingInfo.i: clGetEventProfilingInfo.c.i
 
 # target to preprocess a source file
 clGetEventProfilingInfo.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.i
 .PHONY : clGetEventProfilingInfo.c.i
 
 clGetEventProfilingInfo.s: clGetEventProfilingInfo.c.s
@@ -1602,7 +1602,7 @@ clGetEventProfilingInfo.s: clGetEventProfilingInfo.c.s
 
 # target to generate assembly for a file
 clGetEventProfilingInfo.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetEventProfilingInfo.c.s
 .PHONY : clGetEventProfilingInfo.c.s
 
 clGetExtensionFunctionAddress.o: clGetExtensionFunctionAddress.c.o
@@ -1610,7 +1610,7 @@ clGetExtensionFunctionAddress.o: clGetExtensionFunctionAddress.c.o
 
 # target to build an object file
 clGetExtensionFunctionAddress.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.o
 .PHONY : clGetExtensionFunctionAddress.c.o
 
 clGetExtensionFunctionAddress.i: clGetExtensionFunctionAddress.c.i
@@ -1618,7 +1618,7 @@ clGetExtensionFunctionAddress.i: clGetExtensionFunctionAddress.c.i
 
 # target to preprocess a source file
 clGetExtensionFunctionAddress.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.i
 .PHONY : clGetExtensionFunctionAddress.c.i
 
 clGetExtensionFunctionAddress.s: clGetExtensionFunctionAddress.c.s
@@ -1626,7 +1626,7 @@ clGetExtensionFunctionAddress.s: clGetExtensionFunctionAddress.c.s
 
 # target to generate assembly for a file
 clGetExtensionFunctionAddress.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddress.c.s
 .PHONY : clGetExtensionFunctionAddress.c.s
 
 clGetExtensionFunctionAddressForPlatform.o: clGetExtensionFunctionAddressForPlatform.c.o
@@ -1634,7 +1634,7 @@ clGetExtensionFunctionAddressForPlatform.o: clGetExtensionFunctionAddressForPlat
 
 # target to build an object file
 clGetExtensionFunctionAddressForPlatform.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.o
 .PHONY : clGetExtensionFunctionAddressForPlatform.c.o
 
 clGetExtensionFunctionAddressForPlatform.i: clGetExtensionFunctionAddressForPlatform.c.i
@@ -1642,7 +1642,7 @@ clGetExtensionFunctionAddressForPlatform.i: clGetExtensionFunctionAddressForPlat
 
 # target to preprocess a source file
 clGetExtensionFunctionAddressForPlatform.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.i
 .PHONY : clGetExtensionFunctionAddressForPlatform.c.i
 
 clGetExtensionFunctionAddressForPlatform.s: clGetExtensionFunctionAddressForPlatform.c.s
@@ -1650,7 +1650,7 @@ clGetExtensionFunctionAddressForPlatform.s: clGetExtensionFunctionAddressForPlat
 
 # target to generate assembly for a file
 clGetExtensionFunctionAddressForPlatform.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetExtensionFunctionAddressForPlatform.c.s
 .PHONY : clGetExtensionFunctionAddressForPlatform.c.s
 
 clGetImageInfo.o: clGetImageInfo.c.o
@@ -1658,7 +1658,7 @@ clGetImageInfo.o: clGetImageInfo.c.o
 
 # target to build an object file
 clGetImageInfo.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.o
 .PHONY : clGetImageInfo.c.o
 
 clGetImageInfo.i: clGetImageInfo.c.i
@@ -1666,7 +1666,7 @@ clGetImageInfo.i: clGetImageInfo.c.i
 
 # target to preprocess a source file
 clGetImageInfo.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.i
 .PHONY : clGetImageInfo.c.i
 
 clGetImageInfo.s: clGetImageInfo.c.s
@@ -1674,7 +1674,7 @@ clGetImageInfo.s: clGetImageInfo.c.s
 
 # target to generate assembly for a file
 clGetImageInfo.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetImageInfo.c.s
 .PHONY : clGetImageInfo.c.s
 
 clGetKernelArgInfo.o: clGetKernelArgInfo.c.o
@@ -1682,7 +1682,7 @@ clGetKernelArgInfo.o: clGetKernelArgInfo.c.o
 
 # target to build an object file
 clGetKernelArgInfo.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.o
 .PHONY : clGetKernelArgInfo.c.o
 
 clGetKernelArgInfo.i: clGetKernelArgInfo.c.i
@@ -1690,7 +1690,7 @@ clGetKernelArgInfo.i: clGetKernelArgInfo.c.i
 
 # target to preprocess a source file
 clGetKernelArgInfo.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.i
 .PHONY : clGetKernelArgInfo.c.i
 
 clGetKernelArgInfo.s: clGetKernelArgInfo.c.s
@@ -1698,7 +1698,7 @@ clGetKernelArgInfo.s: clGetKernelArgInfo.c.s
 
 # target to generate assembly for a file
 clGetKernelArgInfo.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelArgInfo.c.s
 .PHONY : clGetKernelArgInfo.c.s
 
 clGetKernelInfo.o: clGetKernelInfo.c.o
@@ -1706,7 +1706,7 @@ clGetKernelInfo.o: clGetKernelInfo.c.o
 
 # target to build an object file
 clGetKernelInfo.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.o
 .PHONY : clGetKernelInfo.c.o
 
 clGetKernelInfo.i: clGetKernelInfo.c.i
@@ -1714,7 +1714,7 @@ clGetKernelInfo.i: clGetKernelInfo.c.i
 
 # target to preprocess a source file
 clGetKernelInfo.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.i
 .PHONY : clGetKernelInfo.c.i
 
 clGetKernelInfo.s: clGetKernelInfo.c.s
@@ -1722,7 +1722,7 @@ clGetKernelInfo.s: clGetKernelInfo.c.s
 
 # target to generate assembly for a file
 clGetKernelInfo.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelInfo.c.s
 .PHONY : clGetKernelInfo.c.s
 
 clGetKernelWorkGroupInfo.o: clGetKernelWorkGroupInfo.c.o
@@ -1730,7 +1730,7 @@ clGetKernelWorkGroupInfo.o: clGetKernelWorkGroupInfo.c.o
 
 # target to build an object file
 clGetKernelWorkGroupInfo.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.o
 .PHONY : clGetKernelWorkGroupInfo.c.o
 
 clGetKernelWorkGroupInfo.i: clGetKernelWorkGroupInfo.c.i
@@ -1738,7 +1738,7 @@ clGetKernelWorkGroupInfo.i: clGetKernelWorkGroupInfo.c.i
 
 # target to preprocess a source file
 clGetKernelWorkGroupInfo.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.i
 .PHONY : clGetKernelWorkGroupInfo.c.i
 
 clGetKernelWorkGroupInfo.s: clGetKernelWorkGroupInfo.c.s
@@ -1746,7 +1746,7 @@ clGetKernelWorkGroupInfo.s: clGetKernelWorkGroupInfo.c.s
 
 # target to generate assembly for a file
 clGetKernelWorkGroupInfo.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetKernelWorkGroupInfo.c.s
 .PHONY : clGetKernelWorkGroupInfo.c.s
 
 clGetMemObjectInfo.o: clGetMemObjectInfo.c.o
@@ -1754,7 +1754,7 @@ clGetMemObjectInfo.o: clGetMemObjectInfo.c.o
 
 # target to build an object file
 clGetMemObjectInfo.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.o
 .PHONY : clGetMemObjectInfo.c.o
 
 clGetMemObjectInfo.i: clGetMemObjectInfo.c.i
@@ -1762,7 +1762,7 @@ clGetMemObjectInfo.i: clGetMemObjectInfo.c.i
 
 # target to preprocess a source file
 clGetMemObjectInfo.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.i
 .PHONY : clGetMemObjectInfo.c.i
 
 clGetMemObjectInfo.s: clGetMemObjectInfo.c.s
@@ -1770,7 +1770,7 @@ clGetMemObjectInfo.s: clGetMemObjectInfo.c.s
 
 # target to generate assembly for a file
 clGetMemObjectInfo.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetMemObjectInfo.c.s
 .PHONY : clGetMemObjectInfo.c.s
 
 clGetPlatformIDs.o: clGetPlatformIDs.c.o
@@ -1778,7 +1778,7 @@ clGetPlatformIDs.o: clGetPlatformIDs.c.o
 
 # target to build an object file
 clGetPlatformIDs.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.o
 .PHONY : clGetPlatformIDs.c.o
 
 clGetPlatformIDs.i: clGetPlatformIDs.c.i
@@ -1786,7 +1786,7 @@ clGetPlatformIDs.i: clGetPlatformIDs.c.i
 
 # target to preprocess a source file
 clGetPlatformIDs.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.i
 .PHONY : clGetPlatformIDs.c.i
 
 clGetPlatformIDs.s: clGetPlatformIDs.c.s
@@ -1794,7 +1794,7 @@ clGetPlatformIDs.s: clGetPlatformIDs.c.s
 
 # target to generate assembly for a file
 clGetPlatformIDs.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformIDs.c.s
 .PHONY : clGetPlatformIDs.c.s
 
 clGetPlatformInfo.o: clGetPlatformInfo.c.o
@@ -1802,7 +1802,7 @@ clGetPlatformInfo.o: clGetPlatformInfo.c.o
 
 # target to build an object file
 clGetPlatformInfo.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.o
 .PHONY : clGetPlatformInfo.c.o
 
 clGetPlatformInfo.i: clGetPlatformInfo.c.i
@@ -1810,7 +1810,7 @@ clGetPlatformInfo.i: clGetPlatformInfo.c.i
 
 # target to preprocess a source file
 clGetPlatformInfo.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.i
 .PHONY : clGetPlatformInfo.c.i
 
 clGetPlatformInfo.s: clGetPlatformInfo.c.s
@@ -1818,7 +1818,7 @@ clGetPlatformInfo.s: clGetPlatformInfo.c.s
 
 # target to generate assembly for a file
 clGetPlatformInfo.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetPlatformInfo.c.s
 .PHONY : clGetPlatformInfo.c.s
 
 clGetProgramBuildInfo.o: clGetProgramBuildInfo.c.o
@@ -1826,7 +1826,7 @@ clGetProgramBuildInfo.o: clGetProgramBuildInfo.c.o
 
 # target to build an object file
 clGetProgramBuildInfo.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.o
 .PHONY : clGetProgramBuildInfo.c.o
 
 clGetProgramBuildInfo.i: clGetProgramBuildInfo.c.i
@@ -1834,7 +1834,7 @@ clGetProgramBuildInfo.i: clGetProgramBuildInfo.c.i
 
 # target to preprocess a source file
 clGetProgramBuildInfo.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.i
 .PHONY : clGetProgramBuildInfo.c.i
 
 clGetProgramBuildInfo.s: clGetProgramBuildInfo.c.s
@@ -1842,7 +1842,7 @@ clGetProgramBuildInfo.s: clGetProgramBuildInfo.c.s
 
 # target to generate assembly for a file
 clGetProgramBuildInfo.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramBuildInfo.c.s
 .PHONY : clGetProgramBuildInfo.c.s
 
 clGetProgramInfo.o: clGetProgramInfo.c.o
@@ -1850,7 +1850,7 @@ clGetProgramInfo.o: clGetProgramInfo.c.o
 
 # target to build an object file
 clGetProgramInfo.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.o
 .PHONY : clGetProgramInfo.c.o
 
 clGetProgramInfo.i: clGetProgramInfo.c.i
@@ -1858,7 +1858,7 @@ clGetProgramInfo.i: clGetProgramInfo.c.i
 
 # target to preprocess a source file
 clGetProgramInfo.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.i
 .PHONY : clGetProgramInfo.c.i
 
 clGetProgramInfo.s: clGetProgramInfo.c.s
@@ -1866,7 +1866,7 @@ clGetProgramInfo.s: clGetProgramInfo.c.s
 
 # target to generate assembly for a file
 clGetProgramInfo.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetProgramInfo.c.s
 .PHONY : clGetProgramInfo.c.s
 
 clGetSamplerInfo.o: clGetSamplerInfo.c.o
@@ -1874,7 +1874,7 @@ clGetSamplerInfo.o: clGetSamplerInfo.c.o
 
 # target to build an object file
 clGetSamplerInfo.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.o
 .PHONY : clGetSamplerInfo.c.o
 
 clGetSamplerInfo.i: clGetSamplerInfo.c.i
@@ -1882,7 +1882,7 @@ clGetSamplerInfo.i: clGetSamplerInfo.c.i
 
 # target to preprocess a source file
 clGetSamplerInfo.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.i
 .PHONY : clGetSamplerInfo.c.i
 
 clGetSamplerInfo.s: clGetSamplerInfo.c.s
@@ -1890,7 +1890,7 @@ clGetSamplerInfo.s: clGetSamplerInfo.c.s
 
 # target to generate assembly for a file
 clGetSamplerInfo.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSamplerInfo.c.s
 .PHONY : clGetSamplerInfo.c.s
 
 clGetSupportedImageFormats.o: clGetSupportedImageFormats.c.o
@@ -1898,7 +1898,7 @@ clGetSupportedImageFormats.o: clGetSupportedImageFormats.c.o
 
 # target to build an object file
 clGetSupportedImageFormats.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.o
 .PHONY : clGetSupportedImageFormats.c.o
 
 clGetSupportedImageFormats.i: clGetSupportedImageFormats.c.i
@@ -1906,7 +1906,7 @@ clGetSupportedImageFormats.i: clGetSupportedImageFormats.c.i
 
 # target to preprocess a source file
 clGetSupportedImageFormats.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.i
 .PHONY : clGetSupportedImageFormats.c.i
 
 clGetSupportedImageFormats.s: clGetSupportedImageFormats.c.s
@@ -1914,7 +1914,7 @@ clGetSupportedImageFormats.s: clGetSupportedImageFormats.c.s
 
 # target to generate assembly for a file
 clGetSupportedImageFormats.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clGetSupportedImageFormats.c.s
 .PHONY : clGetSupportedImageFormats.c.s
 
 clIcdGetPlatformIDsKHR.o: clIcdGetPlatformIDsKHR.c.o
@@ -1922,7 +1922,7 @@ clIcdGetPlatformIDsKHR.o: clIcdGetPlatformIDsKHR.c.o
 
 # target to build an object file
 clIcdGetPlatformIDsKHR.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.o
 .PHONY : clIcdGetPlatformIDsKHR.c.o
 
 clIcdGetPlatformIDsKHR.i: clIcdGetPlatformIDsKHR.c.i
@@ -1930,7 +1930,7 @@ clIcdGetPlatformIDsKHR.i: clIcdGetPlatformIDsKHR.c.i
 
 # target to preprocess a source file
 clIcdGetPlatformIDsKHR.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.i
 .PHONY : clIcdGetPlatformIDsKHR.c.i
 
 clIcdGetPlatformIDsKHR.s: clIcdGetPlatformIDsKHR.c.s
@@ -1938,7 +1938,7 @@ clIcdGetPlatformIDsKHR.s: clIcdGetPlatformIDsKHR.c.s
 
 # target to generate assembly for a file
 clIcdGetPlatformIDsKHR.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clIcdGetPlatformIDsKHR.c.s
 .PHONY : clIcdGetPlatformIDsKHR.c.s
 
 clLinkProgram.o: clLinkProgram.c.o
@@ -1946,7 +1946,7 @@ clLinkProgram.o: clLinkProgram.c.o
 
 # target to build an object file
 clLinkProgram.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.o
 .PHONY : clLinkProgram.c.o
 
 clLinkProgram.i: clLinkProgram.c.i
@@ -1954,7 +1954,7 @@ clLinkProgram.i: clLinkProgram.c.i
 
 # target to preprocess a source file
 clLinkProgram.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.i
 .PHONY : clLinkProgram.c.i
 
 clLinkProgram.s: clLinkProgram.c.s
@@ -1962,7 +1962,7 @@ clLinkProgram.s: clLinkProgram.c.s
 
 # target to generate assembly for a file
 clLinkProgram.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clLinkProgram.c.s
 .PHONY : clLinkProgram.c.s
 
 clReleaseCommandQueue.o: clReleaseCommandQueue.c.o
@@ -1970,7 +1970,7 @@ clReleaseCommandQueue.o: clReleaseCommandQueue.c.o
 
 # target to build an object file
 clReleaseCommandQueue.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.o
 .PHONY : clReleaseCommandQueue.c.o
 
 clReleaseCommandQueue.i: clReleaseCommandQueue.c.i
@@ -1978,7 +1978,7 @@ clReleaseCommandQueue.i: clReleaseCommandQueue.c.i
 
 # target to preprocess a source file
 clReleaseCommandQueue.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.i
 .PHONY : clReleaseCommandQueue.c.i
 
 clReleaseCommandQueue.s: clReleaseCommandQueue.c.s
@@ -1986,7 +1986,7 @@ clReleaseCommandQueue.s: clReleaseCommandQueue.c.s
 
 # target to generate assembly for a file
 clReleaseCommandQueue.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseCommandQueue.c.s
 .PHONY : clReleaseCommandQueue.c.s
 
 clReleaseContext.o: clReleaseContext.c.o
@@ -1994,7 +1994,7 @@ clReleaseContext.o: clReleaseContext.c.o
 
 # target to build an object file
 clReleaseContext.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.o
 .PHONY : clReleaseContext.c.o
 
 clReleaseContext.i: clReleaseContext.c.i
@@ -2002,7 +2002,7 @@ clReleaseContext.i: clReleaseContext.c.i
 
 # target to preprocess a source file
 clReleaseContext.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.i
 .PHONY : clReleaseContext.c.i
 
 clReleaseContext.s: clReleaseContext.c.s
@@ -2010,7 +2010,7 @@ clReleaseContext.s: clReleaseContext.c.s
 
 # target to generate assembly for a file
 clReleaseContext.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseContext.c.s
 .PHONY : clReleaseContext.c.s
 
 clReleaseDevice.o: clReleaseDevice.c.o
@@ -2018,7 +2018,7 @@ clReleaseDevice.o: clReleaseDevice.c.o
 
 # target to build an object file
 clReleaseDevice.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.o
 .PHONY : clReleaseDevice.c.o
 
 clReleaseDevice.i: clReleaseDevice.c.i
@@ -2026,7 +2026,7 @@ clReleaseDevice.i: clReleaseDevice.c.i
 
 # target to preprocess a source file
 clReleaseDevice.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.i
 .PHONY : clReleaseDevice.c.i
 
 clReleaseDevice.s: clReleaseDevice.c.s
@@ -2034,7 +2034,7 @@ clReleaseDevice.s: clReleaseDevice.c.s
 
 # target to generate assembly for a file
 clReleaseDevice.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseDevice.c.s
 .PHONY : clReleaseDevice.c.s
 
 clReleaseEvent.o: clReleaseEvent.c.o
@@ -2042,7 +2042,7 @@ clReleaseEvent.o: clReleaseEvent.c.o
 
 # target to build an object file
 clReleaseEvent.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.o
 .PHONY : clReleaseEvent.c.o
 
 clReleaseEvent.i: clReleaseEvent.c.i
@@ -2050,7 +2050,7 @@ clReleaseEvent.i: clReleaseEvent.c.i
 
 # target to preprocess a source file
 clReleaseEvent.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.i
 .PHONY : clReleaseEvent.c.i
 
 clReleaseEvent.s: clReleaseEvent.c.s
@@ -2058,7 +2058,7 @@ clReleaseEvent.s: clReleaseEvent.c.s
 
 # target to generate assembly for a file
 clReleaseEvent.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseEvent.c.s
 .PHONY : clReleaseEvent.c.s
 
 clReleaseKernel.o: clReleaseKernel.c.o
@@ -2066,7 +2066,7 @@ clReleaseKernel.o: clReleaseKernel.c.o
 
 # target to build an object file
 clReleaseKernel.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.o
 .PHONY : clReleaseKernel.c.o
 
 clReleaseKernel.i: clReleaseKernel.c.i
@@ -2074,7 +2074,7 @@ clReleaseKernel.i: clReleaseKernel.c.i
 
 # target to preprocess a source file
 clReleaseKernel.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.i
 .PHONY : clReleaseKernel.c.i
 
 clReleaseKernel.s: clReleaseKernel.c.s
@@ -2082,7 +2082,7 @@ clReleaseKernel.s: clReleaseKernel.c.s
 
 # target to generate assembly for a file
 clReleaseKernel.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseKernel.c.s
 .PHONY : clReleaseKernel.c.s
 
 clReleaseMemObject.o: clReleaseMemObject.c.o
@@ -2090,7 +2090,7 @@ clReleaseMemObject.o: clReleaseMemObject.c.o
 
 # target to build an object file
 clReleaseMemObject.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.o
 .PHONY : clReleaseMemObject.c.o
 
 clReleaseMemObject.i: clReleaseMemObject.c.i
@@ -2098,7 +2098,7 @@ clReleaseMemObject.i: clReleaseMemObject.c.i
 
 # target to preprocess a source file
 clReleaseMemObject.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.i
 .PHONY : clReleaseMemObject.c.i
 
 clReleaseMemObject.s: clReleaseMemObject.c.s
@@ -2106,7 +2106,7 @@ clReleaseMemObject.s: clReleaseMemObject.c.s
 
 # target to generate assembly for a file
 clReleaseMemObject.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseMemObject.c.s
 .PHONY : clReleaseMemObject.c.s
 
 clReleaseProgram.o: clReleaseProgram.c.o
@@ -2114,7 +2114,7 @@ clReleaseProgram.o: clReleaseProgram.c.o
 
 # target to build an object file
 clReleaseProgram.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.o
 .PHONY : clReleaseProgram.c.o
 
 clReleaseProgram.i: clReleaseProgram.c.i
@@ -2122,7 +2122,7 @@ clReleaseProgram.i: clReleaseProgram.c.i
 
 # target to preprocess a source file
 clReleaseProgram.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.i
 .PHONY : clReleaseProgram.c.i
 
 clReleaseProgram.s: clReleaseProgram.c.s
@@ -2130,7 +2130,7 @@ clReleaseProgram.s: clReleaseProgram.c.s
 
 # target to generate assembly for a file
 clReleaseProgram.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseProgram.c.s
 .PHONY : clReleaseProgram.c.s
 
 clReleaseSampler.o: clReleaseSampler.c.o
@@ -2138,7 +2138,7 @@ clReleaseSampler.o: clReleaseSampler.c.o
 
 # target to build an object file
 clReleaseSampler.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.o
 .PHONY : clReleaseSampler.c.o
 
 clReleaseSampler.i: clReleaseSampler.c.i
@@ -2146,7 +2146,7 @@ clReleaseSampler.i: clReleaseSampler.c.i
 
 # target to preprocess a source file
 clReleaseSampler.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.i
 .PHONY : clReleaseSampler.c.i
 
 clReleaseSampler.s: clReleaseSampler.c.s
@@ -2154,7 +2154,7 @@ clReleaseSampler.s: clReleaseSampler.c.s
 
 # target to generate assembly for a file
 clReleaseSampler.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clReleaseSampler.c.s
 .PHONY : clReleaseSampler.c.s
 
 clRetainCommandQueue.o: clRetainCommandQueue.c.o
@@ -2162,7 +2162,7 @@ clRetainCommandQueue.o: clRetainCommandQueue.c.o
 
 # target to build an object file
 clRetainCommandQueue.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.o
 .PHONY : clRetainCommandQueue.c.o
 
 clRetainCommandQueue.i: clRetainCommandQueue.c.i
@@ -2170,7 +2170,7 @@ clRetainCommandQueue.i: clRetainCommandQueue.c.i
 
 # target to preprocess a source file
 clRetainCommandQueue.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.i
 .PHONY : clRetainCommandQueue.c.i
 
 clRetainCommandQueue.s: clRetainCommandQueue.c.s
@@ -2178,7 +2178,7 @@ clRetainCommandQueue.s: clRetainCommandQueue.c.s
 
 # target to generate assembly for a file
 clRetainCommandQueue.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainCommandQueue.c.s
 .PHONY : clRetainCommandQueue.c.s
 
 clRetainContext.o: clRetainContext.c.o
@@ -2186,7 +2186,7 @@ clRetainContext.o: clRetainContext.c.o
 
 # target to build an object file
 clRetainContext.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.o
 .PHONY : clRetainContext.c.o
 
 clRetainContext.i: clRetainContext.c.i
@@ -2194,7 +2194,7 @@ clRetainContext.i: clRetainContext.c.i
 
 # target to preprocess a source file
 clRetainContext.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.i
 .PHONY : clRetainContext.c.i
 
 clRetainContext.s: clRetainContext.c.s
@@ -2202,7 +2202,7 @@ clRetainContext.s: clRetainContext.c.s
 
 # target to generate assembly for a file
 clRetainContext.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainContext.c.s
 .PHONY : clRetainContext.c.s
 
 clRetainDevice.o: clRetainDevice.c.o
@@ -2210,7 +2210,7 @@ clRetainDevice.o: clRetainDevice.c.o
 
 # target to build an object file
 clRetainDevice.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.o
 .PHONY : clRetainDevice.c.o
 
 clRetainDevice.i: clRetainDevice.c.i
@@ -2218,7 +2218,7 @@ clRetainDevice.i: clRetainDevice.c.i
 
 # target to preprocess a source file
 clRetainDevice.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.i
 .PHONY : clRetainDevice.c.i
 
 clRetainDevice.s: clRetainDevice.c.s
@@ -2226,7 +2226,7 @@ clRetainDevice.s: clRetainDevice.c.s
 
 # target to generate assembly for a file
 clRetainDevice.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainDevice.c.s
 .PHONY : clRetainDevice.c.s
 
 clRetainEvent.o: clRetainEvent.c.o
@@ -2234,7 +2234,7 @@ clRetainEvent.o: clRetainEvent.c.o
 
 # target to build an object file
 clRetainEvent.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.o
 .PHONY : clRetainEvent.c.o
 
 clRetainEvent.i: clRetainEvent.c.i
@@ -2242,7 +2242,7 @@ clRetainEvent.i: clRetainEvent.c.i
 
 # target to preprocess a source file
 clRetainEvent.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.i
 .PHONY : clRetainEvent.c.i
 
 clRetainEvent.s: clRetainEvent.c.s
@@ -2250,7 +2250,7 @@ clRetainEvent.s: clRetainEvent.c.s
 
 # target to generate assembly for a file
 clRetainEvent.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainEvent.c.s
 .PHONY : clRetainEvent.c.s
 
 clRetainKernel.o: clRetainKernel.c.o
@@ -2258,7 +2258,7 @@ clRetainKernel.o: clRetainKernel.c.o
 
 # target to build an object file
 clRetainKernel.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.o
 .PHONY : clRetainKernel.c.o
 
 clRetainKernel.i: clRetainKernel.c.i
@@ -2266,7 +2266,7 @@ clRetainKernel.i: clRetainKernel.c.i
 
 # target to preprocess a source file
 clRetainKernel.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.i
 .PHONY : clRetainKernel.c.i
 
 clRetainKernel.s: clRetainKernel.c.s
@@ -2274,7 +2274,7 @@ clRetainKernel.s: clRetainKernel.c.s
 
 # target to generate assembly for a file
 clRetainKernel.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainKernel.c.s
 .PHONY : clRetainKernel.c.s
 
 clRetainMemObject.o: clRetainMemObject.c.o
@@ -2282,7 +2282,7 @@ clRetainMemObject.o: clRetainMemObject.c.o
 
 # target to build an object file
 clRetainMemObject.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.o
 .PHONY : clRetainMemObject.c.o
 
 clRetainMemObject.i: clRetainMemObject.c.i
@@ -2290,7 +2290,7 @@ clRetainMemObject.i: clRetainMemObject.c.i
 
 # target to preprocess a source file
 clRetainMemObject.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.i
 .PHONY : clRetainMemObject.c.i
 
 clRetainMemObject.s: clRetainMemObject.c.s
@@ -2298,7 +2298,7 @@ clRetainMemObject.s: clRetainMemObject.c.s
 
 # target to generate assembly for a file
 clRetainMemObject.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainMemObject.c.s
 .PHONY : clRetainMemObject.c.s
 
 clRetainProgram.o: clRetainProgram.c.o
@@ -2306,7 +2306,7 @@ clRetainProgram.o: clRetainProgram.c.o
 
 # target to build an object file
 clRetainProgram.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.o
 .PHONY : clRetainProgram.c.o
 
 clRetainProgram.i: clRetainProgram.c.i
@@ -2314,7 +2314,7 @@ clRetainProgram.i: clRetainProgram.c.i
 
 # target to preprocess a source file
 clRetainProgram.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.i
 .PHONY : clRetainProgram.c.i
 
 clRetainProgram.s: clRetainProgram.c.s
@@ -2322,7 +2322,7 @@ clRetainProgram.s: clRetainProgram.c.s
 
 # target to generate assembly for a file
 clRetainProgram.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainProgram.c.s
 .PHONY : clRetainProgram.c.s
 
 clRetainSampler.o: clRetainSampler.c.o
@@ -2330,7 +2330,7 @@ clRetainSampler.o: clRetainSampler.c.o
 
 # target to build an object file
 clRetainSampler.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.o
 .PHONY : clRetainSampler.c.o
 
 clRetainSampler.i: clRetainSampler.c.i
@@ -2338,7 +2338,7 @@ clRetainSampler.i: clRetainSampler.c.i
 
 # target to preprocess a source file
 clRetainSampler.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.i
 .PHONY : clRetainSampler.c.i
 
 clRetainSampler.s: clRetainSampler.c.s
@@ -2346,7 +2346,7 @@ clRetainSampler.s: clRetainSampler.c.s
 
 # target to generate assembly for a file
 clRetainSampler.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clRetainSampler.c.s
 .PHONY : clRetainSampler.c.s
 
 clSVMAlloc.o: clSVMAlloc.c.o
@@ -2354,7 +2354,7 @@ clSVMAlloc.o: clSVMAlloc.c.o
 
 # target to build an object file
 clSVMAlloc.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.o
 .PHONY : clSVMAlloc.c.o
 
 clSVMAlloc.i: clSVMAlloc.c.i
@@ -2362,7 +2362,7 @@ clSVMAlloc.i: clSVMAlloc.c.i
 
 # target to preprocess a source file
 clSVMAlloc.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.i
 .PHONY : clSVMAlloc.c.i
 
 clSVMAlloc.s: clSVMAlloc.c.s
@@ -2370,7 +2370,7 @@ clSVMAlloc.s: clSVMAlloc.c.s
 
 # target to generate assembly for a file
 clSVMAlloc.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMAlloc.c.s
 .PHONY : clSVMAlloc.c.s
 
 clSVMFree.o: clSVMFree.c.o
@@ -2378,7 +2378,7 @@ clSVMFree.o: clSVMFree.c.o
 
 # target to build an object file
 clSVMFree.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.o
 .PHONY : clSVMFree.c.o
 
 clSVMFree.i: clSVMFree.c.i
@@ -2386,7 +2386,7 @@ clSVMFree.i: clSVMFree.c.i
 
 # target to preprocess a source file
 clSVMFree.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.i
 .PHONY : clSVMFree.c.i
 
 clSVMFree.s: clSVMFree.c.s
@@ -2394,7 +2394,7 @@ clSVMFree.s: clSVMFree.c.s
 
 # target to generate assembly for a file
 clSVMFree.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSVMFree.c.s
 .PHONY : clSVMFree.c.s
 
 clSetEventCallback.o: clSetEventCallback.c.o
@@ -2402,7 +2402,7 @@ clSetEventCallback.o: clSetEventCallback.c.o
 
 # target to build an object file
 clSetEventCallback.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.o
 .PHONY : clSetEventCallback.c.o
 
 clSetEventCallback.i: clSetEventCallback.c.i
@@ -2410,7 +2410,7 @@ clSetEventCallback.i: clSetEventCallback.c.i
 
 # target to preprocess a source file
 clSetEventCallback.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.i
 .PHONY : clSetEventCallback.c.i
 
 clSetEventCallback.s: clSetEventCallback.c.s
@@ -2418,7 +2418,7 @@ clSetEventCallback.s: clSetEventCallback.c.s
 
 # target to generate assembly for a file
 clSetEventCallback.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetEventCallback.c.s
 .PHONY : clSetEventCallback.c.s
 
 clSetKernelArg.o: clSetKernelArg.c.o
@@ -2426,7 +2426,7 @@ clSetKernelArg.o: clSetKernelArg.c.o
 
 # target to build an object file
 clSetKernelArg.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.o
 .PHONY : clSetKernelArg.c.o
 
 clSetKernelArg.i: clSetKernelArg.c.i
@@ -2434,7 +2434,7 @@ clSetKernelArg.i: clSetKernelArg.c.i
 
 # target to preprocess a source file
 clSetKernelArg.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.i
 .PHONY : clSetKernelArg.c.i
 
 clSetKernelArg.s: clSetKernelArg.c.s
@@ -2442,7 +2442,7 @@ clSetKernelArg.s: clSetKernelArg.c.s
 
 # target to generate assembly for a file
 clSetKernelArg.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArg.c.s
 .PHONY : clSetKernelArg.c.s
 
 clSetKernelArgSVMPointer.o: clSetKernelArgSVMPointer.c.o
@@ -2450,7 +2450,7 @@ clSetKernelArgSVMPointer.o: clSetKernelArgSVMPointer.c.o
 
 # target to build an object file
 clSetKernelArgSVMPointer.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.o
 .PHONY : clSetKernelArgSVMPointer.c.o
 
 clSetKernelArgSVMPointer.i: clSetKernelArgSVMPointer.c.i
@@ -2458,7 +2458,7 @@ clSetKernelArgSVMPointer.i: clSetKernelArgSVMPointer.c.i
 
 # target to preprocess a source file
 clSetKernelArgSVMPointer.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.i
 .PHONY : clSetKernelArgSVMPointer.c.i
 
 clSetKernelArgSVMPointer.s: clSetKernelArgSVMPointer.c.s
@@ -2466,7 +2466,7 @@ clSetKernelArgSVMPointer.s: clSetKernelArgSVMPointer.c.s
 
 # target to generate assembly for a file
 clSetKernelArgSVMPointer.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelArgSVMPointer.c.s
 .PHONY : clSetKernelArgSVMPointer.c.s
 
 clSetKernelExecInfo.o: clSetKernelExecInfo.c.o
@@ -2474,7 +2474,7 @@ clSetKernelExecInfo.o: clSetKernelExecInfo.c.o
 
 # target to build an object file
 clSetKernelExecInfo.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.o
 .PHONY : clSetKernelExecInfo.c.o
 
 clSetKernelExecInfo.i: clSetKernelExecInfo.c.i
@@ -2482,7 +2482,7 @@ clSetKernelExecInfo.i: clSetKernelExecInfo.c.i
 
 # target to preprocess a source file
 clSetKernelExecInfo.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.i
 .PHONY : clSetKernelExecInfo.c.i
 
 clSetKernelExecInfo.s: clSetKernelExecInfo.c.s
@@ -2490,7 +2490,7 @@ clSetKernelExecInfo.s: clSetKernelExecInfo.c.s
 
 # target to generate assembly for a file
 clSetKernelExecInfo.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetKernelExecInfo.c.s
 .PHONY : clSetKernelExecInfo.c.s
 
 clSetMemObjectDestructorCallback.o: clSetMemObjectDestructorCallback.c.o
@@ -2498,7 +2498,7 @@ clSetMemObjectDestructorCallback.o: clSetMemObjectDestructorCallback.c.o
 
 # target to build an object file
 clSetMemObjectDestructorCallback.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.o
 .PHONY : clSetMemObjectDestructorCallback.c.o
 
 clSetMemObjectDestructorCallback.i: clSetMemObjectDestructorCallback.c.i
@@ -2506,7 +2506,7 @@ clSetMemObjectDestructorCallback.i: clSetMemObjectDestructorCallback.c.i
 
 # target to preprocess a source file
 clSetMemObjectDestructorCallback.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.i
 .PHONY : clSetMemObjectDestructorCallback.c.i
 
 clSetMemObjectDestructorCallback.s: clSetMemObjectDestructorCallback.c.s
@@ -2514,7 +2514,7 @@ clSetMemObjectDestructorCallback.s: clSetMemObjectDestructorCallback.c.s
 
 # target to generate assembly for a file
 clSetMemObjectDestructorCallback.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetMemObjectDestructorCallback.c.s
 .PHONY : clSetMemObjectDestructorCallback.c.s
 
 clSetUserEventStatus.o: clSetUserEventStatus.c.o
@@ -2522,7 +2522,7 @@ clSetUserEventStatus.o: clSetUserEventStatus.c.o
 
 # target to build an object file
 clSetUserEventStatus.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.o
 .PHONY : clSetUserEventStatus.c.o
 
 clSetUserEventStatus.i: clSetUserEventStatus.c.i
@@ -2530,7 +2530,7 @@ clSetUserEventStatus.i: clSetUserEventStatus.c.i
 
 # target to preprocess a source file
 clSetUserEventStatus.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.i
 .PHONY : clSetUserEventStatus.c.i
 
 clSetUserEventStatus.s: clSetUserEventStatus.c.s
@@ -2538,7 +2538,7 @@ clSetUserEventStatus.s: clSetUserEventStatus.c.s
 
 # target to generate assembly for a file
 clSetUserEventStatus.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clSetUserEventStatus.c.s
 .PHONY : clSetUserEventStatus.c.s
 
 clUnloadCompiler.o: clUnloadCompiler.c.o
@@ -2546,7 +2546,7 @@ clUnloadCompiler.o: clUnloadCompiler.c.o
 
 # target to build an object file
 clUnloadCompiler.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.o
 .PHONY : clUnloadCompiler.c.o
 
 clUnloadCompiler.i: clUnloadCompiler.c.i
@@ -2554,7 +2554,7 @@ clUnloadCompiler.i: clUnloadCompiler.c.i
 
 # target to preprocess a source file
 clUnloadCompiler.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.i
 .PHONY : clUnloadCompiler.c.i
 
 clUnloadCompiler.s: clUnloadCompiler.c.s
@@ -2562,7 +2562,7 @@ clUnloadCompiler.s: clUnloadCompiler.c.s
 
 # target to generate assembly for a file
 clUnloadCompiler.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadCompiler.c.s
 .PHONY : clUnloadCompiler.c.s
 
 clUnloadPlatformCompiler.o: clUnloadPlatformCompiler.c.o
@@ -2570,7 +2570,7 @@ clUnloadPlatformCompiler.o: clUnloadPlatformCompiler.c.o
 
 # target to build an object file
 clUnloadPlatformCompiler.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.o
 .PHONY : clUnloadPlatformCompiler.c.o
 
 clUnloadPlatformCompiler.i: clUnloadPlatformCompiler.c.i
@@ -2578,7 +2578,7 @@ clUnloadPlatformCompiler.i: clUnloadPlatformCompiler.c.i
 
 # target to preprocess a source file
 clUnloadPlatformCompiler.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.i
 .PHONY : clUnloadPlatformCompiler.c.i
 
 clUnloadPlatformCompiler.s: clUnloadPlatformCompiler.c.s
@@ -2586,7 +2586,7 @@ clUnloadPlatformCompiler.s: clUnloadPlatformCompiler.c.s
 
 # target to generate assembly for a file
 clUnloadPlatformCompiler.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clUnloadPlatformCompiler.c.s
 .PHONY : clUnloadPlatformCompiler.c.s
 
 clWaitForEvents.o: clWaitForEvents.c.o
@@ -2594,7 +2594,7 @@ clWaitForEvents.o: clWaitForEvents.c.o
 
 # target to build an object file
 clWaitForEvents.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.o
 .PHONY : clWaitForEvents.c.o
 
 clWaitForEvents.i: clWaitForEvents.c.i
@@ -2602,7 +2602,7 @@ clWaitForEvents.i: clWaitForEvents.c.i
 
 # target to preprocess a source file
 clWaitForEvents.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.i
 .PHONY : clWaitForEvents.c.i
 
 clWaitForEvents.s: clWaitForEvents.c.s
@@ -2610,7 +2610,7 @@ clWaitForEvents.s: clWaitForEvents.c.s
 
 # target to generate assembly for a file
 clWaitForEvents.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/clWaitForEvents.c.s
 .PHONY : clWaitForEvents.c.s
 
 cl_management.o: cl_management.c.o
@@ -2618,7 +2618,7 @@ cl_management.o: cl_management.c.o
 
 # target to build an object file
 cl_management.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.o
 .PHONY : cl_management.c.o
 
 cl_management.i: cl_management.c.i
@@ -2626,7 +2626,7 @@ cl_management.i: cl_management.c.i
 
 # target to preprocess a source file
 cl_management.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.i
 .PHONY : cl_management.c.i
 
 cl_management.s: cl_management.c.s
@@ -2634,7 +2634,7 @@ cl_management.s: cl_management.c.s
 
 # target to generate assembly for a file
 cl_management.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/cl_management.c.s
 .PHONY : cl_management.c.s
 
 common.o: common.c.o
@@ -2642,7 +2642,7 @@ common.o: common.c.o
 
 # target to build an object file
 common.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/common.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/common.c.o
 .PHONY : common.c.o
 
 common.i: common.c.i
@@ -2650,7 +2650,7 @@ common.i: common.c.i
 
 # target to preprocess a source file
 common.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/common.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/common.c.i
 .PHONY : common.c.i
 
 common.s: common.c.s
@@ -2658,7 +2658,7 @@ common.s: common.c.s
 
 # target to generate assembly for a file
 common.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/common.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/common.c.s
 .PHONY : common.c.s
 
 network.o: network.c.o
@@ -2666,7 +2666,7 @@ network.o: network.c.o
 
 # target to build an object file
 network.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/network.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/network.c.o
 .PHONY : network.c.o
 
 network.i: network.c.i
@@ -2674,7 +2674,7 @@ network.i: network.c.i
 
 # target to preprocess a source file
 network.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/network.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/network.c.i
 .PHONY : network.c.i
 
 network.s: network.c.s
@@ -2682,7 +2682,7 @@ network.s: network.c.s
 
 # target to generate assembly for a file
 network.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/network.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/network.c.s
 .PHONY : network.c.s
 
 pocl_opengl.o: pocl_opengl.c.o
@@ -2690,7 +2690,7 @@ pocl_opengl.o: pocl_opengl.c.o
 
 # target to build an object file
 pocl_opengl.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.o
 .PHONY : pocl_opengl.c.o
 
 pocl_opengl.i: pocl_opengl.c.i
@@ -2698,7 +2698,7 @@ pocl_opengl.i: pocl_opengl.c.i
 
 # target to preprocess a source file
 pocl_opengl.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.i
 .PHONY : pocl_opengl.c.i
 
 pocl_opengl.s: pocl_opengl.c.s
@@ -2706,7 +2706,7 @@ pocl_opengl.s: pocl_opengl.c.s
 
 # target to generate assembly for a file
 pocl_opengl.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/pocl_opengl.c.s
 .PHONY : pocl_opengl.c.s
 
 storage.o: storage.c.o
@@ -2714,7 +2714,7 @@ storage.o: storage.c.o
 
 # target to build an object file
 storage.c.o:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/storage.c.o
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/storage.c.o
 .PHONY : storage.c.o
 
 storage.i: storage.c.i
@@ -2722,7 +2722,7 @@ storage.i: storage.c.i
 
 # target to preprocess a source file
 storage.c.i:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/storage.c.i
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/storage.c.i
 .PHONY : storage.c.i
 
 storage.s: storage.c.s
@@ -2730,7 +2730,7 @@ storage.s: storage.c.s
 
 # target to generate assembly for a file
 storage.c.s:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/storage.c.s
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(MAKE) $(MAKESILENT) -f lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/build.make lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/storage.c.s
 .PHONY : storage.c.s
 
 # Help Target
@@ -3076,6 +3076,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ruialves/rOpenCL/code/rOpenCL_driver/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

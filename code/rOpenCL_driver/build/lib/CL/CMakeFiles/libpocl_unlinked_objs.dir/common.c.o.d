@@ -1,7 +1,7 @@
 lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/common.c.o: \
- /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/common.c \
+ /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/common.c \
  /usr/include/stdc-predef.h \
- /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/common.h \
+ /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/common.h \
  /usr/include/search.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -11,10 +11,10 @@ lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/common.c.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
- /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/fix-include/CL/cl.h \
- /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/include/CL/cl.h \
- /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/fix-include/CL/cl_platform.h \
- /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/include/CL/cl_platform.h \
+ /home/ruialves/rOpenCL/code/rOpenCL_driver/fix-include/CL/cl.h \
+ /home/ruialves/rOpenCL/code/rOpenCL_driver/include/CL/cl.h \
+ /home/ruialves/rOpenCL/code/rOpenCL_driver/fix-include/CL/cl_platform.h \
+ /home/ruialves/rOpenCL/code/rOpenCL_driver/include/CL/cl_platform.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
@@ -105,10 +105,10 @@ lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/common.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
  /usr/include/x86_64-linux-gnu/bits/netdb.h /usr/include/arpa/inet.h \
- /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/fix-include/CL/cl_gl.h \
- /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/include/CL/cl_gl.h \
- /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/include/CL/cl_egl.h \
- /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/include/CL/cl_gl_ext.h \
+ /home/ruialves/rOpenCL/code/rOpenCL_driver/fix-include/CL/cl_gl.h \
+ /home/ruialves/rOpenCL/code/rOpenCL_driver/include/CL/cl_gl.h \
+ /home/ruialves/rOpenCL/code/rOpenCL_driver/include/CL/cl_egl.h \
+ /home/ruialves/rOpenCL/code/rOpenCL_driver/include/CL/cl_gl_ext.h \
  /usr/include/GL/gl.h /usr/include/GL/glext.h \
  /usr/include/KHR/khrplatform.h /usr/include/pthread.h \
  /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h \
@@ -134,5 +134,5 @@ lib/CL/CMakeFiles/libpocl_unlinked_objs.dir/common.c.o: \
  /usr/include/x86_64-linux-gnu/asm/unistd.h \
  /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
  /usr/include/x86_64-linux-gnu/bits/syscall.h \
- /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/network.h \
- /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/lib/CL/storage.h
+ /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/network.h \
+ /home/ruialves/rOpenCL/code/rOpenCL_driver/lib/CL/storage.h

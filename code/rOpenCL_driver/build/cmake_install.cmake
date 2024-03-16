@@ -1,4 +1,4 @@
-# Install script for directory: /home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver
+# Install script for directory: /home/ruialves/rOpenCL/code/rOpenCL_driver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/include/cmake_install.cmake")
-  include("/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/lib/CL/cmake_install.cmake")
+  include("/home/ruialves/rOpenCL/code/rOpenCL_driver/build/include/cmake_install.cmake")
+  include("/home/ruialves/rOpenCL/code/rOpenCL_driver/build/lib/CL/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ruialves/rOpenCL/rOpenCL-master/code/rOpenCL_driver/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ruialves/rOpenCL/code/rOpenCL_driver/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

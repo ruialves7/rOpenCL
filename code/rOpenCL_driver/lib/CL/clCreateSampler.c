@@ -89,10 +89,10 @@ POname(clCreateSampler)(cl_context context, cl_bool normalized_coords, cl_addres
     recv_data_tcp(&fd, buffer_data_reply, size_buffer_data_reply, "clCreateSampler");
     closeSocketTCP(&fd, &fd_connect);
 #endif
-    offset_buffer = 0;
+    buffer_data_request-=offset_buffer;
     free(header);
     free(buffer_data_request);
-
+    offset_buffer=0;
     _ccl_memcpy(&result_, buffer_data_reply, sizeof(cl_sampler), &offset_buffer);
     buffer_data_reply += sizeof(cl_sampler);
 
