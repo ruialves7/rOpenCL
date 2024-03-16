@@ -888,7 +888,7 @@ void _cclEnqueueReadBuffer(void *_request)
 
     data -= offset_total;
     offset_total = 0;
-    size_buffer_reply = sizeof(size_t) + sizeof(ccl_reply) + sizeof(int);
+    size_buffer_reply = sizeof(size_t) + sizeof(ccl_reply);
     if (ccl_request.size > 0)
     {
         ptr = malloc(ccl_request.size);
