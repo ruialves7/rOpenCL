@@ -35,9 +35,9 @@ POname(clCreateContext)(const cl_context_properties *properties, cl_uint num_dev
 
     if (properties != NULL)
     {
-        while (properties[num_properties += 2] != 0)
-            ;
+        while (properties[num_properties += 2] != 0);
         num_properties++;
+
         size_buffer_data_request += (sizeof(cl_context_properties) * num_properties);
     }
 
@@ -86,7 +86,6 @@ POname(clCreateContext)(const cl_context_properties *properties, cl_uint num_dev
 
     _ccl_memcpy(buffer_data_request, &num_properties, sizeof(int), &offset_buffer);
     buffer_data_request += sizeof(int);
-
     _ccl_memcpy(buffer_data_request, &num_devices, sizeof(cl_uint), &offset_buffer);
     buffer_data_request += sizeof(cl_uint);
 

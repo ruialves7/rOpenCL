@@ -36,6 +36,7 @@ POname(clGetPlatformIDs)(cl_uint num_entries, cl_platform_id *platforms, cl_uint
         size_t size_buffer_data_request = 0, size_buffer_data_reply = 0, offset_buffer = 0;
 
         size_buffer_data_request = sizeof(cl_uint);
+
 #if PROTOCOL == 1
         size_buffer_data_request += SIZE_HEADER_TCP;
 #endif
@@ -53,6 +54,7 @@ POname(clGetPlatformIDs)(cl_uint num_entries, cl_platform_id *platforms, cl_uint
 #endif
         _ccl_memcpy(buffer_data_request, &fill_num_entries, sizeof(cl_uint), &offset_buffer);
         buffer_data_request += sizeof(cl_uint);
+
         buffer_data_request -= offset_buffer;
 
         size_buffer_data_reply = sizeof(cl_int) + sizeof(cl_uint) + NUM_MAX_PLATFORMS * sizeof(cl_platform_id);
@@ -115,6 +117,7 @@ POname(clGetPlatformIDs)(cl_uint num_entries, cl_platform_id *platforms, cl_uint
                 buffer_data_reply -= offset_buffer;
                 break;
             }
+
             buffer_data_reply -= offset_buffer;
         }
 

@@ -132,19 +132,21 @@ POname(clGetDeviceIDs)(cl_platform_id platform, cl_device_type device_type, cl_u
             buffer_data_reply = malloc(size_buffer_data_reply);
 
             size_buffer_data_request = sizeof(cl_platform_id) + sizeof(cl_device_type) + sizeof(cl_uint);
+
 #if PROTOCOL == 1
             size_buffer_data_request += SIZE_HEADER_TCP;
 #endif
 
             buffer_data_request = malloc(size_buffer_data_request);
 
+	   offset_buffer=0;
 #if PROTOCOL == 1
 
             _ccl_memcpy(buffer_data_request, &id, sizeof(char), &offset_buffer);
             buffer_data_request += sizeof(char);
 
-            _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof(int), &offset_buffer);
-            buffer_data_request += sizeof(int);
+            _ccl_memcpy(buffer_data_request, &size_buffer_data_request, sizeof(size_t), &offset_buffer);
+            buffer_data_request += sizeof(size_t);
 
 #endif
 
@@ -155,7 +157,7 @@ POname(clGetDeviceIDs)(cl_platform_id platform, cl_device_type device_type, cl_u
             buffer_data_request += sizeof(cl_device_type);
 
             _ccl_memcpy(buffer_data_request, &num_entries, sizeof(cl_uint), &offset_buffer);
-            buffer_data_request += sizeof(size_t);
+            buffer_data_request += sizeof(cl_uint);
 
             buffer_data_request -= offset_buffer;
 
