@@ -25,7 +25,7 @@ void _connect(void *_request)
 void _cclGetPlatformIDs(void *_request)
 {
     int fd_tcp_client_primitive = 0;
-    size_t size_buffer_reply = sizeof(size_t), offset_total = 0;
+    size_t size_buffer_reply = 0, offset_total = 0;
     void *buffer_data_reply = NULL;
     cl_uint num_entries;
     cl_int result;
@@ -39,7 +39,9 @@ void _cclGetPlatformIDs(void *_request)
 
     _ccl_memcpy(&num_entries, data, sizeof(cl_uint), &offset_total);
     data += sizeof(cl_uint);
+
     data -= offset_total;
+
 
     // find nr platforms
     result = clGetPlatformIDs(0, NULL, &num_platforms);
@@ -52,7 +54,7 @@ void _cclGetPlatformIDs(void *_request)
         size_buffer_reply += (sizeof(cl_platform_id) * num_entries);
     }
 
-    size_buffer_reply += (sizeof(cl_int) + sizeof(cl_uint));
+    size_buffer_reply += (sizeof(size_t)+sizeof(cl_int) + sizeof(cl_uint));
     buffer_data_reply = malloc(size_buffer_reply);
 
     offset_total = 0;
@@ -181,7 +183,7 @@ void _cclGetDeviceIDs(void *_request)
     if (num_entries > 0)
         device = malloc(sizeof(cl_device_id) * num_entries);
 
-    result = clGetDeviceIDs(platform, device_type, num_entries, device, &num_devices);
+    result = clGetDeviceIDs( platform, device_type, num_entries, device, &num_devices);
 
     size_buffer_reply = sizeof(size_t) + sizeof(cl_int) + sizeof(cl_uint) + sizeof(cl_device_id) * num_entries;
     buffer_data_reply = malloc(size_buffer_reply);
@@ -197,8 +199,8 @@ void _cclGetDeviceIDs(void *_request)
 
     if (num_entries > 0)
     {
-        _ccl_memcpy(buffer_data_reply, device, sizeof(cl_device_id) * num_devices, &offset_total);
-        buffer_data_reply += sizeof(cl_device_id) * num_devices;
+        _ccl_memcpy(buffer_data_reply, device, sizeof(cl_device_id) * num_entries, &offset_total);
+        buffer_data_reply += sizeof(cl_device_id) * num_entries;
     }
 
     buffer_data_reply -= offset_total;
@@ -276,10 +278,9 @@ void _cclGetDeviceInfo(void *_request)
 
 void _cclCreateContext(void *_request)
 {
-
     void *buffer_data_reply = NULL, *data = NULL;
     int fd_tcp_client = 0;
-    size_t size_buffer_reply = 0, offset_total = 0;
+    size_t size_buffer_reply = 0;int  offset_total = 0;
     cl_context result;
     cl_int errcode_ret;
     cl_context_properties *properties = NULL;
@@ -292,11 +293,9 @@ void _cclCreateContext(void *_request)
     int size_properties = 0;
     _ccl_memcpy(&size_properties, data, sizeof(int), &offset_total);
     data += sizeof(int);
-
     cl_uint num_devices;
     _ccl_memcpy(&num_devices, data, sizeof(cl_uint), &offset_total);
     data += sizeof(cl_uint);
-
     if (size_properties > 0)
     {
         properties = malloc(sizeof(cl_context_properties) * size_properties);
@@ -313,9 +312,7 @@ void _cclCreateContext(void *_request)
 
     data -= offset_total;
     offset_total = 0;
-
     result = clCreateContext(properties, num_devices, devices, NULL, NULL, &errcode_ret);
-
     size_buffer_reply = sizeof(size_t) + sizeof(cl_context) + sizeof(cl_int);
     buffer_data_reply = malloc(size_buffer_reply);
 
@@ -613,6 +610,7 @@ void _cclCreateKernel(void *_request)
 
     ccl_reply.result = clCreateKernel(program, kernel_name, &ccl_reply.errcode_ret);
 
+    offset_total=0;
     size_buffer_reply = sizeof(size_t) + sizeof(ccl_reply);
     void *buffer_data_reply = malloc(size_buffer_reply);
 
@@ -4878,10 +4876,9 @@ void *worker_tcp(void *arg)
         if (return_sendto == 0)
         {
 
-#if DEGUG == 1
 
-            printf("-- TCP: Thread exit --\n");
-#endif
+            puts("-- TCP: Thread exit --\n");
+
             close(fd_client);
             pthread_exit(0);
         }
