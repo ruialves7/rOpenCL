@@ -5,9 +5,9 @@
 
 <h4>rOpenCL: What is it?</h4>
 
-The efficient exploitation of heterogeneous systems, and assurance of code portability, depends on open standards, such as OpenCL, which support co-processors of virtually any type. In addition to these standards, there are proprietary standards, device-oriented frameworks such as the NVIDIA CUDA framework for GPUs.
+The efficient use of heterogeneous systems and the code portability within that systems, depends on open standards, such as OpenCL, SYCL, which support co-processors of any type, if these devices have a driver available to use. Beyond the opensource standars, others standards, like as NVIDIA CUDA framework for GPUs, Intel OpenCL Runtime, but they are proprietary standards which might be reduce some of open standards benefits.
 
-Shared by all these approaches is the fact that originally only provide for the use of local co-processors, connected to a single host system, not allowing the exploration of accelerators connected to other systems, accessible via the network, thereby limiting the potential for applications to accelerate.
+Nevertheless, using local co-processors, connected to a single host system, not allowing take advantage of accelerators connected to other systems, accessible via the network, is an common characteristic in all these standards, which restricts the potential for applications to accelerate.
 
 ![arquiteture-v6-1](https://user-images.githubusercontent.com/64751470/138589891-b0abe05f-4948-4aba-a8a5-19494cbf804b.png)
 
