@@ -1,4 +1,4 @@
-<h1>Deprecrated: A new version is comming</h1>
+<h1>Deprecrated: A new version is coming</h1>
 
 
 # rOpenCL - remote OpenCL
