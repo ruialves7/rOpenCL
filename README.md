@@ -3,9 +3,9 @@
 
 # rOpenCL - remote OpenCL
 
-<h4>rOpenCL: How is useful ?</h4>
+<h4>rOpenCL: How is it useful ?</h4>
 
-The efficient use of heterogeneous systems and the code portability within that systems, depends on open standards, such as OpenCL, SYCL, which support co-processors of any type, if these devices have a driver available to use. Beyond the opensource standars, others standards, like as NVIDIA CUDA framework for GPUs, Intel OpenCL Runtime, but they are proprietary standards which might be reduce some of open standards benefits.
+The efficient use of heterogeneous systems and the code portability within that system, depends on open standards, such as OpenCL, SYCL, which support co-processors of any type, if these devices have a driver available to use. Beyond the open source standards, other standards, such as NVIDIA CUDA framework for GPUs, Intel OpenCL Runtime, but they are proprietary standards which might be reduce some of open standards benefits.
 
 Nevertheless, using local co-processors, connected to a single host system, not allowing take advantage of accelerators connected to other systems, accessible via the network, is an common characteristic in all these standards, which restricts the potential for applications to accelerate.
 
