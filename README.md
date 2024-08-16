@@ -3,7 +3,7 @@
 
 # rOpenCL - remote OpenCL
 
-<h4>rOpenCL: What is it?</h4>
+<h4>rOpenCL: How it is useful ?</h4>
 
 The efficient use of heterogeneous systems and the code portability within that systems, depends on open standards, such as OpenCL, SYCL, which support co-processors of any type, if these devices have a driver available to use. Beyond the opensource standars, others standards, like as NVIDIA CUDA framework for GPUs, Intel OpenCL Runtime, but they are proprietary standards which might be reduce some of open standards benefits.
 
@@ -11,7 +11,7 @@ Nevertheless, using local co-processors, connected to a single host system, not 
 
 ![arquiteture-v6-1](https://user-images.githubusercontent.com/64751470/138589891-b0abe05f-4948-4aba-a8a5-19494cbf804b.png)
 
-The rOpenCL responds to this limitation. As show the figure above, through a middleware and services that together allow an OpenCL application (even pre-compiled) to transparently and efficiently explore the set of available accelerators in a distributed Linux system environment, using portable BSD socket-based communication.
+The rOpenCL is one of the possible solutions, which extends the normal version of OpenCL standard and allowing the usage of remote co-processor. As show the figure above, through a driver, fully compatible with ICD-Loader mechanism, and rOpenCL services that running on remote nodes, an OpenCL application (even pre-compiled) can transparently and efficiently explore the set of available accelerators in a distributed Linux system environment, using portable BSD socket-based communication.
 
 <h4>rOpenCL: Coverage</h4>
 At its current stage, rOpenCL only supports version 1.2 of OpenCL, a "limitation" inherited from the implementations of most OpenCL vendors, which stick to this version. Also, not all OpenCL functions can be performed remotely by the rOpenCL. The choice of functions to be supported by rOpenCL was conditioned by the development context (oriented to high-performance computing, not graphical acceleration) and expected execution environment, thus, rOpenCL only performs 70% of Opencl 1.2 functions correctly and stably (more information check the project’s Coverage folder), although, version 3.0, released on April 27, 2020, only requires vendors to support the features of version 1.2, making all functions of 2.x versions optional. In this way, the rOpenCL, ends up being aligned with what the latest version of the specification considers fundamental.
